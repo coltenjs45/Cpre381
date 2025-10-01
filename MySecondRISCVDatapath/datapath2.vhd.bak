@@ -1,0 +1,127 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use work.my_package.all;
+
+entity datapath2 is
+
+  generic(WIDTH : integer := 32);
+ 
+  port( CLK		: in std_logic;
+	RST		: in std_logic;
+	reg_write	: in std_logic;
+	mem_write	: in std_logic;
+	memToReg	: in std_logic;
+	ALUsrc		: in std_logic;
+	add_sub		: in std_logic;
+	read1		: in std_logic_vector(4 downto 0);
+	read2		: in std_logic_vector(4 downto 0);
+	write_sel	: in std_logic_vector(4 downto 0);
+	immediate	: in std_logic_vector(15 downto 0));
+
+end datapath2;
+
+architecture structure of datapath2 is
+  
+  component nbit_alu 
+	generic(WIDTH : integer := 32);
+	port (
+	  nAdd_Sub	: in std_logic;
+          input_A 	: in std_logic_vector(WIDTH-1 downto 0);
+          input_B 	: in std_logic_vector(WIDTH-1 downto 0);
+          output_Sum	: out std_logic_vector(WIDTH-1 downto 0);
+          output_Carry	: out std_logic);
+  end component;
+	
+  component regfile 
+	generic(WIDTH : integer := 32);
+	port(
+	  sysCLK 	: in std_logic;
+          sysRST 	: in std_logic;
+	  write_enable	: in std_logic;
+	  rs1		: in std_logic_vector(4 downto 0);
+	  rs2		: in std_logic_vector(4 downto 0);
+	  rd		: in std_logic_vector(4 downto 0);
+	  data		: in std_logic_vector(WIDTH-1 downto 0);
+	  rOut1		: out std_logic_vector(WIDTH-1 downto 0);
+	  rOut2		: out std_logic_vector(WIDTH-1 downto 0));
+  end component;
+
+  component mux2t1_n
+  	generic(N : integer := 32); 
+  	port(
+	 i_S            : in std_logic;
+  	 i_D0	        : in std_logic_vector(N-1 downto 0);
+      	 i_D1           : in std_logic_vector(N-1 downto 0);
+       	 o_O            : out std_logic_vector(N-1 downto 0));
+  end component;
+
+  component mem
+	generic (
+	  DATA_WIDTH : natural := 32;
+	  ADDR_WIDTH : natural := 10);
+	port(
+	  clk		: in std_logic;
+	  addr	        : in std_logic_vector((ADDR_WIDTH-1) downto 0);
+	  data	        : in std_logic_vector((DATA_WIDTH-1) downto 0);
+	  we		: in std_logic := '1';
+	  q		: out std_logic_vector((DATA_WIDTH -1) downto 0));
+  end component;
+
+  component sign_extender
+    generic (
+	IN_WIDTH  : natural := 16;
+	OUT_WIDTH : natural := 32);
+
+    port (
+        input     : in std_logic_vector(IN_WIDTH-1 downto 0);
+        output    : out std_logic_vector(OUT_WIDTH-1 downto 0));
+  end component;
+
+  signal regToALU_A, regToMux, muxToALU_B, result, memMuxToReg, extendedImm, memOut : std_logic_vector(31 downto 0); 
+  signal resToAddr : std_logic_vector(9 downto 0);
+  signal carryOut : std_logic;
+
+begin  
+	rFile : regfile port map(  
+	  sysCLK 	=> CLK,
+          sysRST 	=> RST,
+	  write_enable	=> reg_write,
+	  rs1		=> read1,
+	  rs2		=> read2,
+	  rd		=> write_sel,
+	  data		=> memMuxToReg,
+	  rOut1		=> regToALU_A,
+	  rOut2		=> regToMux);
+
+	aluMux: mux2t1_n port map(
+	  i_S	 	=> ALUSrc,
+	  i_D0		=> regToMux,
+	  i_D1 		=> extendedImm,
+	  o_O   	=> muxToALU_B);
+
+	memMux: mux2t1_n port map(
+	  i_S	 	=> memToReg,
+	  i_D0		=> memOut,
+	  i_D1 		=> result,
+	  o_O   	=> memMuxToReg);
+
+	ALU: nbit_alu port map(
+	  nAdd_Sub	=> add_sub,
+          input_A 	=> regToALU_A,
+          input_B 	=> muxToALU_B,
+          output_Sum	=> result,
+          output_Carry	=> carryOut); 
+
+	dmem: mem port map(
+	  clk		=> CLK,
+	  addr	        => result,
+	  data	        => regToMux,
+	  we		=> mem_write,
+	  q		=> memOut);
+
+	ext: sign_extender port map(
+	  input		=> immediate,
+	  output	=> extendedImm);
+
+end structure;

@@ -1,0 +1,33 @@
+[N
+4
+1
+60 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/work
+3
+8 behavior
+2
+12 tb_datapath2
+4
+9 gCLK_HPER
+]
+[G
+1
+2
+3
+1
+4
+0
+0
+0
+0
+8 8
+-128
+-16
+-6
+2
+0
+0
+0
+0
+0
+0
+]

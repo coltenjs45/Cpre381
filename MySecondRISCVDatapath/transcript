@@ -1,0 +1,1675 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/Adder.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/andg2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/decoder5t32.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5t32
+# -- Compiling architecture Behavioral of decoder5t32
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/dffg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.my_package.
+# ** Error (suppressible): /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd(5): (vcom-1195) Cannot find expanded name "work.my_package".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd(5): Unknown expanded name.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd(7): VHDL Compiler exiting
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package my_package
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# -- Compiling architecture structure of nBit_ALU
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 17:24:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:37 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OnesComp
+# -- Compiling architecture structure of OnesComp
+# End time: 17:24:38 on Sep 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:38 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 17:24:38 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:38 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# End time: 17:24:38 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:38 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extender
+# -- Compiling architecture Behavioral of sign_extender
+# End time: 17:24:38 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:38 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:24:38 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:38 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero_extender
+# -- Compiling architecture Behavioral of zero_extender
+# End time: 17:24:38 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:24:48 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity mux32t1
+# -- Compiling architecture dataflow of mux32t1
+# End time: 17:24:48 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:38:13 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity datapath2
+# -- Compiling architecture structure of datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(86): (vcom-1136) Unknown identifier "sysCLK".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(87): (vcom-1136) Unknown identifier "sysRST".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(88): (vcom-1136) Unknown identifier "write_enable".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(89): (vcom-1136) Unknown identifier "read_select1".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(90): (vcom-1136) Unknown identifier "read_select2".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(91): (vcom-1136) Unknown identifier "write_select".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(92): (vcom-1136) Unknown identifier "sum".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(103): (vcom-1136) Unknown identifier "add_or_sub".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(106): (vcom-1136) Unknown identifier "sum".
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(109): VHDL Compiler exiting
+# End time: 17:38:13 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:44:42 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity datapath2
+# -- Compiling architecture structure of datapath2
+# End time: 17:44:42 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:47:30 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(8): Labels do not match: 'tb_datapath2' and 'tb_datapath'.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(8): VHDL Compiler exiting
+# End time: 17:47:30 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:58:20 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(46): near "read1": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(54): Statement cannot be labeled.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(77): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(78): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(79): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(81): near ";": (vcom-1576) expecting ')'.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(87): VHDL Compiler exiting
+# End time: 17:58:20 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# Modified modelsim.ini
+vdel -all -lib work
+vlib work
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:15 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package my_package
+# End time: 17:59:15 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/Adder.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/andg2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity datapath2
+# -- Compiling architecture structure of datapath2
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/decoder5t32.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5t32
+# -- Compiling architecture Behavioral of decoder5t32
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/dffg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 17:59:17 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:17 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity mux32t1
+# -- Compiling architecture dataflow of mux32t1
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package my_package
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# -- Compiling architecture structure of nBit_ALU
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OnesComp
+# -- Compiling architecture structure of OnesComp
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extender
+# -- Compiling architecture Behavioral of sign_extender
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(77): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(78): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(79): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(81): near ";": (vcom-1576) expecting ')'.
+# ** Error (suppressible): /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(49): (vcom-1272) Length of formal "immediate" is 16; length of actual is 17.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(87): VHDL Compiler exiting
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:18 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero_extender
+# -- Compiling architecture Behavioral of zero_extender
+# End time: 17:59:18 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:49 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error (suppressible): /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(49): (vcom-1272) Length of formal "immediate" is 16; length of actual is 17.
+# ** Error (suppressible): /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(81): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(87): VHDL Compiler exiting
+# End time: 17:59:49 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:00:04 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 18:00:05 on Sep 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:03:48 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 18:03:48 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_datapath2
+# vsim -voptargs="+acc" work.tb_datapath2 
+# Start time: 18:03:52 on Sep 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(117): (vopt-1549) At instance dmem the actual expression and the port 'addr' of component 'work.datapath2(structure).mem' have different sizes:  ([32,10]).
+#         Region: /tb_datapath2/DUT/dmem
+# ** Error (suppressible): /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd(117): (vopt-1549) At instance dmem the actual expression and the port 'addr' of entity 'work.mem' have different sizes:  ([32,10]).
+#         Region: /tb_datapath2/DUT/dmem
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=2.
+# Error loading design
+# End time: 18:03:53 on Sep 20,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:16:40 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity datapath2
+# -- Compiling architecture structure of datapath2
+# End time: 18:16:40 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:16:43 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 18:16:43 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_datapath2
+# vsim -voptargs="+acc" work.tb_datapath2 
+# Start time: 18:16:45 on Sep 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+add wave -position end  sim:/tb_datapath2/s_CLK
+add wave -position end  sim:/tb_datapath2/S_RST
+add wave -position end  sim:/tb_datapath2/s_regWrite
+add wave -position end  sim:/tb_datapath2/s_memWrite
+add wave -position end  sim:/tb_datapath2/s_memToReg
+add wave -position end  sim:/tb_datapath2/s_ALUsrc
+add wave -position end  sim:/tb_datapath2/s_addsub
+add wave -position end  sim:/tb_datapath2/s_read1
+add wave -position end  sim:/tb_datapath2/s_read2
+add wave -position end  sim:/tb_datapath2/s_write
+add wave -position end  sim:/tb_datapath2/s_immediate
+run 300
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+run 500
+run 100
+add wave -position end  sim:/tb_datapath2/DUT/rFile/read_reg
+run 100
+quit -sim
+# End time: 18:18:26 on Sep 20,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 8
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:26:20 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 18:26:21 on Sep 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_datapath2
+# vsim -voptargs="+acc" work.tb_datapath2 
+# Start time: 18:26:24 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+add wave -position end  sim:/tb_datapath2/s_CLK
+add wave -position end  sim:/tb_datapath2/S_RST
+add wave -position end  sim:/tb_datapath2/s_regWrite
+add wave -position end  sim:/tb_datapath2/s_memWrite
+add wave -position end  sim:/tb_datapath2/s_memToReg
+add wave -position end  sim:/tb_datapath2/s_ALUsrc
+add wave -position end  sim:/tb_datapath2/s_addsub
+add wave -position end  sim:/tb_datapath2/s_read1
+add wave -position end  sim:/tb_datapath2/s_read2
+add wave -position end  sim:/tb_datapath2/s_write
+add wave -position end  sim:/tb_datapath2/s_immediate
+mem load -loadfile dmem.hex -format hex tb_datapath2/DUT/dmem/ram
+# ** UI-Msg (Error): (vsim-4003) Invalid option '-loadfile'.
+# Usage: mem load [-infile <filename>] [-format <format>] [-filltype <filltype>] [-fillradix <radix>] [-filldata <patterndata>] [-skip <Nwords>] [-truncate] [-startaddress <st>] [-endaddress <end>] [-update_properties] [<hierpath>]
+# 
+mem load -infile dmem.hex -format hex tb_datapath2/DUT/dmem/ram
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+run 500
+add wave -position end  sim:/tb_datapath2/DUT/rFile/read_reg
+add wave -position end  sim:/tb_datapath2/DUT/dmem/ram
+quit -sim
+# End time: 18:31:31 on Sep 20,2025, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 8
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:50:23 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(377): (vcom-1144) Value -4 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(391): (vcom-1144) Value -4 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(397): VHDL Compiler exiting
+# End time: 18:50:23 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:51:02 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(377): (vcom-1144) Value -4 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(391): (vcom-1144) Value -4 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(397): VHDL Compiler exiting
+# End time: 18:51:02 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:51:48 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(377): (vcom-1600) No feasible entries for subprogram "TO_UNSIGNED".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
+#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1478)
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(377): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(391): (vcom-1600) No feasible entries for subprogram "TO_UNSIGNED".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
+#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1478)
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(391): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(397): VHDL Compiler exiting
+# End time: 18:51:48 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:53:07 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 18:53:07 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_datapath2
+# vsim -voptargs="+acc" work.tb_datapath2 
+# Start time: 18:53:10 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+add wave -position end  sim:/tb_datapath2/s_CLK
+add wave -position end  sim:/tb_datapath2/S_RST
+add wave -position end  sim:/tb_datapath2/s_regWrite
+add wave -position end  sim:/tb_datapath2/s_memWrite
+add wave -position end  sim:/tb_datapath2/s_memToReg
+add wave -position end  sim:/tb_datapath2/s_ALUsrc
+add wave -position end  sim:/tb_datapath2/s_addsub
+add wave -position end  sim:/tb_datapath2/s_read1
+add wave -position end  sim:/tb_datapath2/s_read2
+add wave -position end  sim:/tb_datapath2/s_write
+add wave -position end  sim:/tb_datapath2/s_immediate
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 3000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ns  Iteration: 7  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:54:22 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 18:54:22 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 3000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ns  Iteration: 7  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 11  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 7  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 us  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# Causality operation skipped due to absence of debug database file
+add wave -position end  sim:/tb_datapath2/DUT/result
+add wave -position end  sim:/tb_datapath2/DUT/memMuxToReg
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+RUN 2500
+# invalid command name "RUN"
+run 2500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ns  Iteration: 7  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 11  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 7  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 8  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 us  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 5  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:03:33 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:03:33 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 2500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:10:28 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(66): (vcom-1136) Unknown identifier "gCLK_PER".
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(394): VHDL Compiler exiting
+# End time: 19:10:28 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:10:43 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:10:43 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 2500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:16:11 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:16:11 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 2500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:17:50 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(66): (vcom-1136) Unknown identifier "gCLK_PER".
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(66): Type error resolving infix expression "/" as type std.STANDARD.TIME.
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(394): VHDL Compiler exiting
+# End time: 19:17:50 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:18:00 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:18:00 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 2500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+add wave -position end  sim:/tb_datapath2/DUT/rFile/read_reg
+add wave -position end  sim:/tb_datapath2/DUT/rFile/read_reg
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 1200
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:21:25 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:21:25 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 1200
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:22:47 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:22:47 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 1200
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:29:08 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# ** Error: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(59): (vcom-1136) Unknown identifier "cCLK_HPER".
+# ** Note: /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd(394): VHDL Compiler exiting
+# End time: 19:29:08 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:29:22 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:29:22 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 3000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 2200
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+run 100
+vcom -work work {/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:33:29 on Sep 20,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_package
+# -- Compiling entity tb_datapath2
+# -- Compiling architecture behavior of tb_datapath2
+# End time: 19:33:29 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_package
+# Loading work.tb_datapath2(behavior)#1
+# Loading work.datapath2(structure)#1
+# Loading work.regfile(structure)#1
+# Loading work.decoder5t32(behavioral)#1
+# Loading work.mux32t1(dataflow)#1
+# Loading work.nbit_reg(structure)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading work.sign_extender(behavioral)#1
+mem load -infile dmem.hex -format hex tb_datapath2/dut/dmem/ram
+run 2300
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_datapath2/DUT/rFile/MUX2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_datapath2/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 6  Instance: /tb_datapath2/DUT/dmem
+# End time: 19:56:31 on Sep 20,2025, Elapsed time: 1:03:21
+# Errors: 0, Warnings: 8
