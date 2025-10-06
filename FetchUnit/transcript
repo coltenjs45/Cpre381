@@ -1,0 +1,339 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:54:54 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 17:54:54 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:54:54 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 17:54:54 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.nbit_reg
+# vsim work.nbit_reg 
+# Start time: 17:54:58 on Oct 06,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.nbit_reg(structure)#1
+# Load canceled
+quit -sim
+# End time: 17:55:08 on Oct 06,2025, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:56:16 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 17:56:16 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:56:16 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 17:56:16 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:56:16 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 17:56:16 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:56:16 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 17:56:16 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.nbit_adder
+# vsim -voptargs="+acc" work.nbit_adder 
+# Start time: 17:58:08 on Oct 06,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(0)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(1)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(2)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(3)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(4)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(5)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(6)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(7)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(8)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(9)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(10)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(11)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(12)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(13)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(14)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(15)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(16)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(17)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(18)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(19)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(20)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(21)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(22)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(23)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(24)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(25)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(26)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(27)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(28)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(29)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(30)
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /nBit_Adder/nBit_Adder(31)
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=33.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.nbit_adder(structure)#1
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(0) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(1) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(2) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(3) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(4) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(5) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(6) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(7) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(8) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(9) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(10) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(11) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(12) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(13) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(14) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(15) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(16) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(17) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(18) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(19) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(20) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(21) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(22) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(23) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(24) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(25) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(26) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(27) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(28) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(29) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(30) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# ** Warning: (vsim-3473) Component instance "ADDI : Adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /nbit_adder/nBit_Adder(31) File: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+add wave -position end  sim:/nbit_adder/in_C
+add wave -position end  sim:/nbit_adder/i_A
+add wave -position end  sim:/nbit_adder/i_B
+add wave -position end  sim:/nbit_adder/o_SUM
+add wave -position end  sim:/nbit_adder/out_C
+add wave -position end  sim:/nbit_adder/s_internalCarry
+run
+quit -sim
+# End time: 17:58:28 on Oct 06,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 65
+vsim work.nbit_reg
+# vsim work.nbit_reg 
+# Start time: 17:58:37 on Oct 06,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.nbit_reg(structure)#1
+quit -sim
+# End time: 18:01:22 on Oct 06,2025, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:52 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 18:04:52 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:52 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 18:04:52 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:52 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:04:52 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:52 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 18:04:53 on Oct 06,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:53 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 18:04:53 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:53 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 18:04:53 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:04:53 on Oct 06,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 18:04:53 on Oct 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
