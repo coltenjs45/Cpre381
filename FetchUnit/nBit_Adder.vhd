@@ -8,10 +8,10 @@ entity nBit_Adder is
   generic(WIDTH : integer := 32);
  
   port(in_C   		: in std_logic;
-       i_A 		: in std_logic_vector(WIDTH-1 downto 0);
-       i_B 		: in std_logic_vector(WIDTH-1 downto 0);
-       o_SUM 		: out std_logic_vector(WIDTH-1 downto 0);
-       out_C	        : out std_logic);
+       i_A 		    : in std_logic_vector(WIDTH-1 downto 0);
+       i_B 		    : in std_logic_vector(WIDTH-1 downto 0);
+       o_SUM 		  : out std_logic_vector(WIDTH-1 downto 0);
+       out_C	    : out std_logic);
 
 end nBit_Adder;
 
