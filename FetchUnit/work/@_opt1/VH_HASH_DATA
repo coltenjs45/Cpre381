@@ -1,0 +1,105 @@
+[N
+12
+5
+8 mux2t1_n
+7
+1 N
+11
+8 behavior
+4
+5 WIDTH
+8
+10 nbit_adder
+2
+8 nbit_reg
+3
+9 structure
+6
+10 structural
+9
+7 pcfetch
+12
+9 gCLK_HPER
+1
+61 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/work
+10
+10 tb_pcfetch
+]
+[G
+1
+8
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+5
+6
+1
+7
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+10
+11
+1
+12
+0
+0
+0
+0
+8 8
+-128
+-16
+-6
+2
+0
+0
+0
+0
+0
+0
+]
+[G
+1
+9
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
