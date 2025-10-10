@@ -1,0 +1,181 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+!s11e vcom 2025.1_2 2025.04, Apr  7 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit
+T_opt
+!s110 1760127660
+ViRP?SaJcD=nk2WgOKigPb2
+Z3 04 14 8 work tb_controlunit behavior 1
+=1-000ae431a4f1-68e96aac-27dcd-3652
+R0
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2025.1_2;82
+R2
+T_opt1
+!s110 1760127879
+V8Nilhe>1Ke:cbAhFVPMob1
+R3
+=1-000ae431a4f1-68e96b87-3ee16-3807
+R0
+R4
+R5
+R6
+R7
+o-quiet -auto_acc_if_foreign -work work +acc
+R8
+n@_opt1
+R9
+Econtrolunit
+Z10 w1760125095
+Z11 DPx4 work 11 riscv_types 0 22 g=_ToGRFGX9]M4Wl6`Fn23
+Z12 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+R2
+Z15 8/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
+Z16 F/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
+l0
+L6 1
+V86L16MCbcKW^MRF?WX>:c1
+!s100 ETC<Y0bWYIf4knmC1JHMC1
+Z17 OL;C;2025.1_2;82
+33
+Z18 !s110 1760127827
+!i10b 1
+Z19 !s108 1760127827.000000
+Z20 !s90 -reportprogress|300|-2008|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd|
+Z21 !s107 /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd|
+!i113 0
+Z22 o-2008 -work work
+Z23 tExplicit 1 CvgOpt 0
+Adataflow
+R11
+R12
+R13
+R14
+DEx4 work 11 controlunit 0 22 86L16MCbcKW^MRF?WX>:c1
+!i122 19
+l46
+L29 102
+VNTDN^L5LGmiYXVkG3:m<o3
+!s100 M5RRo`H_OnYM3^aAjbl_D0
+R17
+33
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Priscv_types
+R13
+R14
+!i122 20
+Z24 w1759950389
+R2
+Z25 8/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
+Z26 F/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
+l0
+L15 17
+Vg=_ToGRFGX9]M4Wl6`Fn23
+!s100 [3MOgHOHc;]eZiA6d[DKS0
+R17
+33
+R18
+!i10b 1
+R19
+Z27 !s90 -reportprogress|300|-2008|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd|
+Z28 !s107 /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd|
+!i113 0
+R22
+R23
+Bbody
+R11
+R13
+R14
+!i122 20
+l0
+L33 3
+VkE[EmVmG4g65PT?z_PMA]1
+!s100 bfKmhDbjG[5]5MF?^ZcBB3
+R17
+33
+R18
+!i10b 1
+R19
+R27
+R28
+!i113 0
+R22
+R23
+Etb_controlunit
+Z29 w1760127627
+R11
+R12
+R13
+R14
+!i122 21
+R2
+Z30 8/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+Z31 F/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+l0
+L6 1
+VoVU6nSW]O7]UR2XzNUz_N0
+!s100 V9[ZnZ3PiSjVHz;4ch<NB0
+R17
+33
+R18
+!i10b 1
+R19
+Z32 !s90 -reportprogress|300|-2008|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd|
+Z33 !s107 /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd|
+!i113 0
+R22
+R23
+Abehavior
+R11
+R12
+R13
+R14
+DEx4 work 14 tb_controlunit 0 22 oVU6nSW]O7]UR2XzNUz_N0
+!i122 21
+l53
+L10 288
+Vz0kzf=:ATzDFbZmQBioQH0
+!s100 ]J:e=Umhij25`9HV=CiQ52
+R17
+33
+R18
+!i10b 1
+R19
+R32
+R33
+!i113 0
+R22
+R23
