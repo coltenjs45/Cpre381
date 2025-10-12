@@ -20,8 +20,9 @@ architecture behavior of tb_barrelShifter is
         output          : out std_logic_vector(WIDTH-1 downto 0));
   end component;
 
+  signal s_CLK : std_logic;
   signal s_control : std_logic_vector(1 downto 0);
-  signal s_input, s_shiftAmnt, s_output(31 downto 0);
+  signal s_input, s_shiftAmnt, s_output : std_logic_vector(31 downto 0);
 
 
 
@@ -55,12 +56,12 @@ begin
     s_control   <= "00";
     wait for gCLK_HPER * 2;
 
-    s_input     <= x"000000F0";
+    s_input     <= x"800000F0";
     s_shiftAmnt <= x"00000004";
     s_control   <= "10";
     wait for gCLK_HPER * 2;
 
-    s_input     <= x"80000001";
+    s_input     <= x"80000000";
     s_shiftAmnt <= x"00000003";
     s_control   <= "11";
     wait for gCLK_HPER * 2;
