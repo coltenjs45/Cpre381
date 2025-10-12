@@ -1,41 +1,13 @@
 [N
-7
+4
 2
 11 controlunit
 1
 63 /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/work
-6
-8 behavior
 4
 5 WIDTH
 3
 8 dataflow
-7
-9 gCLK_HPER
-5
-14 tb_controlunit
-]
-[G
-1
-5
-6
-1
-7
-0
-0
-0
-0
-8 8
--128
--16
--6
-2
-0
-0
-0
-0
-0
-0
 ]
 [G
 1

@@ -60,7 +60,7 @@ architecture dataflow of controlUnit is
                 "0001" when(opcode = I_type_aImm_opcode and funct3 = "110") else --ORI
                 "0010" when(opcode = R_type_opcode and funct3 = "100") else --XOR
                 "0010" when(opcode = I_type_aImm_opcode and funct3 = "100") else --XORI
-                "0011" when(opcode = R_type_opcode and funct3 = "000") else -- ADD
+                "0011" when(opcode = R_type_opcode and funct3 = "000" and funct7 = "0000000") else -- ADD
                 "0011" when(opcode = I_type_aImm_opcode and funct3 = "000") else -- ADDI
                 "0011" when(opcode = I_type_load_opcode or opcode = S_type_opcode or opcode = jalr_opcode) else -- Load, Store, JALR operations
                 "0100" when(opcode = R_type_opcode and funct3 = "000" and funct7 = "0100000") else -- SUB
@@ -116,6 +116,7 @@ architecture dataflow of controlUnit is
 
 ALUorImmJump <= '1' when(opcode = SB_type_opcode or opcode = jal_opcode or opcode = auipc_opcode) else
                 '0';
+                
     FlagMux  <= "10" when(opcode = I_type_aImm_opcode and funct3 = "011") else -- SLTUI
                 "11" when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "001")) else -- BEQ BNE
                 "00";
