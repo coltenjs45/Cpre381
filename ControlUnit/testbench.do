@@ -55,4 +55,4 @@ update
 run 3425 ns
 
 # Zoom to fit the waveform
-WaveRestoreZoom {0 ns} {2000 ns}
+WaveRestoreZoom {0 ns} {3500 ns}
