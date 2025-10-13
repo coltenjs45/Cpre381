@@ -1,0 +1,671 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:05:10 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 16:05:10 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:05:10 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(20): (vcom-1581) No feasible entries for infix operator 'sll'.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(20): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(21): (vcom-1581) No feasible entries for infix operator 'srl'.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(21): Type error resolving infix expression "srl" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(22): (vcom-1581) No feasible entries for infix operator 'sra'.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(22): Type error resolving infix expression "sra" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(25): VHDL Compiler exiting
+# End time: 16:05:10 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:16:00 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(24): Expecting a type name, found type conversion (to std.STANDARD.INTEGER) instead.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(30): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(30): (vcom-1136) Unknown identifier "shiftedLeftUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(31): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(31): (vcom-1136) Unknown identifier "shiftedRightUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(34): (vcom-1136) Unknown identifier "shiftedLeftUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(35): (vcom-1136) Unknown identifier "shiftedRightUnsigned".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(38): VHDL Compiler exiting
+# End time: 16:16:00 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:18:37 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(25): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(25): (vcom-1136) Unknown identifier "shiftedLeftUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(26): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(26): (vcom-1136) Unknown identifier "shiftedRightUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(29): (vcom-1136) Unknown identifier "shiftedLeftUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(30): (vcom-1136) Unknown identifier "shiftedRightUnsigned".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(33): VHDL Compiler exiting
+# End time: 16:18:38 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:19:05 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(27): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(27): (vcom-1136) Unknown identifier "shiftedSigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(29): (vcom-1136) Unknown identifier "shiftedLeftUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(30): (vcom-1136) Unknown identifier "shiftedRightUnsigned".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(31): (vcom-1136) Unknown identifier "shiftedSigned".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(33): VHDL Compiler exiting
+# End time: 16:19:05 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:19:21 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(27): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(27): (vcom-1136) Unknown identifier "shiftedSigned".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd(33): VHDL Compiler exiting
+# End time: 16:19:21 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:19:33 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 16:19:33 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:32 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 16:44:32 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:32 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 16:44:32 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:32 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_barrelShifter
+# -- Compiling architecture behavior of tb_barrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(24): near "(": (vcom-1576) expecting ':'.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(32): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(33): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(35): (vcom-1136) Unknown identifier "s_output".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(42): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(42): (vcom-1136) Unknown identifier "s_CLK".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(44): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(44): (vcom-1136) Unknown identifier "s_CLK".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(53): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(53): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(54): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(54): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(58): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(58): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(59): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(59): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(63): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(64): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(64): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(71): VHDL Compiler exiting
+# End time: 16:44:32 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:46:44 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_barrelShifter
+# -- Compiling architecture behavior of tb_barrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(24): near "std_logic_vector": (vcom-1576) expecting ':'.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(32): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(33): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(35): (vcom-1136) Unknown identifier "s_output".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(42): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(42): (vcom-1136) Unknown identifier "s_CLK".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(44): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(44): (vcom-1136) Unknown identifier "s_CLK".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(53): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(53): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(54): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(54): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(58): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(58): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(59): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(59): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(63): (vcom-1136) Unknown identifier "s_input".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(64): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(64): (vcom-1136) Unknown identifier "s_shiftAmnt".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(71): VHDL Compiler exiting
+# End time: 16:46:44 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:46:59 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_barrelShifter
+# -- Compiling architecture behavior of tb_barrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(42): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(42): (vcom-1136) Unknown identifier "s_CLK".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(44): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(44): (vcom-1136) Unknown identifier "s_CLK".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd(71): VHDL Compiler exiting
+# End time: 16:46:59 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:47:41 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_barrelShifter
+# -- Compiling architecture behavior of tb_barrelShifter
+# End time: 16:47:41 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_barrelshifter
+# vsim work.tb_barrelshifter 
+# Start time: 16:47:43 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_barrelshifter(behavior)#1
+quit -sim
+# End time: 16:48:01 on Oct 12,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+do testbench.do
+# vsim -voptargs="+acc" work.tb_barrelShifter 
+# Start time: 16:49:49 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_barrelshifter(behavior)#1
+# Loading work.barrelshifter(dataflow)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+do testbench.do
+# End time: 16:50:08 on Oct 12,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.tb_barrelShifter 
+# Start time: 16:50:08 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_barrelshifter(behavior)#1
+# Loading work.barrelshifter(dataflow)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+do testbench.do
+# End time: 16:51:02 on Oct 12,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_barrelShifter 
+# Start time: 16:51:02 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_barrelshifter(behavior)#1
+# Loading work.barrelshifter(dataflow)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:52:25 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 16:52:26 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:52:26 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 16:52:26 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:52:26 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_barrelShifter
+# -- Compiling architecture behavior of tb_barrelShifter
+# End time: 16:52:26 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do testbench.do
+# End time: 16:52:32 on Oct 12,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_barrelShifter 
+# Start time: 16:52:32 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_barrelshifter(behavior)#1
+# Loading work.barrelshifter(dataflow)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_barrelshifter/DUT
+quit -sim
+# End time: 16:53:09 on Oct 12,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 4
+cd /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath
+# reading modelsim.ini
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:16:42 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(8): (vcom-1136) Unknown identifier "IN_WIDTH".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(8): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(8): Type error in range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(9): (vcom-1136) Unknown identifier "OUT_WIDTH".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(9): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(9): Type error in range expression.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(11): VHDL Compiler exiting
+# End time: 18:16:42 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:17:32 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(29): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(29): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(29): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(31): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(31): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(31): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): near "<=": syntax error
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(38): VHDL Compiler exiting
+# End time: 18:17:32 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:18:42 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(28): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(28): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(28): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(29): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(29): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(29): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): near "<=": syntax error
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(37): VHDL Compiler exiting
+# End time: 18:18:42 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:48:49 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(38): near "<=": syntax error
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1272) Length of expected is 20; length of actual is 12.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(42): VHDL Compiler exiting
+# End time: 18:48:49 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:01:10 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(38): near "<=": syntax error
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1272) Length of expected is 20; length of actual is 12.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(42): VHDL Compiler exiting
+# End time: 19:01:10 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:18:18 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(37): (vcom-1136) Unknown identifier "outAUIPC".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(40): near "<=": syntax error
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1272) Length of expected is 20; length of actual is 12.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(45): VHDL Compiler exiting
+# End time: 19:18:18 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:19:04 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(33): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(34): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1415)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1425)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1434)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1439)
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(35): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(37): (vcom-1136) Unknown identifier "outAUIPC".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(40): near "<=": syntax error
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(30): (vcom-1272) Length of expected is 20; length of actual is 12.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd(45): VHDL Compiler exiting
+# End time: 19:19:04 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:23:22 on Oct 12,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# End time: 19:23:22 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

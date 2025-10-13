@@ -47,6 +47,7 @@ o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
 OL;O;2025.1_2;82
+R2
 Eadder
 Z3 w1757090844
 Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
@@ -260,14 +261,57 @@ R40
 !i113 0
 R14
 R15
+Eimm_generator
+Z41 w1760314999
+R4
+R5
+R6
+!i122 50
+Z42 d/home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath
+Z43 8/home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+Z44 F/home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd
+l0
+L5 1
+VE[KDgHiRabdl9m[Z6HT0g3
+!s100 `g=M85]o]W;=]W`;CTM2Q1
+R9
+33
+Z45 !s110 1760315002
+!i10b 1
+Z46 !s108 1760315002.000000
+Z47 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd|
+!s107 /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd|
+!i113 0
+R14
+R15
+Abehavioral
+R4
+R5
+R6
+DEx4 work 13 imm_generator 0 22 E[KDgHiRabdl9m[Z6HT0g3
+!i122 50
+l31
+L12 55
+Voz=XRVkolajVhnBc[@4hm1
+!s100 eW7Wle>foWZ^IXl7W5Y^?3
+R9
+33
+R45
+!i10b 1
+R46
+R47
+Z48 !s107 /home/gmander5/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/imm_generator.vhd|
+!i113 0
+R14
+R15
 Einvg
 R16
 R5
 R6
 !i122 6
 R2
-Z41 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd
-Z42 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd
+Z49 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd
+Z50 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd
 l0
 R19
 VzJhOLc0g_4RfSF]IXa;:73
@@ -277,8 +321,8 @@ R9
 R10
 !i10b 1
 R11
-Z43 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd|
-Z44 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd|
+Z51 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd|
+Z52 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/invg.vhd|
 !i113 0
 R14
 R15
@@ -296,8 +340,8 @@ R9
 R10
 !i10b 1
 R11
-R43
-R44
+R51
+R52
 !i113 0
 R14
 R15
@@ -308,8 +352,8 @@ R5
 R6
 !i122 7
 R2
-Z45 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd
-Z46 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd
+Z53 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd
+Z54 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd
 l0
 L8 1
 VQ_Y953^@mg4h;HoXAPe2d2
@@ -319,8 +363,8 @@ R9
 R10
 !i10b 1
 R11
-Z47 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd|
-Z48 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd|
+Z55 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd|
+Z56 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mem.vhd|
 !i113 0
 R14
 R15
@@ -339,31 +383,31 @@ R9
 R10
 !i10b 1
 R11
-R47
-R48
+R55
+R56
 !i113 0
 R14
 R15
 Emux2t1_dataflow
-Z49 w1757007492
+Z57 w1757007492
 R4
 R5
 R6
 !i122 8
 R2
-Z50 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd
-Z51 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd
+Z58 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd
+Z59 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd
 l0
-Z52 L21 1
+Z60 L21 1
 VTG8`JzhiYPOBSDD3cAEOo2
 !s100 X>gSf41k^_EVHl]ZL_`]W3
 R9
 33
-Z53 !s110 1758409158
+Z61 !s110 1758409158
 !i10b 1
 R11
-Z54 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd|
-Z55 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd|
+Z62 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd|
+Z63 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_dataflow.vhd|
 !i113 0
 R14
 R15
@@ -379,33 +423,33 @@ VDV9PjbgSCdKXi5__FoM7N3
 !s100 PkIUa9ddNL2O=aXHM1fME2
 R9
 33
-R53
+R61
 !i10b 1
 R11
-R54
-R55
+R62
+R63
 !i113 0
 R14
 R15
 Emux2t1_n
-Z56 w1757007545
+Z64 w1757007545
 R5
 R6
 !i122 9
 R2
-Z57 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd
-Z58 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd
+Z65 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd
+Z66 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd
 l0
-R52
+R60
 VDk6W_YlM7aaW[_dI]K4K>1
 !s100 BKZeKCAB2i6lge3>7TA3d3
 R9
 33
-R53
+R61
 !i10b 1
-Z59 !s108 1758409158.000000
-Z60 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd|
-Z61 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd|
+Z67 !s108 1758409158.000000
+Z68 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd|
+Z69 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux2t1_N.vhd|
 !i113 0
 R14
 R15
@@ -420,35 +464,35 @@ VR7VlG>zhgR^HAfEh>;g322
 !s100 ;FfMW7ZlfN[z_1MlTbAaD0
 R9
 33
-R53
-!i10b 1
-R59
-R60
 R61
+!i10b 1
+R67
+R68
+R69
 !i113 0
 R14
 R15
 Emux32t1
-Z62 w1758135230
+Z70 w1758135230
 R24
 R4
 R5
 R6
 !i122 10
 R2
-Z63 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd
-Z64 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd
+Z71 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd
+Z72 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd
 l0
 L7 1
 VXE;1CITWMCa;84[:ETVfd0
 !s100 b9eLBf72Snjk6K6[DO<4Q2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z65 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd|
-Z66 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd|
+R67
+Z73 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd|
+Z74 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/mux32t1.vhd|
 !i113 0
 R14
 R15
@@ -460,16 +504,16 @@ R6
 DEx4 work 7 mux32t1 0 22 XE;1CITWMCa;84[:ETVfd0
 !i122 10
 l17
-Z67 L15 6
+Z75 L15 6
 V:2=<@CKfP?:YHfmliIKcN0
 !s100 cF[0`bfRTBNcWYK^?>hQT2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R65
-R66
+R67
+R73
+R74
 !i113 0
 R14
 R15
@@ -488,34 +532,34 @@ VI4_6GHmfFF3NY_M31Qd791
 !s100 S66N`5=j`]J3WnB03TYHh3
 R9
 33
-R53
+R61
 !i10b 1
-R59
+R67
 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd|
 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/my_package.vhd|
 !i113 0
 R14
 R15
 Enbit_adder
-Z68 w1757107291
+Z76 w1757107291
 R4
 R5
 R6
 !i122 12
 R2
-Z69 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd
-Z70 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd
+Z77 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd
+Z78 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd
 l0
 L6 1
 VfKGLe_6domQ>6`D7h9_FA3
 !s100 >aSY5ja70JD3=n520]L6P1
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z71 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd|
-Z72 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd|
+R67
+Z79 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd|
+Z80 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Adder.vhd|
 !i113 0
 R14
 R15
@@ -531,34 +575,34 @@ VcGXmmH1FoRf^e9WQ[SYig2
 !s100 aW@`22z0cjnI:EnZ?@=KY0
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R71
-R72
+R67
+R79
+R80
 !i113 0
 R14
 R15
 Enbit_alu
-Z73 w1758137044
+Z81 w1758137044
 R4
 R5
 R6
 !i122 13
 R2
-Z74 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd
-Z75 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd
+Z82 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd
+Z83 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd
 l0
 L5 1
 VcdhM2]i3^@9OYS8YoT8cT1
 !s100 F^Qa2OIC5VfVGn=83@0TK0
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z76 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd|
-Z77 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd|
+R67
+Z84 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd|
+Z85 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_ALU.vhd|
 !i113 0
 R14
 R15
@@ -574,34 +618,34 @@ VD2HDGLQzH9YS@c83z^9J_2
 !s100 <]=b2lkY;FIEzXc;G>BYf1
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R76
-R77
+R67
+R84
+R85
 !i113 0
 R14
 R15
 Enbit_reg
-Z78 w1757524613
+Z86 w1757524613
 R4
 R5
 R6
 !i122 14
 R2
-Z79 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd
-Z80 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd
+Z87 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd
+Z88 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd
 l0
 L6 1
 Vmf14FQ95fkPoIVSGW>FPK3
 !s100 0T;kSC`^6XYl9`M:<>A;W3
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z81 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd|
-Z82 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd|
+R67
+Z89 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd|
+Z90 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/nBit_Reg.vhd|
 !i113 0
 R14
 R15
@@ -617,34 +661,34 @@ VL0D1W7k=8bIBCb=Sh7;jW2
 !s100 E?UL:bhBgLJbR>knfb;[i1
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R81
-R82
+R67
+R89
+R90
 !i113 0
 R14
 R15
 Eonescomp
-Z83 w1757107261
+Z91 w1757107261
 R4
 R5
 R6
 !i122 15
 R2
-Z84 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd
-Z85 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd
+Z92 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd
+Z93 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd
 l0
 L6 1
 Vg0PaYmMhA_TL_Q]dE<^bC3
 !s100 j;S`Ia8XB28FIaEc=odgN0
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z86 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd|
-Z87 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd|
+R67
+Z94 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd|
+Z95 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/OnesComp.vhd|
 !i113 0
 R14
 R15
@@ -660,11 +704,11 @@ VY@Do8FO_zolM8[:?B6F3O0
 !s100 HzdU6W:b:Z3JL4C=9]4Xz2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R86
-R87
+R67
+R94
+R95
 !i113 0
 R14
 R15
@@ -674,19 +718,19 @@ R5
 R6
 !i122 16
 R2
-Z88 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd
-Z89 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd
+Z96 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd
+Z97 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd
 l0
 R19
 V0FzB9ATDX9TV=M:n@=VB83
 !s100 bGQ1F9eW^Q17OoL9h4g7z2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z90 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd|
-Z91 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd|
+R67
+Z98 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd|
+Z99 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/org2.vhd|
 !i113 0
 R14
 R15
@@ -701,35 +745,35 @@ V0JC>N7cRXc=9bni@>dg7o3
 !s100 h5_AzR3TdRA0a_K=dQ>mI2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R90
-R91
+R67
+R98
+R99
 !i113 0
 R14
 R15
 Eregfile
-Z92 w1758138647
+Z100 w1758138647
 R24
 R4
 R5
 R6
 !i122 17
 R2
-Z93 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd
-Z94 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd
+Z101 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd
+Z102 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd
 l0
 L6 1
 VhNIg:Wg1lB9OW^:b_U2=?3
 !s100 VXoHbzHbQZX@?1ahJN3im3
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z95 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd|
-Z96 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd|
+R67
+Z103 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd|
+Z104 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/RegFile.vhd|
 !i113 0
 R14
 R15
@@ -746,34 +790,34 @@ VE>D?1QaneJi;B?5mPh7WX3
 !s100 ;j@Y`_C4<_=iWH<2;PX513
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R95
-R96
+R67
+R103
+R104
 !i113 0
 R14
 R15
 Esign_extender
-Z97 w1758402587
+Z105 w1758402587
 R4
 R5
 R6
 !i122 18
 R2
-Z98 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd
-Z99 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd
+Z106 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd
+Z107 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd
 l0
 L4 1
 VYa7izh=5aS6zegB_UGi1K0
 !s100 `KRB:;3X@VZo>L8H5[6]Y2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z100 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd|
-Z101 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd|
+R67
+Z108 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd|
+Z109 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/sign_extender.vhd|
 !i113 0
 R14
 R15
@@ -784,40 +828,40 @@ R6
 DEx4 work 13 sign_extender 0 22 Ya7izh=5aS6zegB_UGi1K0
 !i122 18
 l16
-R67
+R75
 V2ZljT<0f<e7FMR?DA4FdV3
 !s100 _kXXMIHmmh9kFK8L?d2M91
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R100
-R101
+R67
+R108
+R109
 !i113 0
 R14
 R15
 Etb_datapath2
-Z102 w1758414805
+Z110 w1758414805
 R24
 R4
 R5
 R6
 !i122 43
 R2
-Z103 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd
-Z104 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd
+Z111 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd
+Z112 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd
 l0
 L6 1
 V9BD3F@?So7lFk0_dXc^e_3
 !s100 Z^O8jc_olgQH_]fEX619Z1
 R9
 33
-Z105 !s110 1758414809
+Z113 !s110 1758414809
 !i10b 1
-Z106 !s108 1758414809.000000
-Z107 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd|
-Z108 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd|
+Z114 !s108 1758414809.000000
+Z115 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd|
+Z116 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/tb_datapath2.vhd|
 !i113 0
 R14
 R15
@@ -834,11 +878,11 @@ V4oMPJQKcbgoW=ZZQ:3ARE1
 !s100 H:Z0[^AlVkAjHUI=hS1zf2
 R9
 33
-R105
+R113
 !i10b 1
-R106
-R107
-R108
+R114
+R115
+R116
 !i113 0
 R14
 R15
@@ -848,19 +892,19 @@ R5
 R6
 !i122 20
 R2
-Z109 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd
-Z110 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd
+Z117 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd
+Z118 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd
 l0
 R19
 VV6C:miP5l_oAXXFV_WP4`3
 !s100 [hI[mXFH4_j16U;>U1Lfn2
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z111 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd|
-Z112 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd|
+R67
+Z119 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd|
+Z120 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/xorg2.vhd|
 !i113 0
 R14
 R15
@@ -875,34 +919,34 @@ V0<8Ik`hGa2ooIj9K`Y3Wc0
 !s100 Z6[FAPS4fBLB`F?OO<AY72
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R111
-R112
+R67
+R119
+R120
 !i113 0
 R14
 R15
 Ezero_extender
-Z113 w1758402282
+Z121 w1758402282
 R4
 R5
 R6
 !i122 21
 R2
-Z114 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd
-Z115 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd
+Z122 8/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd
+Z123 F/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd
 l0
 L4 1
 V_QX:;WlZ_kI_<Z_OEb3NI1
 !s100 5_0YM5IAP3h;dlU[e^[Tg0
 R9
 33
-R53
+R61
 !i10b 1
-R59
-Z116 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd|
-Z117 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd|
+R67
+Z124 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd|
+Z125 !s107 /home/gmander5/cpre381/Lab 2/Lab2/MySecondRISCVDatapath/zero_extender.vhd|
 !i113 0
 R14
 R15
@@ -913,16 +957,16 @@ R6
 DEx4 work 13 zero_extender 0 22 _QX:;WlZ_kI_<Z_OEb3NI1
 !i122 21
 l16
-R67
+R75
 Vl[IiMNLT7:JNi=^kT19eB2
 !s100 O<ldHRdD4fM<kCeN0hSP^0
 R9
 33
-R53
+R61
 !i10b 1
-R59
-R116
-R117
+R67
+R124
+R125
 !i113 0
 R14
 R15
