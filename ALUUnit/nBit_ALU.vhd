@@ -10,7 +10,9 @@ entity nBit_ALU is
        input_A 		: in std_logic_vector(WIDTH-1 downto 0);
        input_B 		: in std_logic_vector(WIDTH-1 downto 0);
        output_Sum	: out std_logic_vector(WIDTH-1 downto 0);
-       output_Carry     : out std_logic);
+       output_Carry     : out std_logic
+       output_Overflow : out std_logic
+       );
 
 end nBit_ALU;
 
@@ -38,6 +40,8 @@ architecture structure of nBit_ALU is
 
   signal s_B_OnesComp	: std_logic_vector(WIDTH-1 downto 0);
   signal s_mux_Out	: std_logic_vector(WIDTH-1 downto 0);
+  signal s_A_sign, s_B_sign, s_SignResult : std_logic;
+  signal s_Overflow_Add, s_Overflow_Sub   : std_logic;
 
 begin  
   
@@ -57,5 +61,18 @@ begin
 		i_B	=> s_mux_out,
 		o_SUM	=> output_Sum,
 		out_C	=> output_Carry);
+
+  s_A_sign       <= input_A(WIDTH-1);
+  s_B_sign       <= s_mux_out(WIDTH-1);
+  s_SignResult   <= output_Sum(WIDTH-1);
+
+  s_Overflow_Add <= (s_A_sign and s_B_sign and (not s_SignResult)) or
+                    ((not s_A_sign) and (not s_B_sign) and s_SignResult);
+
+  s_Overflow_Sub <= (s_A_sign and (not s_B_sign) and (not s_SignResult)) or
+                    ((not s_A_sign) and s_B_sign and s_SignResult);
+
+  output_Overflow <= (s_Overflow_Add and (not nAdd_Sub)) or
+                     (s_Overflow_Sub and nAdd_Sub);
 
 end structure;

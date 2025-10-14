@@ -23,6 +23,7 @@ entity ALUUnit
             input_B 		: in std_logic_vector(WIDTH-1 downto 0);
             output_Sum	: out std_logic_vector(WIDTH-1 downto 0);
             output_Carry     : out std_logic
+            output_Overflow : out std_logic
             );
     end component;
 
@@ -80,8 +81,8 @@ entity ALUUnit
 
 
     signal mux_control4t1, mux_control2t1  :std_logic_vector(1 down to 0);
-    signal finalResult : std_logic_vector(32 downto 0)
-    signal neg,ovf,carry,zero std_logic_vector;
+    signal finalResult : std_logic_vector(WIDTH-1 downto 0)
+    signal neg,ovf,carry,zero :std_logic_vector;
 
     begin
         mux_control2t1 <= Alucontrol(1 downto 0);
@@ -120,6 +121,7 @@ entity ALUUnit
             input_B      => input_B,
             output_Sum   => bus_in(3),
             output_Carry => carry
+            output_Overflow => ovf
         );
 
         muxbeforeresult : mux2t1_N
