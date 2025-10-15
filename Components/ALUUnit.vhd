@@ -57,7 +57,7 @@ entity ALUUnit is
         o_output 	: out std_logic_vector(31 downto 0));
     end component;
 
-    component mux2t1_N is 
+    component mux2t1_2 is 
         port(
             i_S          : in std_logic;
             i_D0         : in std_logic_vector(1 downto 0);
@@ -129,7 +129,7 @@ entity ALUUnit is
             output_Overflow => ovf
         );
 
-        muxbeforeresult : mux2t1_N
+        muxbeforeresult : mux2t1_2
         port map(
             i_S => Alucontrol(2),
             i_D0 => mux_control2t1,
@@ -153,6 +153,7 @@ entity ALUUnit is
             i_S  => flag_mux,
             o_Y => flag
         );
+        output_result <= finalResult;
 
 
 

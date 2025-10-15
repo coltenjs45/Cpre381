@@ -1,0 +1,1308 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+pwd
+# /home/coltenjs/cpre381/Project1/project1-riscv
+vlib work
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/and_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:16:58 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/and_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit
+# -- Compiling architecture structural of and_32bit
+# End time: 22:16:58 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:16:59 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 22:16:59 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:00 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:17:00 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:01 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4t1
+# -- Compiling architecture structural of mux4t1
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd(46): (vcom-1436) Actual expression (infix expression) of formal "i_B" is not globally static.
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd(47): (vcom-1436) Actual expression (infix expression) of formal "i_B" is not globally static.
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd(48): (vcom-1436) Actual expression (infix expression) of formal "i_B" is not globally static.
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd(49): (vcom-1436) Actual expression (infix expression) of formal "i_B" is not globally static.
+# ** Note: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd(56): VHDL Compiler exiting
+# End time: 22:17:01 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:09 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux32x4t1.vhd(5): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux32x4t1.vhd(5): Unknown expanded name.
+# ** Note: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux32x4t1.vhd(7): VHDL Compiler exiting
+# End time: 22:17:09 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:12 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): (vcom-1136) Unknown identifier "output_Overflow".
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): Bad resolution function (STD_LOGIC) for type (error).
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): near ":": (vcom-1576) expecting ';' or ')'.
+# ** Note: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): VHDL Compiler exiting
+# End time: 22:17:12 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nor_32t1bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nor_32t1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32t1bit
+# -- Compiling architecture behavioral of nor_32t1bit
+# End time: 22:17:15 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/norg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:16 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/norg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity norg2
+# -- Compiling architecture dataflow of norg2
+# End time: 22:17:16 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/or_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:16 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/or_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit
+# -- Compiling architecture structural of or_32bit
+# End time: 22:17:16 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:17 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 22:17:17 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:18 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 22:17:18 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xor_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:19 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xor_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit
+# -- Compiling architecture structural of xor_32bit
+# End time: 22:17:19 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:19 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 22:17:19 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:20 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): (vcom-1136) Unknown identifier "output_Overflow".
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): Bad resolution function (STD_LOGIC) for type (error).
+# ** Error: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): near ":": (vcom-1576) expecting ';' or ')'.
+# ** Note: /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nBit_ALU.vhd(14): VHDL Compiler exiting
+# End time: 22:17:20 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:34 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:17:34 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/and_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:39 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/and_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/and_32bit.vhd(4): (vcom-1615) Existing entity 'and_32bit' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/and_32bit.vhd(4) will be overwritten.
+# -- Compiling entity and_32bit
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/and_32bit.vhd(14): (vcom-1615) Existing architecture 'and_32bit(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/and_32bit.vhd(14) will be overwritten.
+# -- Compiling architecture structural of and_32bit
+# End time: 22:17:39 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:41 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/andg2.vhd(23) will be overwritten.
+# -- Compiling entity andg2
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/andg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of andg2
+# End time: 22:17:41 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:47 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux2t1_N.vhd(21) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux2t1_N.vhd(30) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:17:47 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/coltenjs/cpre381/Project1/project1-riscv/Components/mux4t1 .vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:48 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux4t1 .vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux4t1 .vhd(4): (vcom-1615) Existing entity 'mux4t1' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/mux4t1 .vhd(4) will be overwritten.
+# -- Compiling entity mux4t1
+# -- Compiling architecture structural of mux4t1
+# End time: 22:17:48 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux32t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:51 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux32t1
+# -- Compiling architecture dataflow of mux32t1
+# End time: 22:17:51 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:53 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# -- Compiling architecture dataflow of mux4x32t1
+# End time: 22:17:53 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:57 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 22:17:57 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:17:58 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# -- Compiling architecture structure of nBit_ALU
+# End time: 22:17:58 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/nor_32t1bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:02 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/nor_32t1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nor_32t1bit.vhd(4): (vcom-1615) Existing entity 'nor_32t1bit' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nor_32t1bit.vhd(4) will be overwritten.
+# -- Compiling entity nor_32t1bit
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nor_32t1bit.vhd(12): (vcom-1615) Existing architecture 'nor_32t1bit(behavioral)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/nor_32t1bit.vhd(12) will be overwritten.
+# -- Compiling architecture behavioral of nor_32t1bit
+# End time: 22:18:02 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/norg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:06 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/norg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/norg2.vhd(4): (vcom-1615) Existing entity 'norg2' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/norg2.vhd(4) will be overwritten.
+# -- Compiling entity norg2
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/norg2.vhd(12): (vcom-1615) Existing architecture 'norg2(dataflow)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/norg2.vhd(12) will be overwritten.
+# -- Compiling architecture dataflow of norg2
+# End time: 22:18:06 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/or_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:08 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/or_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/or_32bit.vhd(4): (vcom-1615) Existing entity 'or_32bit' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/or_32bit.vhd(4) will be overwritten.
+# -- Compiling entity or_32bit
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/or_32bit.vhd(14): (vcom-1615) Existing architecture 'or_32bit(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/or_32bit.vhd(14) will be overwritten.
+# -- Compiling architecture structural of or_32bit
+# End time: 22:18:08 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:09 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/org2.vhd(23) will be overwritten.
+# -- Compiling entity org2
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/org2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of org2
+# End time: 22:18:09 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:11 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/RISCV_types.vhd(15): (vcom-1615) Existing package 'RISCV_types' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/RISCV_types.vhd(15) will be overwritten.
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 22:18:11 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/xor_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/xor_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/xor_32bit.vhd(4): (vcom-1615) Existing entity 'xor_32bit' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xor_32bit.vhd(4) will be overwritten.
+# -- Compiling entity xor_32bit
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/xor_32bit.vhd(14): (vcom-1615) Existing architecture 'xor_32bit(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xor_32bit.vhd(14) will be overwritten.
+# -- Compiling architecture structural of xor_32bit
+# End time: 22:18:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:15 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xorg2.vhd(23) will be overwritten.
+# -- Compiling entity xorg2
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/xorg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of xorg2
+# End time: 22:18:15 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/tb_ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:18:17 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/tb_ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_ALUUnit
+# -- Compiling architecture sim of tb_ALUUnit
+# End time: 22:18:17 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_aluunit -voptargs=+acc
+# vsim work.tb_aluunit -voptargs="+acc" 
+# Start time: 22:19:33 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(48): (vopt-3473) Component instance "g_B_OnesComp : OnesComp" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(0)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(1)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(2)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(3)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(4)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(5)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(6)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(7)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(8)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(9)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(10)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(11)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(12)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(13)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(14)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(15)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(16)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(17)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(18)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(19)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(20)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(21)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(22)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(23)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(24)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(25)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(26)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(27)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(28)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(29)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(30)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux/G_NBit_MUX(31)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(0)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(1)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(2)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(3)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(4)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(5)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(6)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(7)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(8)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(9)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(10)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(11)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(12)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(13)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(14)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(15)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(16)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(17)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(18)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(19)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(20)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(21)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(22)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(23)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(24)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(25)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(26)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(27)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(28)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(29)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(30)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_Adder.vhd(35): (vopt-3473) Component instance "ADDI : Adder" is not bound.
+#         Region: /tb_ALUUnit/dut/addsub/g_Adder/nBit_Adder(31)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(0)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(1)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(2)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(3)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(4)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(5)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(6)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(7)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(8)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(9)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(10)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(11)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(12)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(13)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(14)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(15)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(16)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(17)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(18)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(19)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(20)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(21)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(22)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(23)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(24)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(25)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(26)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(27)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(28)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(29)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(30)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1_dataflow" is not bound.
+#         Region: /tb_ALUUnit/dut/muxbeforeresult/G_NBit_MUX(31)
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux4t1 .vhd(42): (vopt-3473) Component instance "U_INV0 : invg" is not bound.
+#         Region: /tb_ALUUnit/dut/Flags_mux
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux4t1 .vhd(43): (vopt-3473) Component instance "U_INV1 : invg" is not bound.
+#         Region: /tb_ALUUnit/dut/Flags_mux
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(135): (vopt-1550) Port 'i_D0' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(136): (vopt-1550) Port 'i_D1' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(137): (vopt-1550) Port 'o_O' of component 'work.ALUUnit(structural).mux2t1_N' and port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=100.
+# Error loading design
+# End time: 22:19:33 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 100
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:21 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 22:22:21 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/OnesComp.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:45 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/MySecondRISCVDatapath/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OnesComp
+# -- Compiling architecture structure of OnesComp
+# End time: 22:22:45 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:25:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 22:25:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:25:46 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 22:25:46 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:25:59 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(135): (vopt-1550) Port 'i_D0' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(136): (vopt-1550) Port 'i_D1' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(137): (vopt-1550) Port 'o_O' of component 'work.ALUUnit(structural).mux2t1_N' and port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=1.
+# Error loading design
+# End time: 22:25:59 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:31:51 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:31:52 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:32:03 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(135): (vopt-1550) Port 'i_D0' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(136): (vopt-1550) Port 'i_D1' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(137): (vopt-1550) Port 'o_O' of component 'work.ALUUnit(structural).mux2t1_N' and port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=1.
+# Error loading design
+# End time: 22:32:04 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:32:21 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:32:21 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Modified modelsim.ini
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:33:00 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(135): (vopt-1549) At instance muxbeforeresult the actual expression and the port 'i_D0' of component 'work.ALUUnit(structural).mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(135): (vopt-1549) At instance muxbeforeresult the actual expression and the port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(136): (vopt-1549) At instance muxbeforeresult the actual expression and the port 'i_D1' of component 'work.ALUUnit(structural).mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(136): (vopt-1549) At instance muxbeforeresult the actual expression and the port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(137): (vopt-1549) At instance muxbeforeresult the actual expression and the port 'o_O' of component 'work.ALUUnit(structural).mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(137): (vopt-1549) At instance muxbeforeresult the actual expression and the port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=4.
+# Error loading design
+# End time: 22:33:00 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 4
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:37:45 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:37:45 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:37:50 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:37:50 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:38:01 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(54): (vopt-1550) Port 'i_D0' of component 'work.nBit_ALU(structure).mux2t1_N' and port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([32,2]).
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(55): (vopt-1550) Port 'i_D1' of component 'work.nBit_ALU(structure).mux2t1_N' and port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([32,2]).
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(56): (vopt-1550) Port 'o_O' of component 'work.nBit_ALU(structure).mux2t1_N' and port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([32,2]).
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=1.
+# Error loading design
+# End time: 22:38:01 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:41:05 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:41:05 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:41:09 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(4) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(13) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:41:09 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:41:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:41:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:41:27 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(135): (vopt-1550) Port 'i_D0' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(136): (vopt-1550) Port 'i_D1' of component 'work.ALUUnit(structural).mux2t1_N' and port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(137): (vopt-1550) Port 'o_O' of component 'work.ALUUnit(structural).mux2t1_N' and port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([2,32]).
+#         Region: /tb_ALUUnit/dut/muxbeforeresult
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=1.
+# Error loading design
+# End time: 22:41:28 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:42:30 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:42:30 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:42:39 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(132): (vopt-3473) Component instance "muxbeforeresult : mux2t1_2" is not bound.
+#         Region: /tb_ALUUnit/dut
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# ** Warning: (vsim-3473) Component instance "muxbeforeresult : mux2t1_2" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_aluunit/dut File: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+# ** Warning: (vsim-8683) Uninitialized out port /tb_aluunit/dut/output_result(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:43:02 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(4): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(13): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:43:02 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:43:27 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:43:27 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:43:45 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:43:45 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:43:47 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(4) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(13) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:43:47 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim -voptargs=+acc work.tb_aluunit
+# End time: 22:44:05 on Oct 14,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:44:05 on Oct 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# ** Warning: (vsim-3473) Component instance "muxbeforeresult : mux2t1_2" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_aluunit/dut File: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+# ** Warning: (vsim-8683) Uninitialized out port /tb_aluunit/dut/output_result(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:45:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(4): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(13): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:45:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:45:05 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:45:05 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# End time: 22:45:16 on Oct 14,2025, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:45:16 on Oct 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd(132): (vopt-3473) Component instance "muxbeforeresult : mux2t1_2" is not bound.
+#         Region: /tb_ALUUnit/dut
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(54): (vopt-1550) Port 'i_D0' of component 'work.nBit_ALU(structure).mux2t1_N' and port 'i_D0' of entity 'work.mux2t1_N' have different sizes:  ([32,2]).
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(55): (vopt-1550) Port 'i_D1' of component 'work.nBit_ALU(structure).mux2t1_N' and port 'i_D1' of entity 'work.mux2t1_N' have different sizes:  ([32,2]).
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux
+# ** Error (suppressible): /home/coltenjs/cpre381/Project1/project1-riscv/Components/nBit_ALU.vhd(56): (vopt-1550) Port 'o_O' of component 'work.nBit_ALU(structure).mux2t1_N' and port 'o_O' of entity 'work.mux2t1_N' have different sizes:  ([32,2]).
+#         Region: /tb_ALUUnit/dut/addsub/g_B_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=2.
+# Error loading design
+# End time: 22:45:17 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:45:27 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(4) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(13) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:45:27 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:46:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:46:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:46:16 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(4): (vcom-1615) Existing entity 'mux2t1_N' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(21) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd(13): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd(30) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:46:16 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:46:23 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_2
+# -- Compiling architecture structural of mux2t1_2
+# End time: 22:46:23 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:46:25 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 22:46:26 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:46:29 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:46:29 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:46:45 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.mux2t1_2(structural)#1
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+# ** Warning: (vsim-8683) Uninitialized out port /tb_aluunit/dut/output_result(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:51:28 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 22:51:28 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/tb_ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:51:46 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/tb_ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_ALUUnit
+# -- Compiling architecture sim of tb_ALUUnit
+# End time: 22:51:46 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# End time: 22:51:59 on Oct 14,2025, Elapsed time: 0:05:14
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:51:59 on Oct 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.mux2t1_2(structural)#1
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+run 300
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_aluunit/dut/muxResult
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /tb_aluunit/dut/muxResult
+vsim -voptargs=+acc work.tb_aluunit
+# End time: 22:52:56 on Oct 14,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 22:52:56 on Oct 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.mux2t1_2(structural)#1
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+add wave sim:/tb_aluunit/*
+run 300
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_aluunit/dut/muxResult
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /tb_aluunit/dut/muxResult
+vsim -voptargs=+acc work.tb_aluunit
+# End time: 23:05:24 on Oct 14,2025, Elapsed time: 0:12:28
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 23:05:24 on Oct 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.mux2t1_2(structural)#1
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+add wave sim:/tb_aluunit/*
+run 300
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_aluunit/dut/muxResult
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /tb_aluunit/dut/muxResult
+quit -sim
+# End time: 23:06:34 on Oct 14,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/tb_ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:06:42 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/coltenjs/cpre381/Project1/project1-riscv/Components/tb_ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_ALUUnit
+# -- Compiling architecture sim of tb_ALUUnit
+# End time: 23:06:42 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_aluunit
+# vsim -voptargs="+acc" work.tb_aluunit 
+# Start time: 23:06:53 on Oct 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_aluunit(sim)#1
+# Loading work.aluunit(structural)#1
+# Loading work.and_32bit(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.or_32bit(structural)#1
+# Loading work.org2(dataflow)#1
+# Loading work.xor_32bit(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.nor_32t1bit(behavioral)#1
+# Loading work.nbit_alu(structure)#1
+# Loading work.onescomp(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.nbit_adder(structure)#1
+# Loading work.adder(structure)#1
+# Loading work.mux2t1_2(structural)#1
+# Loading work.mux4x32t1(dataflow)#1
+# Loading work.mux4t1(structural)#1
+add wave sim:/tb_aluunit/*
+run 300
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_aluunit/dut/muxResult
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /tb_aluunit/dut/muxResult
+# Break key hit
+# Break key hit
+# Break key hit
