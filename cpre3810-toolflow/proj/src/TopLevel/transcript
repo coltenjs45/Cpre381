@@ -1,0 +1,1205 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+cd /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel
+vlib work
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:47:56 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(21): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(21): Unknown expanded name.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(23): VHDL Compiler exiting
+# End time: 19:47:56 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:48:35 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 19:48:35 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:12 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 19:49:12 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:12 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(56): (vcom-1136) Unknown identifier "t_bus_4x32".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(87): (vcom-1136) Unknown identifier "t_bus_4x32".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(100): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(107): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(114): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(127): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd(161): VHDL Compiler exiting
+# End time: 19:49:12 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/and_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/and_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit
+# -- Compiling architecture structural of and_32bit
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity controlUnit
+# -- Compiling architecture dataflow of controlUnit
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5t32
+# -- Compiling architecture Behavioral of decoder5t32
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux4t1 .vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux4t1 .vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4t1
+# -- Compiling architecture structural of mux4t1
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux32t1
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd(10): (vcom-1136) Unknown identifier "t_bus_32x32".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd(13): VHDL Compiler exiting
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd(10): (vcom-1136) Unknown identifier "t_bus_4x32".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd(13): VHDL Compiler exiting
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_ALU.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# -- Compiling architecture structure of nBit_ALU
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nor_32t1bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nor_32t1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32t1bit
+# -- Compiling architecture behavioral of nor_32t1bit
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/norg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/norg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity norg2
+# -- Compiling architecture dataflow of norg2
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/or_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/or_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit
+# -- Compiling architecture structural of or_32bit
+# End time: 19:49:13 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:13 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 19:49:14 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture structure of pcFetch
+# End time: 19:49:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd(40): (vcom-1136) Unknown identifier "t_bus_32x32".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd(45): (vcom-1136) Unknown identifier "t_bus_32x32".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd(69): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd(78): VHDL Compiler exiting
+# End time: 19:49:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RISCV_types.vhd(15): (vcom-1615) Existing package 'RISCV_types' at /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd(15) will be overwritten.
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 19:49:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xor_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xor_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit
+# -- Compiling architecture structural of xor_32bit
+# End time: 19:49:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:14 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 19:49:14 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:32 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# End time: 19:49:32 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:49:35 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 19:49:35 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vdel -all -lib work
+vlib work
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:50:46 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 19:50:46 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:50:52 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 19:50:52 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/and_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/and_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit
+# -- Compiling architecture structural of and_32bit
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity controlUnit
+# -- Compiling architecture dataflow of controlUnit
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5t32
+# -- Compiling architecture Behavioral of decoder5t32
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 19:51:03 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:03 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux4t1 .vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux4t1 .vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4t1
+# -- Compiling architecture structural of mux4t1
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux32t1
+# -- Compiling architecture dataflow of mux32t1
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# -- Compiling architecture dataflow of mux4x32t1
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_ALU.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# -- Compiling architecture structure of nBit_ALU
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nor_32t1bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nor_32t1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32t1bit
+# -- Compiling architecture behavioral of nor_32t1bit
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/norg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/norg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity norg2
+# -- Compiling architecture dataflow of norg2
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/or_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/or_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit
+# -- Compiling architecture structural of or_32bit
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture structure of pcFetch
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xor_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xor_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit
+# -- Compiling architecture structural of xor_32bit
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 19:51:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+.main clear
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:51:24 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RISCV_Processor
+# -- Compiling architecture structure of RISCV_Processor
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(80): (vcom-1136) Unknown identifier "WIDTH".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(80): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(80): Type error in range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(81): (vcom-1136) Unknown identifier "WIDTH".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(81): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(81): Type error in range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(82): (vcom-1136) Unknown identifier "WIDTH".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(82): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(82): Type error in range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(83): (vcom-1136) Unknown identifier "WIDTH".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(83): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(83): Type error in range expression.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(117): VHDL Compiler exiting
+# End time: 19:51:25 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:52:29 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RISCV_Processor
+# -- Compiling architecture structure of RISCV_Processor
+# End time: 19:52:29 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:10:07 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(21): Expecting a type name, found type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) instead.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(30): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(30): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(31): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(32): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(32): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd(34): VHDL Compiler exiting
+# End time: 20:10:07 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:10:56 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 20:10:56 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:23:34 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RISCV_Processor
+# -- Compiling architecture structure of RISCV_Processor
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(190): Symbol "controlUnit" has already been declared in this region.
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(190): (vcom-1141) Identifier "ControlUnit" does not identify a component declaration.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(209): VHDL Compiler exiting
+# End time: 20:23:34 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:24:20 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RISCV_Processor
+# -- Compiling architecture structure of RISCV_Processor
+# End time: 20:24:20 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -vopt work.adder work.aluunit work.and_32bit work.andg2 work.barrelshifter work.controlunit work.decoder5t32 work.dffg work.imm_generator work.invg work.mux2t1_dataflow work.mux2t1_n work.mux32t1 work.mux4t1 work.mux4x32t1 work.nbit_adder work.nbit_alu work.nbit_reg work.nor_32t1bit work.norg2 work.or_32bit work.org2 work.pcfetch work.regfile work.riscv_processor work.riscv_types work.xor_32bit work.xorg2
+# vsim -vopt work.adder work.aluunit work.and_32bit work.andg2 work.barrelshifter work.controlunit work.decoder5t32 work.dffg work.imm_generator work.invg work.mux2t1_dataflow work.mux2t1_n work.mux32t1 work.mux4t1 work.mux4x32t1 work.nbit_adder work.nbit_alu work.nbit_reg work.nor_32t1bit work.norg2 work.or_32bit work.org2 work.pcfetch work.regfile work.riscv_processor work.riscv_types work.xor_32bit work.xorg2 
+# Start time: 20:35:31 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13132) Top-level design unit 'riscv_types' must be an ENTITY, CONFIGURATION, MODULE or PROGRAM.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 20:35:31 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/ALUUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity ALUUnit
+# -- Compiling architecture structural of ALUUnit
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/and_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/and_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit
+# -- Compiling architecture structural of and_32bit
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture dataflow of BarrelShifter
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity controlUnit
+# -- Compiling architecture dataflow of controlUnit
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5t32
+# -- Compiling architecture Behavioral of decoder5t32
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 20:35:36 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/imm_generator.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:36 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/imm_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity imm_generator
+# -- Compiling architecture Behavioral of imm_generator
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux32t1
+# -- Compiling architecture dataflow of mux32t1
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux4t1 .vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux4t1 .vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4t1
+# -- Compiling architecture structural of mux4t1
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# -- Compiling architecture dataflow of mux4x32t1
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_ALU.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_ALU
+# -- Compiling architecture structure of nBit_ALU
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nBit_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Reg
+# -- Compiling architecture structure of nBit_Reg
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nor_32t1bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/nor_32t1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32t1bit
+# -- Compiling architecture behavioral of nor_32t1bit
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/norg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/norg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity norg2
+# -- Compiling architecture dataflow of norg2
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/or_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/or_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit
+# -- Compiling architecture structural of or_32bit
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture structure of pcFetch
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RISCV_Processor
+# -- Compiling architecture structure of RISCV_Processor
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(220): near "?": syntax error
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(230): VHDL Compiler exiting
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xor_32bit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xor_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit
+# -- Compiling architecture structural of xor_32bit
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:37 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:35:37 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:47 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/Components/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture structure of pcFetch
+# End time: 20:35:47 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:35:49 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RISCV_Processor
+# -- Compiling architecture structure of RISCV_Processor
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(220): near "?": syntax error
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(230): VHDL Compiler exiting
+# End time: 20:35:49 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
