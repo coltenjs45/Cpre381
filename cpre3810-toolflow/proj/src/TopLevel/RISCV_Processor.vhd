@@ -93,6 +93,7 @@ architecture structure of RISCV_Processor is
       input_A : in std_logic_vector (WIDTH-1 downto 0);
       input_B : in std_logic_vector (WIDTH-1 downto 0);
       output_result : out std_logic_vector (WIDTH-1 downto 0);
+      overflowFlag : out std_logic;
       flag : out std_logic);
   end component;
 
@@ -100,6 +101,7 @@ architecture structure of RISCV_Processor is
     generic (WIDTH : integer := DATA_WIDTH);
       port(
       input           : in std_logic_vector(WIDTH-1 downto 0);
+      ALUinput        : in std_logic_vector(WIDTH-1 downto 0);
       shiftAmnt       : in std_logic_vector(WIDTH-1 downto 0);
       control         : in std_logic_vector(3 downto 0);
       output          : out std_logic_vector(WIDTH-1 downto 0));
@@ -150,13 +152,25 @@ architecture structure of RISCV_Processor is
   end component;
 
   --Control Unit signals
-  signal s_ALUsrc, s_MemWrite, s_RegWrite, s_MemToReg, s_Branch, s_Jump, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg : std_logic;
+  signal s_ALUsrc, s_MemToReg, s_Branch, s_Jump, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg : std_logic;
   signal s_ALUctrl : std_logic_vector(3 downto 0);
   signal s_ImmType, s_AndLink, s_FlagMux: std_logic_vector(1 downto 0);
 
   --Fetch Unit Signals
   signal s_pcUp4, s_pcUpImm : std_logic_vector(DATA_WIDTH-1 downto 0);
 
+  --Immediate Generator Signals
+  signal s_immediate : std_logic_vector(DATA_WIDTH-1 downto 0);
+
+  --ALU Unit Signals
+  signal s_ALUresult, s_inputA, s_inputB : std_logic_vector(DATA_WIDTH-1 downto 0);
+  signal s_flag : std_logic;
+
+  --Barrel Shifter Signals
+  signal s_BSresult : std_logic_vector(DATA_WIDTH-1 downto 0);
+
+  --Reg File Signals ***CHECK REQUIRED SIGNALS***
+  signal s_rOut2 : std_logic_vector(DATA_WIDTH-1 downto 0);
 
   -- ASSIGNMENTS
 begin
@@ -165,7 +179,6 @@ begin
   with iInstLd select
     s_IMemAddr <= s_NextInstAddr when '0',
       iInstAddr when others;
-
 
   IMem: mem
     generic map(ADDR_WIDTH => ADDR_WIDTH,
@@ -199,8 +212,8 @@ begin
       ALUctrl       => s_ALUctrl,
       ImmType       => s_ImmType,
       AndLink       => s_AndLink,
-      MemWrite      => s_MemWrite,
-      RegWrite      => s_RegWrite,
+      MemWrite      => s_DMemWr,
+      RegWrite      => s_RegWr,
       MemToReg      => s_MemToReg,
       Branch        => s_Branch,
       Jump          => s_Jump,
@@ -217,8 +230,8 @@ begin
       conditionBJ      => s_BranchOrJump,
       jump             => s_ALUorImmJump,
       jumpWithRegister => s_JumpWReg,
-      immediate        => s_immediate
-      register_plusImm => ???,
+      immediate        => s_immediate,
+      register_plusImm => s_ALUresult,
       pcUp4            => s_pcUp4,
       pcUpImm          => s_pcUpImm,
       programCounter   => s_NextInstAddr);
@@ -228,6 +241,41 @@ begin
       input   => s_Inst,
       output  => s_immediate);
 
+  ALU : ALUUNit
+    port map(
+      Alucontrol    => s_ALUctrl,
+      flag_mux      => s_FlagMux,
+      input_A       => s_inputA,
+      input_B       => s_inputB,
+      output_result => s_ALUresult,
+      overflowFlag  => s_Ovfl,
+      flag          => s_flag);
+
+  s_DMemAddr <= s_ALUresult;
+  oALUOut <= s_ALUresult;
+
+  Shifter : barrelShifter
+    port map (
+      input       => s_inputA,
+      ALUinput    => s_ALUresult,
+      shiftAmnt   => s_immediate,
+      control     => s_ALUctrl,
+      output      => s_BSresult);
+
+  s_RegWrAddr <= s_Inst(11 downto 7);
+
+  Registers : RegFile
+    port map(
+      sysCLK 		    => iCLK,
+      sysRST 		    => iRST,
+	    write_enable	=> s_RegWr,
+      rs1	        	=> s_Inst(19 downto 15),
+      rs2		        => s_Inst(24 downto 20),
+      rd		        => s_RegWrAddr,
+      data		      => s_RegWrData,
+      rOut1		      => s_inputA,
+      rOut2		      => s_rOUt2);  
+      
+  
 
 end structure;
-

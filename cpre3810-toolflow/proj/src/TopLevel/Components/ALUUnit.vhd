@@ -11,6 +11,7 @@ entity ALUUnit is
     input_A : in std_logic_vector (WIDTH-1 downto 0);
     input_B : in std_logic_vector (WIDTH-1 downto 0);
     output_result : out std_logic_vector (WIDTH-1 downto 0);
+    overflowFlag : out std_logic;
     flag : out std_logic
  );
  end ALUUnit;
@@ -92,6 +93,7 @@ entity ALUUnit is
     begin
         mux_control2t1 <= Alucontrol(1 downto 0);
         neg <= finalResult(31);
+        overflowFlag <= ovf;
 
           andUnit : and_32bit 
           port map(
