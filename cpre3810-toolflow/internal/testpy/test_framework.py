@@ -270,7 +270,7 @@ def check_project_files_exist():
     Returns None if all required files exist, otherwise returns path to missing file
     '''
     expected_files = [
-        'internal/Rars/RARS_CPRE381.jar',
+        'internal/Rars/RARS_CPRE3810.jar',
         'internal/testpy/modelsim_framework.do',
         'internal/testpy/tb.vhd',
     ]

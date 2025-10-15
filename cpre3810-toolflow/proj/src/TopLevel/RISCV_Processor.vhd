@@ -21,7 +21,9 @@ library work;
 use work.RISCV_types.all;
 
 entity RISCV_Processor is
-  generic(N : integer := DATA_WIDTH);
+  generic(N : integer := 32;
+          ADDR_WIDTH : integer := 10;
+          DATA_WIDTH : integer := 32);
   port(iCLK            : in std_logic;
        iRST            : in std_logic;
        iInstLd         : in std_logic;
@@ -57,21 +59,21 @@ architecture structure of RISCV_Processor is
   signal s_Ovfl         : std_logic;  -- TODO: this signal indicates an overflow exception would have been initiated
 
   component mem is
-    generic(ADDR_WIDTH : integer;
-            DATA_WIDTH : integer);
+    generic(ADDR_WIDTH : integer := 10;
+            DATA_WIDTH : integer := 32);
     port(
           clk          : in std_logic;
           addr         : in std_logic_vector((ADDR_WIDTH-1) downto 0);
-          data         : in std_logic_vector((DATA_WIDTH-1) downto 0);
+          data         : in std_logic_vector((32-1) downto 0);
           we           : in std_logic := '1';
-          q            : out std_logic_vector((DATA_WIDTH -1) downto 0));
+          q            : out std_logic_vector((32 -1) downto 0));
     end component;
 
   -- TODO: You may add any additional signals or components your implementation 
   --       requires below this comment
 
   component pcFetch is
-    generic(WIDTH : integer := DATA_WIDTH);
+    generic(WIDTH : integer := 32);
     port(
       clock               : in std_logic;
       reset               : in std_logic;
@@ -86,7 +88,7 @@ architecture structure of RISCV_Processor is
   end component;
 
   component ALUUnit is
-    generic (WIDTH : integer := DATA_WIDTH);
+    generic (WIDTH : integer := 32);
     port(
       Alucontrol : in std_logic_vector(3 downto 0);
       flag_mux : in std_logic_vector(1 downto 0);
@@ -98,7 +100,7 @@ architecture structure of RISCV_Processor is
   end component;
 
   component BarrelShifter is
-    generic (WIDTH : integer := DATA_WIDTH);
+    generic (WIDTH : integer := 32);
       port(
       input           : in std_logic_vector(WIDTH-1 downto 0);
       ALUinput        : in std_logic_vector(WIDTH-1 downto 0);
@@ -108,7 +110,7 @@ architecture structure of RISCV_Processor is
   end component;
 
   component controlUnit is
-    generic(WIDTH : integer := DATA_WIDTH);
+    generic(WIDTH : integer := 32);
       port(
       opcode        : in std_logic_vector(6 downto 0);
       funct3        : in std_logic_vector(2 downto 0);
@@ -122,6 +124,7 @@ architecture structure of RISCV_Processor is
       MemToReg      : out std_logic;
       Branch        : out std_logic;
       Jump          : out std_logic;
+      Shift         : out std_logic;
       ALUorImmJump  : out std_logic;
       FlagMux       : out std_logic_vector(1 downto 0);
       FlagOrNFlag   : out std_logic;
@@ -131,14 +134,14 @@ architecture structure of RISCV_Processor is
   end component;
 
   component imm_generator is
-    generic (WIDTH : natural := DATA_WIDTH);
+    generic (WIDTH : natural := 32);
     port (
         input  : in  std_logic_vector(WIDTH-1 downto 0);
         output : out std_logic_vector(WIDTH-1 downto 0));
   end component;
 
   component RegFile is
-  generic(WIDTH : integer := DATA_WIDTH);
+  generic(WIDTH : integer := 32);
   port(
     sysCLK 		    : in std_logic;
     sysRST 		    : in std_logic;
@@ -151,27 +154,82 @@ architecture structure of RISCV_Processor is
 	  rOut2		      : out std_logic_vector(WIDTH-1 downto 0));
   end component;
 
+  component mux2t1_dataflow
+    port(
+      SEL     : in std_logic;
+      iA 		  : in std_logic;
+      iB 		  : in std_logic;
+      OUTPUT 	: out std_logic);
+  end component;
+
+  component mux2t1_N
+    port(
+      i_S          : in std_logic;
+      i_D0         : in std_logic_vector(N-1 downto 0);
+      i_D1         : in std_logic_vector(N-1 downto 0);
+      o_O          : out std_logic_vector(N-1 downto 0));
+  end component;
+
+component mux32x4t1 is
+  port(
+    sel       : in std_logic_vector(1 downto 0);
+    bus_in		: in t_bus_4x32;
+    o_output 	: out std_logic_vector(31 downto 0));
+end component;
+
+component invg is
+  port(
+    i_A          : in std_logic;
+    o_F          : out std_logic);
+end component;
+
+component andg2 is
+  port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+end component;
+
+component org2 is
+  port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+end component;
+
+component zero_extender is
+  generic (OUT_WIDTH : natural := 32);
+    port (
+        input     : in std_logic;
+        output    : out std_logic_vector(OUT_WIDTH-1 downto 0));
+end component;
+
   --Control Unit signals
-  signal s_ALUsrc, s_MemToReg, s_Branch, s_Jump, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg : std_logic;
+  signal s_ALUsrc, s_MemToReg, s_Branch, s_Jump, s_Shift, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg : std_logic;
   signal s_ALUctrl : std_logic_vector(3 downto 0);
   signal s_ImmType, s_AndLink, s_FlagMux: std_logic_vector(1 downto 0);
 
   --Fetch Unit Signals
-  signal s_pcUp4, s_pcUpImm : std_logic_vector(DATA_WIDTH-1 downto 0);
+  signal s_pcUp4, s_pcUpImm : std_logic_vector(32-1 downto 0);
+  signal s_branchFlags, s_branchLogic, s_BranchOrJump : std_logic;
 
   --Immediate Generator Signals
-  signal s_immediate : std_logic_vector(DATA_WIDTH-1 downto 0);
+  signal s_immediate : std_logic_vector(32-1 downto 0);
 
   --ALU Unit Signals
-  signal s_ALUresult, s_inputA, s_inputB : std_logic_vector(DATA_WIDTH-1 downto 0);
-  signal s_flag : std_logic;
+  signal s_ALUresult, s_inputA, s_inputB : std_logic_vector(32-1 downto 0);
+  signal s_flag, s_notFlag : std_logic;
 
   --Barrel Shifter Signals
-  signal s_BSresult : std_logic_vector(DATA_WIDTH-1 downto 0);
+  signal s_BSresult : std_logic_vector(32-1 downto 0);
 
   --Reg File Signals ***CHECK REQUIRED SIGNALS***
-  signal s_rOut2 : std_logic_vector(DATA_WIDTH-1 downto 0);
+  signal s_rOut2 : std_logic_vector(32-1 downto 0);
 
+  --32x4t1 bus for WriteBack
+  signal s_writeback : t_bus_4x32;
+  signal s_extFlag, s_CPUout : std_logic_vector(32-1 downto 0);
+
+  -- BS or ALU mux
+  signal s_result : std_logic_vector(32-1 downto 0);
   -- ASSIGNMENTS
 begin
 
@@ -217,6 +275,7 @@ begin
       MemToReg      => s_MemToReg,
       Branch        => s_Branch,
       Jump          => s_Jump,
+      Shift         => s_Shift,
       ALUorImmJump  => s_ALUorImmJump,
       FlagMux       => s_FlagMux,
       FlagOrNFlag   => s_FlagOrNFlag,
@@ -274,8 +333,67 @@ begin
       rd		        => s_RegWrAddr,
       data		      => s_RegWrData,
       rOut1		      => s_inputA,
-      rOut2		      => s_rOUt2);  
+      rOut2		      => s_rOut2);  
       
-  
+  InputBMux : mux2t1_N
+    port map(
+      i_S   => s_ALUsrc,
+      i_D0  => s_rOut2,
+      i_D1  => s_immediate,
+      o_O   => s_inputB);
+
+  ALUorBSmux : mux2t1_N
+    port map(
+      i_S   => s_Shift,
+      i_D0  => s_ALUresult,
+      i_D1  => s_BSresult,
+      o_O   => s_result); 
+
+  flagExtender : zero_extender
+    port map(
+      input => s_flag,
+      output => s_extFlag);
+
+  s_writeback(0) <= s_result;  -- ALU/BS mux output
+  s_writeback(1) <= s_pcUp4;
+  s_writeback(2) <= s_extFlag;
+  s_writeback(3) <= s_pcUpImm;
+
+  WriteBackSelectMux : mux32x4t1
+    port map(
+      sel        => s_AndLink,
+      bus_in		 => s_writeback,
+      o_output 	 => s_CPUout);
+
+  MemOrCPUmux : mux2t1_N
+    port map(
+      i_S   => s_MemToReg,
+      i_D0  => s_DMemOut,
+      i_D1  => s_CPUout,
+      o_O   => s_RegWrData); 
+
+  flagNot : invg
+    port map(
+      i_A => s_flag,
+      o_F => s_notFlag);
+
+  FlagOrNot : mux2t1_dataflow
+    port map(
+      SEL     => s_FlagOrNFlag,
+      iA 		  => s_flag,
+      iB 		  => s_notFlag,
+      OUTPUT 	=> s_branchFlags);
+
+  branchAnd : andg2
+    port map(
+      i_A => s_Branch,
+      i_B => s_branchFlags,
+      o_F => s_branchLogic);
+
+  branchJump : org2
+    port map(
+      i_A => s_branchLogic,
+      i_B => s_Jump,
+      o_F => s_BranchOrJump);
 
 end structure;

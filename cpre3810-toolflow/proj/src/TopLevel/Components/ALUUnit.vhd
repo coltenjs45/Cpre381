@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 use work.RISCV_types.all;
 
 entity ALUUnit is
- generic (WIDTH : integer := DATA_WIDTH);
+ generic (WIDTH : integer := 32);
  port(
     Alucontrol : in std_logic_vector(3 downto 0);
     flag_mux : in std_logic_vector(1 downto 0);

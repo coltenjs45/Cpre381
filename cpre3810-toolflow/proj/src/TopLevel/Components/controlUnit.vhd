@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 use work.RISCV_types.all;
 
 entity controlUnit is
-  generic(WIDTH : integer := DATA_WIDTH);
+  generic(WIDTH : integer := 32);
  
   port(
     opcode             : in std_logic_vector(6 downto 0);
@@ -20,6 +20,7 @@ entity controlUnit is
     Branch             : out std_logic;
     Jump               : out std_logic;
     ALUorImmJump       : out std_logic;
+    Shift              : out std_logic;
     FlagMux            : out std_logic_vector(1 downto 0);
     FlagOrNFlag        : out std_logic;
     JumpWReg           : out std_logic;
@@ -131,6 +132,11 @@ FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 =
     JumpWReg <= '1' when(opcode = jalr_opcode) else
                 '0';
     
+    Shift    <= '1' when(opcode = I_type_load_opcode or opcode = S_type_opcode) else -- Load and Store
+                '1' when(opcode = R_type_opcode and (funct3 = "001" or funct3 = "010" or funct3 = "011")) else -- Register shift           
+                '1' when(opcode = I_type_aImm_opcode and (funct3 = "001" or funct3 = "010" or funct3 = "011")) else --Immediate shift
+                '0';
+
   HaltSignal <= '1' when(opcode = halt_opcode) else
                 '0';
 end dataflow;

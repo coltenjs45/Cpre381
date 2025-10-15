@@ -5,7 +5,7 @@ use work.RISCV_types.all;
 
 entity RegFile is
 
-  generic(WIDTH : integer := DATA_WIDTH);
+  generic(WIDTH : integer := 32);
  
   port( sysCLK 		: in std_logic;
         sysRST 		: in std_logic;

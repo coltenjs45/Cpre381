@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 use work.RISCV_types.all;
 
 entity imm_generator is
-    generic (WIDTH : natural := DATA_WIDTH);
+    generic (WIDTH : natural := 32);
     port (
         input  : in  std_logic_vector(WIDTH-1 downto 0);
         output : out std_logic_vector(WIDTH-1 downto 0));

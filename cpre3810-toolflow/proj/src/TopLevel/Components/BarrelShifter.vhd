@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 use work.RISCV_types.all;
 
 entity BarrelShifter is
-    generic(WIDTH : integer := DATA_WIDTH);
+    generic(WIDTH : integer := 32);
     
     port(
         input           : in std_logic_vector(WIDTH-1 downto 0);
