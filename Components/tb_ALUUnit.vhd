@@ -107,6 +107,15 @@ begin
         input_B <= x"00000001";
         wait for 10 ns;
 
+        -- slt
+        -- if rs1<rs2 
+        -- rs1 - rs2 = neg
+        Alucontrol <= 0100;
+        flag_mux <= "00";
+        input_A <= x"0000009";
+        input_b <= x"000000F";
+        wait for 10 ns
+
         wait; -- stop simulation
     end process;
 

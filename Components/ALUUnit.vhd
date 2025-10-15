@@ -154,11 +154,6 @@ entity ALUUnit is
             o_Y => flag
         );
         output_result <= finalResult;
-
-
-
-
-
     end structural;
 
 
