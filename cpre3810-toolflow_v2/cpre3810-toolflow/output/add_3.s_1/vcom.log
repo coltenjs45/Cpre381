@@ -1,0 +1,82 @@
+QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+Start time: 13:53:57 on Oct 17,2025
+vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/RISCV_types.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/TopLevel/Components/nBit_Adder.vhd proj/src/TopLevel/Components/and_32bit.vhd proj/src/TopLevel/Components/Adder.vhd proj/src/TopLevel/Components/nor_32t1bit.vhd proj/src/TopLevel/Components/org2.vhd proj/src/TopLevel/Components/dffg.vhd proj/src/TopLevel/Components/mux2t1_2.vhd proj/src/TopLevel/Components/nBit_ALU.vhd proj/src/TopLevel/Components/ALUUnit.vhd proj/src/TopLevel/Components/mux2t1_dataflow.vhd proj/src/TopLevel/Components/controlUnit.vhd proj/src/TopLevel/Components/norg2.vhd proj/src/TopLevel/Components/imm_generator.vhd proj/src/TopLevel/Components/mux32t1.vhd proj/src/TopLevel/Components/andg2.vhd proj/src/TopLevel/Components/RegFile.vhd proj/src/TopLevel/Components/xorg2.vhd proj/src/TopLevel/Components/mux32x4t1.vhd proj/src/TopLevel/Components/mux4t1 .vhd proj/src/TopLevel/Components/or_32bit.vhd proj/src/TopLevel/Components/invg.vhd proj/src/TopLevel/Components/pcFetch.vhd proj/src/TopLevel/Components/decoder5t32.vhd proj/src/TopLevel/Components/mux2t1_N.vhd proj/src/TopLevel/Components/zero_extender.vhd proj/src/TopLevel/Components/xor_32bit.vhd proj/src/TopLevel/Components/nBit_Reg.vhd proj/src/TopLevel/Components/BarrelShifter.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package RISCV_types
+-- Compiling package body RISCV_types
+-- Loading package RISCV_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/RISCV_types.vhd(15): (vcom-1615) Existing package 'RISCV_types' at line 22 will be overwritten.
+-- Compiling package RISCV_types
+** Warning: proj/src/RISCV_types.vhd(32): (vcom-1615) Existing package body 'RISCV_types(body)' at line 32 will be overwritten.
+-- Compiling package body RISCV_types
+-- Loading package RISCV_types
+-- Loading package RISCV_types
+-- Compiling entity RISCV_Processor
+-- Compiling architecture structure of RISCV_Processor
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity nBit_Adder
+-- Compiling architecture structure of nBit_Adder
+-- Compiling entity and_32bit
+-- Compiling architecture structural of and_32bit
+-- Compiling entity Adder
+-- Compiling architecture structure of Adder
+-- Compiling entity nor_32t1bit
+-- Compiling architecture behavioral of nor_32t1bit
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity mux2t1_2
+-- Compiling architecture structural of mux2t1_2
+-- Compiling entity nBit_ALU
+-- Compiling architecture structure of nBit_ALU
+-- Compiling entity ALUUnit
+-- Compiling architecture structural of ALUUnit
+-- Compiling entity mux2t1_dataflow
+-- Compiling architecture dataflow of mux2t1_dataflow
+-- Compiling entity controlUnit
+-- Compiling architecture dataflow of controlUnit
+-- Compiling entity norg2
+-- Compiling architecture dataflow of norg2
+-- Compiling entity imm_generator
+-- Compiling architecture Behavioral of imm_generator
+-- Compiling entity mux32t1
+-- Compiling architecture dataflow of mux32t1
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling entity RegFile
+-- Compiling architecture structure of RegFile
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity mux32x4t1
+-- Compiling architecture dataflow of mux32x4t1
+-- Compiling entity mux4t1
+-- Compiling architecture structural of mux4t1
+-- Compiling entity or_32bit
+-- Compiling architecture structural of or_32bit
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity pcFetch
+-- Compiling architecture mixed of pcFetch
+-- Compiling entity decoder5t32
+-- Compiling architecture Behavioral of decoder5t32
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity zero_extender
+-- Compiling architecture Behavioral of zero_extender
+-- Compiling entity xor_32bit
+-- Compiling architecture structural of xor_32bit
+-- Compiling entity nBit_Reg
+-- Compiling architecture structure of nBit_Reg
+-- Compiling entity BarrelShifter
+-- Compiling architecture dataflow of BarrelShifter
+End time: 13:53:57 on Oct 17,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
