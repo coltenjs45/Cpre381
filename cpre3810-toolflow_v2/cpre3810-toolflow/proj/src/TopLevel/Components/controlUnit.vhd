@@ -108,7 +108,7 @@ architecture dataflow of controlUnit is
     RegWrite <= '0' when(opcode = S_type_opcode or opcode = SB_type_opcode) else
                 '1';
 
-    MemToReg <= '0' when(opcode = lui_opcode or opcode = I_type_load_opcode or opcode = auipc_opcode) else
+    MemToReg <= '0' when(opcode = I_type_load_opcode) else
                 '1';
 
     Branch   <= '1' when(opcode = SB_type_opcode) else
@@ -117,15 +117,16 @@ architecture dataflow of controlUnit is
     Jump     <= '1' when(opcode = jal_opcode or opcode = jalr_opcode) else
                 '0';
 
-ALUorImmJump <= '1' when(opcode = SB_type_opcode or opcode = jal_opcode or opcode = auipc_opcode) else
+ALUorImmJump <= '1' when(opcode = jalr_opcode) else
                 '0';
                 
     FlagMux  <= "10" when(opcode = I_type_aImm_opcode and funct3 = "011") else -- SLTUI
+                "10" when(opcode = SB_type_opcode and (funct3 = "111" or funct3 = "110")) else
                 "11" when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "001")) else -- BEQ BNE
                 "00";
               --"00" when(((opcode = R_type_opcode or opcode = I_type_aImm_opcode) and funct3 = "010") or (opcode = SB_type_opcode and (funct3 /= "000" or funct3 /= "001"))) else -- SLT SLTI (SB except BEQ/BNE)
 
-FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 = "101" or funct3 = "111")) else
+FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 = "101" or funct3 = "110")) else
                 '0';
               --'0' when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "100" or funct3 = "110")) else
 
@@ -135,6 +136,7 @@ FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 =
     Shift    <= '1' when(opcode = I_type_load_opcode or opcode = S_type_opcode) else -- Load and Store
                 '1' when(opcode = R_type_opcode and (funct3 = "001" or funct3 = "010" or funct3 = "011")) else -- Register shift           
                 '1' when(opcode = I_type_aImm_opcode and (funct3 = "001" or funct3 = "010" or funct3 = "011")) else --Immediate shift
+                '1' when(opcode = lui_opcode) else
                 '0';
 
   HaltSignal <= '1' when(opcode = halt_opcode) else

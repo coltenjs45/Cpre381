@@ -63,7 +63,7 @@ begin
 		out_C	=> output_Carry);
 
   s_A_sign       <= input_A(WIDTH-1);
-  s_B_sign       <= s_mux_out(WIDTH-1);
+  s_B_sign       <= input_B(WIDTH-1);
   s_SignResult   <= s_sum(WIDTH-1);
 
   s_Overflow_Add <= (s_A_sign and s_B_sign and (not s_SignResult)) or

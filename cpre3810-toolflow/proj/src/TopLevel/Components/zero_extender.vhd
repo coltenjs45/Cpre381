@@ -15,6 +15,6 @@ end zero_extender;
 architecture Behavioral of zero_extender is
 begin
 
-    output <= (OUT_WIDTH-1 downto '1' => '0') & input;
+    output <= (OUT_WIDTH-1 downto 1 => '0') & input;
 
 end architecture Behavioral;

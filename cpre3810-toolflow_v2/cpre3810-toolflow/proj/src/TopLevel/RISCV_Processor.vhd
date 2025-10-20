@@ -335,6 +335,8 @@ begin
       rOut1		      => s_inputA,
       rOut2		      => s_rOut2);  
       
+  s_DMemData <= s_rOut2;
+
   InputBMux : mux2t1_N
     port map(
       i_S   => s_ALUsrc,

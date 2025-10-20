@@ -1,0 +1,104 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+add wave vsim:/tb/MyRiscv/*
+add wave -position end  vsim:/tb/MyRiscv/ALU/Alucontrol
+add wave -position end  vsim:/tb/MyRiscv/ALU/flag_mux
+add wave -position end  vsim:/tb/MyRiscv/ALU/input_A
+add wave -position end  vsim:/tb/MyRiscv/ALU/input_B
+add wave -position end  vsim:/tb/MyRiscv/ALU/output_result
+add wave -position end  vsim:/tb/MyRiscv/ALU/overflowFlag
+add wave -position end  vsim:/tb/MyRiscv/ALU/flag
+add wave -position end  vsim:/tb/MyRiscv/ALU/output_bus
+add wave -position end  vsim:/tb/MyRiscv/ALU/mux_control4t1
+add wave -position end  vsim:/tb/MyRiscv/ALU/mux_control2t1
+add wave -position end  vsim:/tb/MyRiscv/ALU/finalResult
+add wave -position end  vsim:/tb/MyRiscv/ALU/neg
+add wave -position end  vsim:/tb/MyRiscv/ALU/ovf
+add wave -position end  vsim:/tb/MyRiscv/ALU/carry
+add wave -position end  vsim:/tb/MyRiscv/ALU/zero
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/nAdd_Sub
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/input_A
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/input_B
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/output_Sum
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/output_Carry
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/output_Overflow
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_B_OnesComp
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_mux_Out
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_sum
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_A_sign
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_B_sign
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_SignResult
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_Overflow_Add
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/s_Overflow_Sub
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/in_C
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/i_A
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/i_B
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/o_SUM
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/out_C
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/s_internalCarry
+# ** Error: (vish-7) Failed to open info file "/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow_v2/cpre3810-toolflow/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position end  vsim:/tb/MyRiscv/s_ALUsrc
+add wave -position end  vsim:/tb/MyRiscv/s_ALUctrl
+add wave -position end  vsim:/tb/MyRiscv/Registers/rOut2
+# ** Error: (vish-7) Failed to open info file "/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow_v2/cpre3810-toolflow/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position end  vsim:/tb/MyRiscv/InputBMux/o_O
+add wave -position end  vsim:/tb/MyRiscv/ALU/input_B
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/input_B
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_Adder/i_B
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_B_mux/o_O
+add wave -position end  vsim:/tb/MyRiscv/ALU/addsub/g_B_mux/i_D1
+add wave -position end  vsim1:/tb/MyRiscv/s_Ovfl
+add wave -position end  vsim1:/tb/MyRiscv/ALU/input_B
+add wave -position end vsim1:/tb/MyRiscv/ALU/addsub/g_Adder/*
+add wave -position end  vsim1:/tb/MyRiscv/ALU/addsub/g_B_OnesComp/OUTPUT
+add wave vsim2:/tb/MyRiscv/*
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/clock
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/reset
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/conditionBJ
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/jump
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/jumpWithRegister
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/immediate
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/register_plusImm
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/pcUp4
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/pcUpImm
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/programCounter
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/nextPC
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/add4Out
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/addImmOut
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/pcOut
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/jumpAddress
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/pcJALR
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/shiftedAddend
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/ground
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/temp
+add wave -position end  vsim2:/tb/MyRiscv/FetchUnit/shift
+add wave -position end  vsim2:/tb/MyRiscv/s_ALUorImmJump
+add wave vsim3:/tb/MyRiscv/*
+# ** Error: (vish-7) Failed to open info file "/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow_v2/cpre3810-toolflow/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position 0  vsim3:/tb/MyRiscv/FetchUnit/pcUpImm
+add wave vsim4:/tb/MyRiscv/*
+# ** Error: (vish-7) Failed to open info file "/home/gmander5/cpre381/Project1/project1-riscv/cpre3810-toolflow_v2/cpre3810-toolflow/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position 0  vsim4:/tb/MyRiscv/FetchUnit/PC/inData
+add wave -position 0  vsim4:/tb/MyRiscv/Registers/read_reg
+dataset reload -f
+# vsim5:/tb
+dataset reload -f
+# vsim5:/tb
+dataset reload -f
+# vsim5:/tb

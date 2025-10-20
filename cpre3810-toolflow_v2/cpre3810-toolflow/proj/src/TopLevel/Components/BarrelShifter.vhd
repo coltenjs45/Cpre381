@@ -16,6 +16,7 @@ entity BarrelShifter is
 end BarrelShifter;
 
 architecture dataflow of BarrelShifter is
+    signal shiftForLUI          : unsigned(WIDTH-1 downto 0);
     signal shiftForMemory       : unsigned(WIDTH-1 downto 0);
     signal shiftLeftLogical     : unsigned(WIDTH-1 downto 0);
     signal shiftRightLogical    : unsigned(WIDTH-1 downto 0);
@@ -36,5 +37,6 @@ architecture dataflow of BarrelShifter is
               std_logic_vector(shiftLeftLogical) when (control(2) = '1' and ctrlSlice = "11") else
               std_logic_vector(shiftRightLogical) when (control(2) = '1' and ctrlSlice = "01") else
               std_logic_vector(shiftRightArithmetic) when (control(2) = '1' and ctrlSlice = "10") else
+              shiftAmnt when (control = "1000") else
               input;
 end dataflow;

@@ -26,7 +26,7 @@ architecture Behavioral of imm_generator is
     signal concatU  : std_logic_vector(19 downto 0);
     signal concatJ  : std_logic_vector(20 downto 0);
     
-    signal outItype, outStype, outSBtype, outUtype, outJtype, outAUIPC : std_logic_vector(31 downto 0);
+    signal outItype, outStype, outSBtype, outUtype, outJtype, outAUIPC, shiftedAUIPC : std_logic_vector(31 downto 0);
 
 begin
     -- I-type: imm[11:0] = inst[31:20]
@@ -50,7 +50,9 @@ begin
     outSBtype <= std_logic_vector(resize(signed(concatSB), WIDTH));
     outUtype  <= concatU & x"000";  -- U-type shifts left 12 bits (no sign extension)
     outJtype  <= std_logic_vector(resize(signed(concatJ), WIDTH));
-    outAUIPC  <= std_logic_vector(shift_left(unsigned(outUtype), 10));  -- Additional 10-bit shift for AUIPC
+    outAUIPC  <= std_logic_vector(resize(signed(concatU), WIDTH));  -- Additional 10-bit shift for AUIPC
+
+    shiftedAUIPC <= std_logic_vector(shift_left(signed(outAUIPC), 12));
 
     -- Output selection based on opcode
     output <= outItype  when (input(6 downto 0) = I_type_aImm_opcode or 
@@ -60,7 +62,7 @@ begin
               outSBtype when (input(6 downto 0) = SB_type_opcode) else
               outJtype  when (input(6 downto 0) = jal_opcode) else
               outUtype  when (input(6 downto 0) = lui_opcode) else
-              outAUIPC  when (input(6 downto 0) = auipc_opcode) else
+              shiftedAUIPC  when (input(6 downto 0) = auipc_opcode) else
               x"00000000";
            
 end architecture Behavioral;

@@ -11,14 +11,17 @@
 
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
 package RISCV_types is
-
+  -- Natural subtypes for array indexing
+  subtype t_idx_4 is natural range 0 to 3;
+  subtype t_idx_32 is natural range 0 to 31;
   -- Example Constants. Declare more as needed
 
   --General types
-  type t_bus_4x32 is array (3 downto 0) of std_logic_vector(31 downto 0);
-  type t_bus_32x32 is array (31 downto 0) of std_logic_vector(31 downto 0);
+  type t_bus_4x32 is array (t_idx_4) of std_logic_vector(31 downto 0);
+  type t_bus_32x32 is array (t_idx_32) of std_logic_vector(31 downto 0);
 
   -- Example record type. Declare whatever types you need here
   type control_t is record

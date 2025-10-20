@@ -40,7 +40,7 @@ architecture mixed of pcFetch is
       out_C	          : out std_logic);
     end component;
 
-  component nBit_Reg
+  component pc_Reg
     port(
       CLK 		        : in std_logic;
       RST 	    	    : in std_logic;
@@ -53,7 +53,6 @@ architecture mixed of pcFetch is
     signal nextPC, add4Out, addImmOut, pcOut, jumpAddress, pcJALR, shiftedAddend : std_logic_vector(WIDTH-1 downto 0);
     signal ground : std_logic;
     signal temp : unsigned(WIDTH-1 downto 0);
-    signal shift : unsigned(1 downto 0);
 
 begin
     programCounter  <= pcOut;
@@ -61,9 +60,7 @@ begin
     pcUp4 <= add4Out;
     pcUpImm <= addImmOut;
 
-    shift <= "10";
-
-    PC: nBit_Reg port map(
+    PC: pc_Reg port map(
       CLK     => clock,
       RST     => reset,
       wEnable => '1',
@@ -79,7 +76,7 @@ begin
     MUX_IMM: mux2t1_N port map(
 	    i_S     => conditionBJ,
       i_D0    => add4Out,
-      i_D1    => shiftedAddend,
+      i_D1    => addImmOut,
       o_O     => nextPC);
 
     MUX_PC: mux2t1_N port map(
@@ -103,7 +100,7 @@ begin
       out_C	  => ground);
 
       
-      temp <= shift_left(unsigned(addImmOut), to_integer(shift));
-      shiftedAddend <= std_logic_vector(temp);
+--      temp <= shift_left(unsigned(jumpAddress), 2);
+--      shiftedAddend <= std_logic_vector(temp);
 
 end mixed;

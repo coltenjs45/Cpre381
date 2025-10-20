@@ -154,7 +154,7 @@ entity ALUUnit is
             i_S  => flag_mux,
             o_Y => flag
         );
-        overflowFlag <= ovf;
+        overflowFlag <= '0';
         output_result <= finalResult;
     end structural;
 
