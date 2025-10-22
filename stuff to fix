@@ -1,13 +1,8 @@
-load byte
-load halfword
+
 shift left logical
-set less than
-set less than immidiate unsigned
 shift right arithmetic
 shift right arithmetic immidiate
 shift right logical
 shift right logical immidiate
-
-ask about overflow being ignored
 
 
