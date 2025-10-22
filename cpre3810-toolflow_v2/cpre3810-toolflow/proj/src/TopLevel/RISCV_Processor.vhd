@@ -64,9 +64,9 @@ architecture structure of RISCV_Processor is
     port(
           clk          : in std_logic;
           addr         : in std_logic_vector((ADDR_WIDTH-1) downto 0);
-          data         : in std_logic_vector((32-1) downto 0);
+          data         : in std_logic_vector((31) downto 0);
           we           : in std_logic := '1';
-          q            : out std_logic_vector((32 -1) downto 0));
+          q            : out std_logic_vector((31) downto 0));
     end component;
 
   -- TODO: You may add any additional signals or components your implementation 
@@ -202,34 +202,45 @@ component zero_extender is
         output    : out std_logic_vector(OUT_WIDTH-1 downto 0));
 end component;
 
+component memorySlicer is
+    port (
+        funct3    : in std_logic_vector(2 downto 0);
+        input     : in std_logic_vector(31 downto 0);
+        output    : out std_logic_vector(31 downto 0));
+end component;
+
   --Control Unit signals
   signal s_ALUsrc, s_MemToReg, s_Branch, s_Jump, s_Shift, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg : std_logic;
   signal s_ALUctrl : std_logic_vector(3 downto 0);
   signal s_ImmType, s_AndLink, s_FlagMux: std_logic_vector(1 downto 0);
 
   --Fetch Unit Signals
-  signal s_pcUp4, s_pcUpImm : std_logic_vector(32-1 downto 0);
+  signal s_pcUp4, s_pcUpImm : std_logic_vector(31 downto 0);
   signal s_branchFlags, s_branchLogic, s_BranchOrJump : std_logic;
 
   --Immediate Generator Signals
-  signal s_immediate : std_logic_vector(32-1 downto 0);
+  signal s_immediate : std_logic_vector(31 downto 0);
 
   --ALU Unit Signals
-  signal s_ALUresult, s_inputA, s_inputB : std_logic_vector(32-1 downto 0);
+  signal s_ALUresult, s_inputA, s_inputB : std_logic_vector(31 downto 0);
   signal s_flag, s_notFlag : std_logic;
 
   --Barrel Shifter Signals
-  signal s_BSresult : std_logic_vector(32-1 downto 0);
+  signal s_BSresult : std_logic_vector(31 downto 0);
 
   --Reg File Signals ***CHECK REQUIRED SIGNALS***
-  signal s_rOut2 : std_logic_vector(32-1 downto 0);
+  signal s_rOut2 : std_logic_vector(31 downto 0);
 
   --32x4t1 bus for WriteBack
   signal s_writeback : t_bus_4x32;
-  signal s_extFlag, s_CPUout : std_logic_vector(32-1 downto 0);
+  signal s_extFlag, s_CPUout : std_logic_vector(31 downto 0);
 
   -- BS or ALU mux
-  signal s_result : std_logic_vector(32-1 downto 0);
+  signal s_result : std_logic_vector(31 downto 0);
+
+  -- Memory Slicer
+  signal s_MemSlice : std_logic_vector(31 downto 0);
+
   -- ASSIGNMENTS
 begin
 
@@ -353,7 +364,7 @@ begin
 
   flagExtender : zero_extender
     port map(
-      input => s_flag,
+      input => s_branchFlags,
       output => s_extFlag);
 
   s_writeback(0) <= s_result;  -- ALU/BS mux output
@@ -370,7 +381,7 @@ begin
   MemOrCPUmux : mux2t1_N
     port map(
       i_S   => s_MemToReg,
-      i_D0  => s_DMemOut,
+      i_D0  => s_MemSlice,
       i_D1  => s_CPUout,
       o_O   => s_RegWrData); 
 
@@ -397,5 +408,12 @@ begin
       i_A => s_branchLogic,
       i_B => s_Jump,
       o_F => s_BranchOrJump);
+
+  memSlicer : memorySlicer
+    port map(
+      funct3 => s_Inst(14 downto 12),
+      input  => s_DMemOut,
+      output => s_MemSlice);
+    
 
 end structure;

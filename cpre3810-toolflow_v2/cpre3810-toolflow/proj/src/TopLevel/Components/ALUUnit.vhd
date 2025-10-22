@@ -44,6 +44,14 @@ entity ALUUnit is
         );
     end component;
 
+    component xorg2
+        port(
+            i_A   : in std_logic;
+            i_B   : in std_logic;
+            o_F   : out std_logic);
+    end component;
+        
+
     component or_32bit
         port(
             i_D0 : in std_logic_vector(WIDTH-1 downto 0);
@@ -88,7 +96,7 @@ entity ALUUnit is
     signal output_bus : t_bus_4x32;
     signal mux_control4t1, mux_control2t1  :std_logic_vector(1 downto 0);
     signal finalResult : std_logic_vector(WIDTH-1 downto 0);
-    signal neg, ovf, carry, zero : std_logic;
+    signal neg, ovf, carry, zero, slt_flag : std_logic;
 
     begin
         mux_control2t1 <= Alucontrol(1 downto 0);
@@ -120,6 +128,7 @@ entity ALUUnit is
         o_O => zero
         );
 
+
         addsub : nBit_ALU
         port map(
             nAdd_Sub     => Alucontrol(2), 
@@ -145,15 +154,23 @@ entity ALUUnit is
             o_output => finalResult
         );
 
+        slt_xor : xorg2
+        port map(
+            i_A => neg,
+            i_B => ovf,
+            o_F => slt_flag
+        );
+
         Flags_mux: mux4t1
         port map(
             i_D0 => neg,
-            i_D1 => ovf,
+            i_D1 => slt_flag,
             i_D2 => carry,
             i_D3 => zero,
             i_S  => flag_mux,
             o_Y => flag
         );
+
         overflowFlag <= '0';
         output_result <= finalResult;
     end structural;

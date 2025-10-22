@@ -120,13 +120,15 @@ architecture dataflow of controlUnit is
 ALUorImmJump <= '1' when(opcode = jalr_opcode) else
                 '0';
                 
-    FlagMux  <= "10" when(opcode = I_type_aImm_opcode and funct3 = "011") else -- SLTUI
+    FlagMux  <= "01" when(opcode = R_type_opcode and funct3 = "010") else -- SLT
+                "10" when(opcode = I_type_aImm_opcode and funct3 = "011") else -- SLTIU
                 "10" when(opcode = SB_type_opcode and (funct3 = "111" or funct3 = "110")) else
                 "11" when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "001")) else -- BEQ BNE
                 "00";
               --"00" when(((opcode = R_type_opcode or opcode = I_type_aImm_opcode) and funct3 = "010") or (opcode = SB_type_opcode and (funct3 /= "000" or funct3 /= "001"))) else -- SLT SLTI (SB except BEQ/BNE)
 
 FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 = "101" or funct3 = "110")) else
+                '1' when(opcode = I_type_aImm_opcode and funct3 = "011") else
                 '0';
               --'0' when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "100" or funct3 = "110")) else
 
