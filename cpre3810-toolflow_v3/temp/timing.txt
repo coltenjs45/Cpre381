@@ -1,0 +1,135 @@
+
+#
+# CprE 381 toolflow Timing dump
+#
+
+FMax: 25.43mhz Clk Constraint: 20.00ns Slack: -19.33ns
+
+The path is given below
+
+ ===================================================================
+ From Node    : pcFetch:FetchUnit|pc_Reg:PC|pc_dffg:\pc_Reg:9:pcDFFN|s_Q
+ To Node      : RegFile:Registers|nBit_Reg:\REG:4:REG|dffg:\nBit_Reg:31:DFFN|s_Q
+ Launch Clock : iCLK
+ Latch Clock  : iCLK
+ Data Arrival Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+      0.000      0.000           launch edge time
+      3.125      3.125  R        clock network delay
+      3.357      0.232     uTco  pcFetch:FetchUnit|pc_Reg:PC|pc_dffg:\pc_Reg:9:pcDFFN|s_Q
+      3.357      0.000 FF  CELL  FetchUnit|PC|\pc_Reg:9:pcDFFN|s_Q|q
+      3.745      0.388 FF    IC  s_IMemAddr[9]~2|datad
+      3.870      0.125 FF  CELL  s_IMemAddr[9]~2|combout
+      6.526      2.656 FF    IC  IMem|ram~47252|datad
+      6.676      0.150 FR  CELL  IMem|ram~47252|combout
+      6.915      0.239 RR    IC  IMem|ram~47253|dataa
+      7.332      0.417 RR  CELL  IMem|ram~47253|combout
+      9.167      1.835 RR    IC  IMem|ram~47254|datad
+      9.322      0.155 RR  CELL  IMem|ram~47254|combout
+      9.555      0.233 RR    IC  IMem|ram~47257|datab
+      9.933      0.378 RF  CELL  IMem|ram~47257|combout
+     10.202      0.269 FF    IC  IMem|ram~47258|datab
+     10.595      0.393 FF  CELL  IMem|ram~47258|combout
+     12.263      1.668 FF    IC  IMem|ram~47259|datac
+     12.544      0.281 FF  CELL  IMem|ram~47259|combout
+     12.821      0.277 FF    IC  IMem|ram~47302|dataa
+     13.225      0.404 FF  CELL  IMem|ram~47302|combout
+     13.457      0.232 FF    IC  IMem|ram~47814|datac
+     13.737      0.280 FF  CELL  IMem|ram~47814|combout
+     15.934      2.197 FF    IC  Registers|MUX2|Mux19~3|dataa
+     16.358      0.424 FF  CELL  Registers|MUX2|Mux19~3|combout
+     17.458      1.100 FF    IC  Registers|MUX2|Mux29~21|datab
+     17.808      0.350 FR  CELL  Registers|MUX2|Mux29~21|combout
+     18.012      0.204 RR    IC  Registers|MUX2|Mux29~22|datac
+     18.299      0.287 RR  CELL  Registers|MUX2|Mux29~22|combout
+     19.082      0.783 RR    IC  Registers|MUX2|Mux29~25|datac
+     19.369      0.287 RR  CELL  Registers|MUX2|Mux29~25|combout
+     19.775      0.406 RR    IC  InputBMux|\G_NBit_MUX:2:MUXI|OUTPUT~2|datac
+     20.062      0.287 RR  CELL  InputBMux|\G_NBit_MUX:2:MUXI|OUTPUT~2|combout
+     22.762      2.700 RR    IC  ALU|muxResult|Mux29~0|datab
+     23.196      0.434 RF  CELL  ALU|muxResult|Mux29~0|combout
+     23.473      0.277 FF    IC  ALU|muxResult|Mux29~1|dataa
+     23.885      0.412 FR  CELL  ALU|muxResult|Mux29~1|combout
+     24.167      0.282 RR    IC  FetchUnit|MUX_JUMP|\G_NBit_MUX:2:MUXI|OUTPUT~0|datad
+     24.322      0.155 RR  CELL  FetchUnit|MUX_JUMP|\G_NBit_MUX:2:MUXI|OUTPUT~0|combout
+     25.765      1.443 RR    IC  FetchUnit|AddImm|\nBit_Adder:2:ADDI|g_orCARRY|o_F~0|dataa
+     26.165      0.400 RR  CELL  FetchUnit|AddImm|\nBit_Adder:2:ADDI|g_orCARRY|o_F~0|combout
+     26.393      0.228 RR    IC  FetchUnit|AddImm|\nBit_Adder:3:ADDI|g_orCARRY|o_F~0|datad
+     26.548      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:3:ADDI|g_orCARRY|o_F~0|combout
+     26.774      0.226 RR    IC  FetchUnit|AddImm|\nBit_Adder:4:ADDI|g_orCARRY|o_F~0|datad
+     26.929      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:4:ADDI|g_orCARRY|o_F~0|combout
+     27.156      0.227 RR    IC  FetchUnit|AddImm|\nBit_Adder:5:ADDI|g_orCARRY|o_F~0|datac
+     27.443      0.287 RR  CELL  FetchUnit|AddImm|\nBit_Adder:5:ADDI|g_orCARRY|o_F~0|combout
+     27.671      0.228 RR    IC  FetchUnit|AddImm|\nBit_Adder:6:ADDI|g_orCARRY|o_F~0|datad
+     27.826      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:6:ADDI|g_orCARRY|o_F~0|combout
+     28.053      0.227 RR    IC  FetchUnit|AddImm|\nBit_Adder:7:ADDI|g_orCARRY|o_F~0|datad
+     28.208      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:7:ADDI|g_orCARRY|o_F~0|combout
+     28.435      0.227 RR    IC  FetchUnit|AddImm|\nBit_Adder:8:ADDI|g_orCARRY|o_F~0|datad
+     28.590      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:8:ADDI|g_orCARRY|o_F~0|combout
+     28.996      0.406 RR    IC  FetchUnit|AddImm|\nBit_Adder:9:ADDI|g_orCARRY|o_F~0|datad
+     29.151      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:9:ADDI|g_orCARRY|o_F~0|combout
+     29.851      0.700 RR    IC  FetchUnit|AddImm|\nBit_Adder:10:ADDI|g_orCARRY|o_F~0|datad
+     30.006      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:10:ADDI|g_orCARRY|o_F~0|combout
+     30.233      0.227 RR    IC  FetchUnit|AddImm|\nBit_Adder:11:ADDI|g_orCARRY|o_F~0|datad
+     30.388      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:11:ADDI|g_orCARRY|o_F~0|combout
+     30.615      0.227 RR    IC  FetchUnit|AddImm|\nBit_Adder:12:ADDI|g_orCARRY|o_F~0|datad
+     30.770      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:12:ADDI|g_orCARRY|o_F~0|combout
+     30.995      0.225 RR    IC  FetchUnit|AddImm|\nBit_Adder:13:ADDI|g_orCARRY|o_F~0|datac
+     31.282      0.287 RR  CELL  FetchUnit|AddImm|\nBit_Adder:13:ADDI|g_orCARRY|o_F~0|combout
+     31.511      0.229 RR    IC  FetchUnit|AddImm|\nBit_Adder:14:ADDI|g_orCARRY|o_F~0|datad
+     31.666      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:14:ADDI|g_orCARRY|o_F~0|combout
+     31.896      0.230 RR    IC  FetchUnit|AddImm|\nBit_Adder:15:ADDI|g_orCARRY|o_F~0|datad
+     32.051      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:15:ADDI|g_orCARRY|o_F~0|combout
+     32.280      0.229 RR    IC  FetchUnit|AddImm|\nBit_Adder:16:ADDI|g_orCARRY|o_F~0|datad
+     32.435      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:16:ADDI|g_orCARRY|o_F~0|combout
+     32.661      0.226 RR    IC  FetchUnit|AddImm|\nBit_Adder:17:ADDI|g_orCARRY|o_F~0|datad
+     32.816      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:17:ADDI|g_orCARRY|o_F~0|combout
+     33.043      0.227 RR    IC  FetchUnit|AddImm|\nBit_Adder:18:ADDI|g_orCARRY|o_F~0|datad
+     33.198      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:18:ADDI|g_orCARRY|o_F~0|combout
+     33.409      0.211 RR    IC  FetchUnit|AddImm|\nBit_Adder:19:ADDI|g_orCARRY|o_F~0|datad
+     33.564      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:19:ADDI|g_orCARRY|o_F~0|combout
+     33.975      0.411 RR    IC  FetchUnit|AddImm|\nBit_Adder:20:ADDI|g_orCARRY|o_F~0|datad
+     34.130      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:20:ADDI|g_orCARRY|o_F~0|combout
+     34.342      0.212 RR    IC  FetchUnit|AddImm|\nBit_Adder:21:ADDI|g_orCARRY|o_F~0|datad
+     34.497      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:21:ADDI|g_orCARRY|o_F~0|combout
+     34.708      0.211 RR    IC  FetchUnit|AddImm|\nBit_Adder:22:ADDI|g_orCARRY|o_F~0|datad
+     34.863      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:22:ADDI|g_orCARRY|o_F~0|combout
+     35.276      0.413 RR    IC  FetchUnit|AddImm|\nBit_Adder:23:ADDI|g_orCARRY|o_F~0|datac
+     35.563      0.287 RR  CELL  FetchUnit|AddImm|\nBit_Adder:23:ADDI|g_orCARRY|o_F~0|combout
+     35.776      0.213 RR    IC  FetchUnit|AddImm|\nBit_Adder:24:ADDI|g_orCARRY|o_F~0|datac
+     36.063      0.287 RR  CELL  FetchUnit|AddImm|\nBit_Adder:24:ADDI|g_orCARRY|o_F~0|combout
+     36.272      0.209 RR    IC  FetchUnit|AddImm|\nBit_Adder:25:ADDI|g_orCARRY|o_F~0|datad
+     36.427      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:25:ADDI|g_orCARRY|o_F~0|combout
+     36.638      0.211 RR    IC  FetchUnit|AddImm|\nBit_Adder:26:ADDI|g_orCARRY|o_F~0|datad
+     36.793      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:26:ADDI|g_orCARRY|o_F~0|combout
+     37.003      0.210 RR    IC  FetchUnit|AddImm|\nBit_Adder:27:ADDI|g_orCARRY|o_F~0|datac
+     37.290      0.287 RR  CELL  FetchUnit|AddImm|\nBit_Adder:27:ADDI|g_orCARRY|o_F~0|combout
+     37.499      0.209 RR    IC  FetchUnit|AddImm|\nBit_Adder:28:ADDI|g_orCARRY|o_F~0|datac
+     37.786      0.287 RR  CELL  FetchUnit|AddImm|\nBit_Adder:28:ADDI|g_orCARRY|o_F~0|combout
+     37.998      0.212 RR    IC  FetchUnit|AddImm|\nBit_Adder:29:ADDI|g_orCARRY|o_F~0|datad
+     38.153      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:29:ADDI|g_orCARRY|o_F~0|combout
+     38.381      0.228 RR    IC  FetchUnit|AddImm|\nBit_Adder:30:ADDI|g_orCARRY|o_F~0|datad
+     38.536      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:30:ADDI|g_orCARRY|o_F~0|combout
+     38.739      0.203 RR    IC  FetchUnit|AddImm|\nBit_Adder:31:ADDI|g_xorSUM|o_F|datad
+     38.894      0.155 RR  CELL  FetchUnit|AddImm|\nBit_Adder:31:ADDI|g_xorSUM|o_F|combout
+     39.648      0.754 RR    IC  MemOrCPUmux|\G_NBit_MUX:31:MUXI|OUTPUT~2|datad
+     39.787      0.139 RF  CELL  MemOrCPUmux|\G_NBit_MUX:31:MUXI|OUTPUT~2|combout
+     40.014      0.227 FF    IC  MemOrCPUmux|\G_NBit_MUX:31:MUXI|OUTPUT~3|datad
+     40.164      0.150 FR  CELL  MemOrCPUmux|\G_NBit_MUX:31:MUXI|OUTPUT~3|combout
+     40.369      0.205 RR    IC  MemOrCPUmux|\G_NBit_MUX:31:MUXI|OUTPUT~5|datad
+     40.524      0.155 RR  CELL  MemOrCPUmux|\G_NBit_MUX:31:MUXI|OUTPUT~5|combout
+     42.326      1.802 RR    IC  Registers|\REG:4:REG|\nBit_Reg:31:DFFN|s_Q|asdata
+     42.732      0.406 RR  CELL  RegFile:Registers|nBit_Reg:\REG:4:REG|dffg:\nBit_Reg:31:DFFN|s_Q
+ Data Required Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+     20.000     20.000           latch edge time
+     23.399      3.399  R        clock network delay
+     23.407      0.008           clock pessimism removed
+     23.387     -0.020           clock uncertainty
+     23.405      0.018     uTsu  RegFile:Registers|nBit_Reg:\REG:4:REG|dffg:\nBit_Reg:31:DFFN|s_Q
+ Data Arrival Time  :    42.732
+ Data Required Time :    23.405
+ Slack              :   -19.327 (VIOLATED)
+ ===================================================================
