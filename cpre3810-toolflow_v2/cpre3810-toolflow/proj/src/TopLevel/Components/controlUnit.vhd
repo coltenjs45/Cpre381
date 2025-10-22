@@ -135,12 +135,12 @@ FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 =
     JumpWReg <= '1' when(opcode = jalr_opcode) else
                 '0';
     
-    Shift    <= '1' when(opcode = I_type_load_opcode or opcode = S_type_opcode) else -- Load and Store
-                '1' when(opcode = R_type_opcode and (funct3 = "001" or funct3 = "010" or funct3 = "011")) else -- Register shift           
-                '1' when(opcode = I_type_aImm_opcode and (funct3 = "001" or funct3 = "010" or funct3 = "011")) else --Immediate shift
+    Shift    <= '1' when(opcode = R_type_opcode and (funct3 = "001" or funct3 = "101")) else -- Register shift           
+                '1' when(opcode = I_type_aImm_opcode and (funct3 = "001" or funct3 = "101")) else --Immediate shift
                 '1' when(opcode = lui_opcode) else
                 '0';
 
   HaltSignal <= '1' when(opcode = halt_opcode) else
                 '0';
+
 end dataflow;

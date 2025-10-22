@@ -99,14 +99,12 @@ architecture structure of RISCV_Processor is
       flag : out std_logic);
   end component;
 
-  component BarrelShifter is
-    generic (WIDTH : integer := 32);
-      port(
-      input           : in std_logic_vector(WIDTH-1 downto 0);
-      ALUinput        : in std_logic_vector(WIDTH-1 downto 0);
-      shiftAmnt       : in std_logic_vector(WIDTH-1 downto 0);
-      control         : in std_logic_vector(3 downto 0);
-      output          : out std_logic_vector(WIDTH-1 downto 0));
+  component barrel_shifter is
+    port (
+      data_in  : in  std_logic_vector(31 downto 0);
+      shamt    : in  std_logic_vector(4 downto 0);
+      op       : in  std_logic_vector(1 downto 0);
+      data_out : out std_logic_vector(31 downto 0));
   end component;
 
   component controlUnit is
@@ -236,7 +234,7 @@ end component;
   signal s_extFlag, s_CPUout : std_logic_vector(31 downto 0);
 
   -- BS or ALU mux
-  signal s_result : std_logic_vector(31 downto 0);
+  signal s_result, s_barrelInput : std_logic_vector(31 downto 0);
 
   -- Memory Slicer
   signal s_MemSlice : std_logic_vector(31 downto 0);
@@ -322,15 +320,21 @@ begin
       flag          => s_flag);
 
   s_DMemAddr <= s_ALUresult;
-  oALUOut <= s_ALUresult;
+  oALUOut <= s_result;
 
-  Shifter : barrelShifter
+  lui_mux : mux2t1_N
+    port map(
+      i_S  => s_ALUctrl(3),
+      i_D0 => s_inputA,
+      i_D1 => s_immediate,
+      o_O  => s_barrelInput);
+
+  Shifter : barrel_shifter
     port map (
-      input       => s_inputA,
-      ALUinput    => s_ALUresult,
-      shiftAmnt   => s_immediate,
-      control     => s_ALUctrl,
-      output      => s_BSresult);
+      data_in  => s_barrelInput,
+      shamt    => s_inputB(4 downto 0),
+      op       => s_ALUctrl(1 downto 0),
+      data_out => s_BSresult);
 
   s_RegWrAddr <= s_Inst(11 downto 7);
 
