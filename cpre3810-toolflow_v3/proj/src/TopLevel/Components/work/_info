@@ -1,0 +1,1569 @@
+m255
+K4
+z2
+!s11e vcom 2025.1_2 2025.04, Apr  7 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components
+Eadder
+Z1 w1760723873
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 45
+R0
+Z5 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/Adder.vhd
+Z6 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/Adder.vhd
+l0
+L26 1
+VLknc4o4UkAU_gj@cNXj1F2
+!s100 Lmgi1RflXM7m5]3Bj_9<F2
+Z7 OL;C;2025.1_2;82
+32
+Z8 !s110 1761341626
+!i10b 1
+Z9 !s108 1761341626.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/Adder.vhd|
+Z11 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/Adder.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 Lknc4o4UkAU_gj@cNXj1F2
+!i122 45
+l61
+L36 54
+V>i6l^OLAL^?]>T<fSKOCJ1
+!s100 `:Ez5O?>[352XOSOPK9^H1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ealuunit
+Z14 w1761153590
+Z15 DPx4 work 11 riscv_types 0 22 HCD:32F]:05OMYOQZ5gDe1
+R2
+R3
+R4
+!i122 81
+R0
+Z16 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/ALUUnit.vhd
+Z17 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/ALUUnit.vhd
+l0
+L6 1
+VVhkhLGgFoX3]LmM?I>W@n0
+!s100 P[9NIGDD]FXZgHk9T99eQ0
+R7
+32
+Z18 !s110 1761341729
+!i10b 1
+Z19 !s108 1761341728.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/ALUUnit.vhd|
+Z21 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/ALUUnit.vhd|
+!i113 0
+R12
+R13
+Astructural
+R15
+R2
+R3
+R4
+DEx4 work 7 aluunit 0 22 VhkhLGgFoX3]LmM?I>W@n0
+!i122 81
+l101
+L19 158
+V?X0;f<k4JANMmAzHOF3SZ1
+!s100 h?ifXJMeFkJ7MzOMfP:C[3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R12
+R13
+Eand_32bit
+R1
+R3
+R4
+!i122 47
+R0
+Z22 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/and_32bit.vhd
+Z23 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/and_32bit.vhd
+l0
+L4 1
+VmXR^lB9Gld=8kmRob]nF`2
+!s100 4;RVRdO5UM9[mAAzVNKU51
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/and_32bit.vhd|
+Z25 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/and_32bit.vhd|
+!i113 0
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 9 and_32bit 0 22 mXR^lB9Gld=8kmRob]nF`2
+!i122 47
+l21
+Z26 L14 17
+VeZmP0<DS0b;T:[5]>eX4Y1
+!s100 _:l;K6J038GmdEc:c4ajk2
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 0
+R12
+R13
+Eandg2
+R1
+R3
+R4
+!i122 48
+R0
+Z27 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/andg2.vhd
+Z28 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/andg2.vhd
+l0
+Z29 L23 1
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R7
+32
+R8
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/andg2.vhd|
+Z31 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/andg2.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+!i122 48
+l32
+Z32 L31 6
+VJVOzCk?IH:iJ5bCRU`CK13
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R7
+32
+R8
+!i10b 1
+R9
+R30
+R31
+!i113 0
+R12
+R13
+Ebarrel_shifter
+Z33 w1761108839
+R15
+R2
+R3
+R4
+!i122 49
+R0
+Z34 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/barrel_shifter.vhd
+Z35 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/barrel_shifter.vhd
+l0
+L6 1
+VfJ]SaiWVU]=eeF@@EA?Qm0
+!s100 lD0n^0=6=9ZLA^P9nWV1_3
+R7
+32
+R8
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/barrel_shifter.vhd|
+Z37 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/barrel_shifter.vhd|
+!i113 0
+R12
+R13
+Astructural
+R15
+R2
+R3
+R4
+DEx4 work 14 barrel_shifter 0 22 fJ]SaiWVU]=eeF@@EA?Qm0
+!i122 49
+l58
+L15 153
+V8MLBFz;JTY]iJQAD8Jo^72
+!s100 IEdK34JkGBPEnZ6lS_E^?3
+R7
+32
+R8
+!i10b 1
+R9
+R36
+R37
+!i113 0
+R12
+R13
+Econtrolunit
+R33
+R15
+R2
+R3
+R4
+!i122 50
+R0
+Z38 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/controlUnit.vhd
+Z39 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/controlUnit.vhd
+l0
+L6 1
+VRX<`HnD@10TmUSfc86EYP1
+!s100 IZR[EH_5j;hIija6QiDe@1
+R7
+32
+R8
+!i10b 1
+R9
+Z40 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/controlUnit.vhd|
+Z41 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/controlUnit.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R15
+R2
+R3
+R4
+DEx4 work 11 controlunit 0 22 RX<`HnD@10TmUSfc86EYP1
+!i122 50
+l49
+L31 116
+V4`l72YbQz@JDf@dYa@PkB1
+!s100 SNZOOnbg9[NCUzV1YnV0e2
+R7
+32
+R8
+!i10b 1
+R9
+R40
+R41
+!i113 0
+R12
+R13
+Edecoder5t32
+R1
+R2
+R3
+R4
+!i122 51
+R0
+Z42 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/decoder5t32.vhd
+Z43 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/decoder5t32.vhd
+l0
+L7 1
+VUhEFLQa@9YZAAn01ahYXE1
+!s100 ;Pk[ic_n>_V4`V7FYzeYl2
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/decoder5t32.vhd|
+Z45 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/decoder5t32.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 11 decoder5t32 0 22 UhEFLQa@9YZAAn01ahYXE1
+!i122 51
+l17
+L16 12
+VQ6Z@<YiOQUkY5XQB76:fb2
+!s100 8D>27:4km0HMbfTdkk=Q>0
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 0
+R12
+R13
+Edffg
+R1
+R3
+R4
+!i122 52
+R0
+Z46 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/dffg.vhd
+Z47 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/dffg.vhd
+l0
+R29
+V<]b9Vm3e`GAN;Cnj:57L>2
+!s100 T4gcXQGMCgKJbn8XhBM;b0
+R7
+32
+R8
+!i10b 1
+R9
+Z48 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/dffg.vhd|
+Z49 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/dffg.vhd|
+!i113 0
+R12
+R13
+Amixed
+R3
+R4
+DEx4 work 4 dffg 0 22 <]b9Vm3e`GAN;Cnj:57L>2
+!i122 52
+l37
+L33 29
+V`CHXPZKVEek`3gFWL_zFm2
+!s100 iOdlTUid@@]UimFK_53^C1
+R7
+32
+R8
+!i10b 1
+R9
+R48
+R49
+!i113 0
+R12
+R13
+Eimm_generator
+Z50 w1760921703
+R15
+R2
+R3
+R4
+!i122 53
+R0
+Z51 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/imm_generator.vhd
+Z52 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/imm_generator.vhd
+l0
+L6 1
+V?[e5DdUzcR340S`S>J46g3
+!s100 3JfYJgA:TIULY<1zBC1hi1
+R7
+32
+Z53 !s110 1761341627
+!i10b 1
+Z54 !s108 1761341627.000000
+Z55 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/imm_generator.vhd|
+Z56 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/imm_generator.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R15
+R2
+R3
+R4
+DEx4 work 13 imm_generator 0 22 ?[e5DdUzcR340S`S>J46g3
+!i122 53
+l31
+L13 56
+VV@GG=5o<Zg`n;h0MWnCcj3
+!s100 B=zFfT@eoQTfX:VBXcnTM0
+R7
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R12
+R13
+Einvg
+R1
+R3
+R4
+!i122 54
+R0
+Z57 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/invg.vhd
+Z58 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/invg.vhd
+l0
+R29
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R7
+32
+R53
+!i10b 1
+R54
+Z59 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/invg.vhd|
+Z60 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/invg.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 54
+l31
+L30 6
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R7
+32
+R53
+!i10b 1
+R54
+R59
+R60
+!i113 0
+R12
+R13
+Emem
+R1
+R2
+R3
+R4
+!i122 43
+R0
+Z61 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/mem.vhd
+Z62 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/mem.vhd
+l0
+L8 1
+Vl8<PCiN;cU;BN3M[A<;IE3
+!s100 fRlcaiTJZJ1H;nZh;8=LI3
+R7
+32
+Z63 !s110 1761341606
+!i10b 1
+Z64 !s108 1761341606.000000
+Z65 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/mem.vhd|
+Z66 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/mem.vhd|
+!i113 0
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 3 mem 0 22 l8<PCiN;cU;BN3M[A<;IE3
+!i122 43
+l37
+L27 24
+V`6^NbPhKNmSBg:`:Un8;g3
+!s100 OI8_3><BhDkT3l3n8`OXd3
+R7
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 0
+R12
+R13
+Ememoryslicer
+R33
+R2
+R3
+R4
+!i122 55
+R0
+Z67 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/memorySlicer.vhd
+Z68 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/memorySlicer.vhd
+l0
+L5 1
+V1Chh9PC9dH9?:kSRlhVHS2
+!s100 6ENcV;0eh?XYfh4g??h@G3
+R7
+32
+R53
+!i10b 1
+R54
+Z69 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/memorySlicer.vhd|
+Z70 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/memorySlicer.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 12 memoryslicer 0 22 1Chh9PC9dH9?:kSRlhVHS2
+!i122 55
+l18
+L13 25
+Vi3dUC:n8=82`zRXidAoEh1
+!s100 QM9S:aeYcEmg5iVL=dYXh3
+R7
+32
+R53
+!i10b 1
+R54
+R69
+R70
+!i113 0
+R12
+R13
+Emux2t1_2
+R1
+R3
+R4
+!i122 57
+R0
+Z71 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_2.vhd
+Z72 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_2.vhd
+l0
+L4 1
+V[`OcCWOUGAiAEI:5iWYim2
+!s100 Q1^N`WMNMgA?o0kfCbbNb0
+R7
+32
+R53
+!i10b 1
+R54
+Z73 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_2.vhd|
+Z74 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_2.vhd|
+!i113 0
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 mux2t1_2 0 22 [`OcCWOUGAiAEI:5iWYim2
+!i122 57
+l22
+L13 21
+VK9Vgce[B1KzgcfOR;kJa^0
+!s100 9[JFPUGGkVo=cT>1C?PcE3
+R7
+32
+R53
+!i10b 1
+R54
+R73
+R74
+!i113 0
+R12
+R13
+Emux2t1_dataflow
+R1
+R2
+R3
+R4
+!i122 56
+R0
+Z75 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_dataflow.vhd
+Z76 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_dataflow.vhd
+l0
+Z77 L21 1
+V73Sbekc4EWSlU8=8?d1Re2
+!s100 X>gSf41k^_EVHl]ZL_`]W3
+R7
+32
+R53
+!i10b 1
+R54
+Z78 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_dataflow.vhd|
+Z79 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_dataflow.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R2
+R3
+R4
+DEx4 work 15 mux2t1_dataflow 0 22 73Sbekc4EWSlU8=8?d1Re2
+!i122 56
+l32
+L30 9
+VFdKYIbjkTRWY9WVYe97i93
+!s100 PkIUa9ddNL2O=aXHM1fME2
+R7
+32
+R53
+!i10b 1
+R54
+R78
+R79
+!i113 0
+R12
+R13
+Emux2t1_n
+R1
+R3
+R4
+!i122 58
+R0
+Z80 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_N.vhd
+Z81 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_N.vhd
+l0
+R77
+VFY=Tc@WO1TP4Z42>dBMei3
+!s100 BKZeKCAB2i6lge3>7TA3d3
+R7
+32
+R53
+!i10b 1
+R54
+Z82 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_N.vhd|
+Z83 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux2t1_N.vhd|
+!i113 0
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 mux2t1_n 0 22 FY=Tc@WO1TP4Z42>dBMei3
+!i122 58
+l39
+L30 21
+Vfa@I1n5zQ83oPc4W?BSIG3
+!s100 ;FfMW7ZlfN[z_1MlTbAaD0
+R7
+32
+R53
+!i10b 1
+R54
+R82
+R83
+!i113 0
+R12
+R13
+Emux32t1
+R1
+R15
+R2
+R3
+R4
+!i122 60
+R0
+Z84 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32t1.vhd
+Z85 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32t1.vhd
+l0
+L7 1
+VAVRK>=TQc@`F?SfM>m7a;0
+!s100 XT[V>=ZmkNcGaJiT7_Q<;0
+R7
+32
+R53
+!i10b 1
+R54
+Z86 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32t1.vhd|
+Z87 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32t1.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R15
+R2
+R3
+R4
+DEx4 work 7 mux32t1 0 22 AVRK>=TQc@`F?SfM>m7a;0
+!i122 60
+l17
+Z88 L15 6
+VO>^Ed4IWc0PjE7XZi^ZMZ2
+!s100 cF[0`bfRTBNcWYK^?>hQT2
+R7
+32
+R53
+!i10b 1
+R54
+R86
+R87
+!i113 0
+R12
+R13
+Emux32x4t1
+Z89 w1760724746
+R15
+R2
+R3
+R4
+!i122 61
+R0
+Z90 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32x4t1.vhd
+Z91 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32x4t1.vhd
+l0
+L7 1
+V@PdYP18>Z_F7WKRj6ZiDV1
+!s100 W7GdFbTAjC3S[_lJlBzaQ0
+R7
+32
+R53
+!i10b 1
+R54
+Z92 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32x4t1.vhd|
+Z93 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux32x4t1.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R15
+R2
+R3
+R4
+DEx4 work 9 mux32x4t1 0 22 @PdYP18>Z_F7WKRj6ZiDV1
+!i122 61
+l17
+R88
+Volf^NFdB=98db8RRgKGEJ3
+!s100 >KBaEQEo?4`lJA3V7bVUj3
+R7
+32
+R53
+!i10b 1
+R54
+R92
+R93
+!i113 0
+R12
+R13
+Emux4t1
+R1
+R3
+R4
+!i122 59
+R0
+Z94 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux4t1 .vhd
+Z95 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux4t1 .vhd
+l0
+L4 1
+VcbY<4dP:O;P3K1O[RcBnm2
+!s100 GoRU;DFdSNgPBQNkV:gI;2
+R7
+32
+R53
+!i10b 1
+R54
+Z96 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux4t1 .vhd|
+Z97 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/mux4t1 .vhd|
+!i113 0
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 6 mux4t1 0 22 cbY<4dP:O;P3K1O[RcBnm2
+!i122 59
+l40
+L15 48
+V:C`OIjz9:QPGFKR4oF_gO2
+!s100 YM>eL;`lFJ4^EJPc9UYFY1
+R7
+32
+R53
+!i10b 1
+R54
+R96
+R97
+!i113 0
+R12
+R13
+Enbit_adder
+R1
+R2
+R3
+R4
+!i122 63
+R0
+Z98 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Adder.vhd
+Z99 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Adder.vhd
+l0
+L6 1
+V6za:B3HJoj7PZSbAP7IeL2
+!s100 ON78HL1;QAK>NN4R^ge<Z2
+R7
+32
+R53
+!i10b 1
+R54
+Z100 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Adder.vhd|
+Z101 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Adder.vhd|
+!i113 0
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 10 nbit_adder 0 22 6za:B3HJoj7PZSbAP7IeL2
+!i122 63
+l31
+L18 29
+VIEkzZ48c0SF]N3=DIo3Lk2
+!s100 aW@`22z0cjnI:EnZ?@=KY0
+R7
+32
+R53
+!i10b 1
+R54
+R100
+R101
+!i113 0
+R12
+R13
+Enbit_alu
+R50
+R2
+R3
+R4
+!i122 62
+R0
+Z102 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_ALU.vhd
+Z103 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_ALU.vhd
+l0
+L5 1
+VX;oh^n[b^0Z3^k19`HcQM2
+!s100 2zfi7Nk6VWM83418Ui38A0
+R7
+32
+R53
+!i10b 1
+R54
+Z104 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_ALU.vhd|
+Z105 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_ALU.vhd|
+!i113 0
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 8 nbit_alu 0 22 X;oh^n[b^0Z3^k19`HcQM2
+!i122 62
+l46
+L19 62
+Vm4IZMa:Tcmmha^4T?8eM60
+!s100 4iH`dT9Yo0=lV@_V4k@F@1
+R7
+32
+R53
+!i10b 1
+R54
+R104
+R105
+!i113 0
+R12
+R13
+Enbit_reg
+R1
+R2
+R3
+R4
+!i122 64
+R0
+Z106 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Reg.vhd
+Z107 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Reg.vhd
+l0
+L6 1
+V1@nM[eQHhSUSo2Y8TgP:11
+!s100 0T;kSC`^6XYl9`M:<>A;W3
+R7
+32
+R53
+!i10b 1
+R54
+Z108 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Reg.vhd|
+Z109 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nBit_Reg.vhd|
+!i113 0
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 8 nbit_reg 0 22 1@nM[eQHhSUSo2Y8TgP:11
+!i122 64
+l28
+L18 24
+V1SClfbORaf3[Eehi7LeVB3
+!s100 E?UL:bhBgLJbR>knfb;[i1
+R7
+32
+R53
+!i10b 1
+R54
+R108
+R109
+!i113 0
+R12
+R13
+Enor_32t1bit
+R1
+R3
+R4
+!i122 65
+R0
+Z110 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nor_32t1bit.vhd
+Z111 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nor_32t1bit.vhd
+l0
+L4 1
+VG8:U?SIC`fK[F=bQ8IXSi2
+!s100 LFNooHZ54=d9BhCXR1^cI1
+R7
+32
+R53
+!i10b 1
+R54
+Z112 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nor_32t1bit.vhd|
+Z113 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/nor_32t1bit.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 11 nor_32t1bit 0 22 G8:U?SIC`fK[F=bQ8IXSi2
+!i122 65
+l13
+L12 14
+V5CQKgO6lffJ`389TWeG=i1
+!s100 L`>4<SRk0N=CJO^nXh2;91
+R7
+32
+R53
+!i10b 1
+R54
+R112
+R113
+!i113 0
+R12
+R13
+Enorg2
+R1
+R3
+R4
+!i122 66
+R0
+Z114 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/norg2.vhd
+Z115 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/norg2.vhd
+l0
+L4 1
+VEgnOn<lZRY6FeKTSkE]4k1
+!s100 S[LHAcjc5Ro_C?>F]eTLU3
+R7
+32
+R53
+!i10b 1
+R54
+Z116 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/norg2.vhd|
+Z117 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/norg2.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 5 norg2 0 22 EgnOn<lZRY6FeKTSkE]4k1
+!i122 66
+l13
+L12 6
+V7gG1TV23Y6JeT`E3@=ag>2
+!s100 XdWzo:goeGHS8:>jgS05H3
+R7
+32
+R53
+!i10b 1
+R54
+R116
+R117
+!i113 0
+R12
+R13
+Eonescomp
+R50
+R2
+R3
+R4
+!i122 67
+R0
+Z118 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/OnesComp.vhd
+Z119 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/OnesComp.vhd
+l0
+L6 1
+V_RFM9b5PPgF_[?gE`>kH60
+!s100 j;S`Ia8XB28FIaEc=odgN0
+R7
+32
+R53
+!i10b 1
+R54
+Z120 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/OnesComp.vhd|
+Z121 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/OnesComp.vhd|
+!i113 0
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 8 onescomp 0 22 _RFM9b5PPgF_[?gE`>kH60
+!i122 67
+l22
+L15 18
+VmDSEPiEVicTod1gFG3CE;0
+!s100 HzdU6W:b:Z3JL4C=9]4Xz2
+R7
+32
+R53
+!i10b 1
+R54
+R120
+R121
+!i113 0
+R12
+R13
+Eor_32bit
+R1
+R3
+R4
+!i122 68
+R0
+Z122 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/or_32bit.vhd
+Z123 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/or_32bit.vhd
+l0
+L4 1
+V`jT<=k93;fkB@<5f4;Bmm0
+!s100 9ae8EDI4m^[AhgLVKj[>j2
+R7
+32
+R53
+!i10b 1
+R54
+Z124 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/or_32bit.vhd|
+Z125 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/or_32bit.vhd|
+!i113 0
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 or_32bit 0 22 `jT<=k93;fkB@<5f4;Bmm0
+!i122 68
+l21
+R26
+VO6FZ1[:fgc0Pk7T=8I=Pz0
+!s100 n_J=@e6iS7okMIz0NzH>M2
+R7
+32
+R53
+!i10b 1
+R54
+R124
+R125
+!i113 0
+R12
+R13
+Eorg2
+R1
+R3
+R4
+!i122 69
+R0
+Z126 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/org2.vhd
+Z127 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/org2.vhd
+l0
+R29
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R7
+32
+R53
+!i10b 1
+R54
+Z128 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/org2.vhd|
+Z129 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/org2.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+!i122 69
+l32
+R32
+VNHGn>Kh:]BEh4o]ImiG<d3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R7
+32
+R53
+!i10b 1
+R54
+R128
+R129
+!i113 0
+R12
+R13
+Epc_dffg
+R50
+R3
+R4
+!i122 70
+R0
+Z130 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_dffg.vhd
+Z131 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_dffg.vhd
+l0
+L4 1
+VgN5;c4LhlUB^B?MP5EW4f1
+!s100 NgJM4RKF`VN=1;na1;<]C0
+R7
+32
+R53
+!i10b 1
+R54
+Z132 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_dffg.vhd|
+Z133 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_dffg.vhd|
+!i113 0
+R12
+R13
+Amixed
+R3
+R4
+DEx4 work 7 pc_dffg 0 22 gN5;c4LhlUB^B?MP5EW4f1
+!i122 70
+l19
+L15 29
+VT4<jnS5Zkod`KP0UB;ed=1
+!s100 b[WfILX5ggnFikcQ1lCQc1
+R7
+32
+R53
+!i10b 1
+R54
+R132
+R133
+!i113 0
+R12
+R13
+Epc_reg
+R50
+R2
+R3
+R4
+!i122 71
+R0
+Z134 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_Reg.vhd
+Z135 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_Reg.vhd
+l0
+L5 1
+V9I=9V8>_Wg;<W6UMBkgZm0
+!s100 W>2f6kV[ig0CG10z>ca7C3
+R7
+32
+R53
+!i10b 1
+R54
+Z136 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_Reg.vhd|
+Z137 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pc_Reg.vhd|
+!i113 0
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 6 pc_reg 0 22 9I=9V8>_Wg;<W6UMBkgZm0
+!i122 71
+l28
+L14 29
+VdjNfR8@>YGUF1WW8DlM262
+!s100 i44kD6RRkSPzg]h_J2Q``2
+R7
+32
+R53
+!i10b 1
+R54
+R136
+R137
+!i113 0
+R12
+R13
+Epcfetch
+R50
+R15
+R2
+R3
+R4
+!i122 72
+R0
+Z138 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pcFetch.vhd
+Z139 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pcFetch.vhd
+l0
+L6 1
+VE?3ngm^Ki_TzC=]b=462A2
+!s100 F;;R6iXF1k8c78?0cBSd[2
+R7
+32
+R53
+!i10b 1
+R54
+Z140 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pcFetch.vhd|
+Z141 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/pcFetch.vhd|
+!i113 0
+R12
+R13
+Amixed
+R15
+R2
+R3
+R4
+DEx4 work 7 pcfetch 0 22 E?3ngm^Ki_TzC=]b=462A2
+!i122 72
+l57
+L24 83
+VbZzfDhM:g6LPmhl7<RSi@3
+!s100 ]Q5=Difhh1UoC=n?1XlQI3
+R7
+32
+R53
+!i10b 1
+R54
+R140
+R141
+!i113 0
+R12
+R13
+Eregfile
+Z142 w1761154317
+R15
+R2
+R3
+R4
+!i122 73
+R0
+Z143 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/RegFile.vhd
+Z144 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/RegFile.vhd
+l0
+L6 1
+VBcbE3deo_Q@c4PlIM^mmK2
+!s100 3D8gPXXeNY9CJ23_IHO`D1
+R7
+32
+Z145 !s110 1761341628
+!i10b 1
+Z146 !s108 1761341628.000000
+Z147 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/RegFile.vhd|
+Z148 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/RegFile.vhd|
+!i113 0
+R12
+R13
+Astructure
+R15
+R2
+R3
+R4
+DEx4 work 7 regfile 0 22 BcbE3deo_Q@c4PlIM^mmK2
+!i122 73
+l47
+L22 61
+V?VfIKj7@RoMjMK:4f^G383
+!s100 T2Z[G:SF54eIT4UIY?H=41
+R7
+32
+R145
+!i10b 1
+R146
+R147
+R148
+!i113 0
+R12
+R13
+Eriscv_processor
+Z149 w1761153883
+R15
+R3
+R4
+!i122 44
+R0
+Z150 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/RISCV_Processor.vhd
+Z151 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/RISCV_Processor.vhd
+l0
+R29
+V>S>QOP`H_T5NRYUZm^ZQc0
+!s100 4JHRha[0g@dGMR?o070za2
+R7
+32
+Z152 !s110 1761341607
+!i10b 1
+Z153 !s108 1761341607.000000
+Z154 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/RISCV_Processor.vhd|
+Z155 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/RISCV_Processor.vhd|
+!i113 0
+R12
+R13
+Astructure
+R15
+R3
+R4
+DEx4 work 15 riscv_processor 0 22 >S>QOP`H_T5NRYUZm^ZQc0
+!i122 44
+l243
+L37 387
+V93PnU`_73T=VF=5dCS1MI0
+!s100 mHg<U;OYz7`7U6C`5VPj33
+R7
+32
+R152
+!i10b 1
+R153
+R154
+R155
+!i113 0
+R12
+R13
+Priscv_types
+R3
+R4
+!i122 42
+Z156 w1760724312
+R0
+Z157 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/RISCV_types.vhd
+Z158 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/RISCV_types.vhd
+l0
+L15 16
+VHCD:32F]:05OMYOQZ5gDe1
+!s100 Lk;nE:IhY9RGSRCHkdzW41
+R7
+32
+Z159 !s110 1761341602
+!i10b 1
+Z160 !s108 1761341602.000000
+Z161 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/RISCV_types.vhd|
+Z162 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/RISCV_types.vhd|
+!i113 0
+R12
+R13
+Bbody
+R15
+R3
+R4
+!i122 42
+l0
+L32 3
+VzF@6B0[CWPBj6^Te;cY9R0
+!s100 ULD]OQgbo1Vdo^UiWe]CF0
+R7
+32
+R159
+!i10b 1
+R160
+R161
+R162
+!i113 0
+R12
+R13
+Esign_extender
+R33
+R2
+R3
+R4
+!i122 74
+R0
+Z163 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/sign_extender.vhd
+Z164 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/sign_extender.vhd
+l0
+L4 1
+VP0NVHO7Va_B;PjL0QTKQC1
+!s100 `KRB:;3X@VZo>L8H5[6]Y2
+R7
+32
+R145
+!i10b 1
+R146
+Z165 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/sign_extender.vhd|
+Z166 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/sign_extender.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 sign_extender 0 22 P0NVHO7Va_B;PjL0QTKQC1
+!i122 74
+l16
+R88
+VBF4zgF7zDYb154AhlYl=M3
+!s100 _kXXMIHmmh9kFK8L?d2M91
+R7
+32
+R145
+!i10b 1
+R146
+R165
+R166
+!i113 0
+R12
+R13
+Etb_aluunit
+w1761341695
+R15
+R2
+R3
+R4
+!i122 82
+R0
+8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/tb_ALUUnit.vhd
+F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/tb_ALUUnit.vhd
+l0
+L6 1
+VUjcTdBWa05Fge2<6kG=Lo3
+!s100 5Y;Z7E`Uf`JeH=H02`zP>0
+R7
+32
+!s110 1761341732
+!i10b 1
+!s108 1761341732.000000
+!s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/tb_ALUUnit.vhd|
+!s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/tb_ALUUnit.vhd|
+!i113 0
+R12
+R13
+Exor_32bit
+R1
+R3
+R4
+!i122 75
+R0
+Z167 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xor_32bit.vhd
+Z168 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xor_32bit.vhd
+l0
+L4 1
+VENcYHjXbnCG4NUn]8W3?a0
+!s100 42S<T5ZKaCYE[;e:EU6052
+R7
+32
+R145
+!i10b 1
+R146
+Z169 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xor_32bit.vhd|
+Z170 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xor_32bit.vhd|
+!i113 0
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 9 xor_32bit 0 22 ENcYHjXbnCG4NUn]8W3?a0
+!i122 75
+l21
+R26
+V;BX7SdcMF]Ho>Dc:ZhcWZ0
+!s100 [OcLN=L_;X@8c1nGWC:CQ1
+R7
+32
+R145
+!i10b 1
+R146
+R169
+R170
+!i113 0
+R12
+R13
+Exorg2
+R1
+R3
+R4
+!i122 76
+R0
+Z171 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xorg2.vhd
+Z172 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xorg2.vhd
+l0
+R29
+V;hb`C0MKik;h36`3`SzM60
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R7
+32
+R145
+!i10b 1
+R146
+Z173 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xorg2.vhd|
+Z174 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/xorg2.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 5 xorg2 0 22 ;hb`C0MKik;h36`3`SzM60
+!i122 76
+l32
+R32
+VbmLohbkYjJQ`?EHUY>LoL1
+!s100 Z6[FAPS4fBLB`F?OO<AY72
+R7
+32
+R145
+!i10b 1
+R146
+R173
+R174
+!i113 0
+R12
+R13
+Ezero_extender
+R1
+R2
+R3
+R4
+!i122 77
+R0
+Z175 8/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/zero_extender.vhd
+Z176 F/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/zero_extender.vhd
+l0
+L5 1
+Vln40KTnZEde7A33k77CZD2
+!s100 CcL1Y_9>iQGc05AEk7VYP0
+R7
+32
+R145
+!i10b 1
+R146
+Z177 !s90 -reportprogress|300|-work|work|/home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/zero_extender.vhd|
+Z178 !s107 /home/coltenjs/cpre381/Project1/project1-riscv/cpre3810-toolflow_v3/proj/src/TopLevel/Components/zero_extender.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 zero_extender 0 22 ln40KTnZEde7A33k77CZD2
+!i122 77
+l16
+R88
+Vla1oZaFePCn7VQGW62z2G2
+!s100 :bKmf6NL@EzGh3kz0Y6aF0
+R7
+32
+R145
+!i10b 1
+R146
+R177
+R178
+!i113 0
+R12
+R13

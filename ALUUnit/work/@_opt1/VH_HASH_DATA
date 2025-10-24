@@ -1,0 +1,45 @@
+[N
+7
+2
+8 mux2t1_n
+4
+1 N
+5
+8 nbit_alu
+1
+59 /home/coltenjs/cpre381/Project1/project1-riscv/ALUUnit/work
+7
+5 WIDTH
+6
+9 structure
+3
+10 structural
+]
+[G
+1
+5
+6
+1
+7
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
