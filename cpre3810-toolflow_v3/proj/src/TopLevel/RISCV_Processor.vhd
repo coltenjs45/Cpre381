@@ -203,6 +203,7 @@ end component;
 component memorySlicer is
     port (
         funct3    : in std_logic_vector(2 downto 0);
+        addr      : in std_logic_vector(1 downto 0);
         input     : in std_logic_vector(31 downto 0);
         output    : out std_logic_vector(31 downto 0));
 end component;
@@ -416,6 +417,7 @@ begin
   memSlicer : memorySlicer
     port map(
       funct3 => s_Inst(14 downto 12),
+      addr   => s_DMemAddr(1 downto 0),
       input  => s_DMemOut,
       output => s_MemSlice);
     

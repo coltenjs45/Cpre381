@@ -126,3 +126,5 @@ main:
     
     # LHU: Load halfword unsigned (expected: s9 = 0x00001234)
     lhu s9, 0(s8)         # s9 = 0x00001234
+
+    wfi
