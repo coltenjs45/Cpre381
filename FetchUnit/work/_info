@@ -1,598 +1,582 @@
 m255
 K4
 z2
-!s12c _opt1
-Z0 !s99 nomlopt
-!s12c _opt
+Z0 !s12c _opt
+Z1 !s99 nomlopt
 R0
+R1
 !s11e vcom 2025.1_2 2025.04, Apr  7 2025
-!s11f vlog 2025.1_2 2025.04, Apr  7 2025
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 d/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit
+Z2 d/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit
 T_opt
-!s110 1759801656
-V@>HKP@<9Xo2AbeXBo;YK@0
-Z2 04 10 8 work tb_pcfetch behavior 1
-=1-000ae431a4f1-68e47138-8e0ec-d79e
-R0
-Z3 !s12f OEM100
-Z4 !s12b OEM100
-Z5 !s124 OEM100
-Z6 !s135 nogc
-o-quiet -auto_acc_if_foreign -work work +acc
-Z7 tCvgOpt 0
-n@_opt
-Z8 OL;O;2025.1_2;82
+!s110 1761506878
+VNbI]T1NVH@U93iLk<C3Ji2
+04 10 8 work tb_pcfetch behavior 1
+=1-000ae431a4f1-68fe763e-6cb0d-89a1
 R1
-T_opt1
-!s110 1759892869
-V?VEM@GJ[`<g4`FzBM5S]R1
-R2
-=1-000ae431a4f1-68e5d584-ed89f-a118
-R0
-R3
-R4
-R5
-R6
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
 o-quiet -auto_acc_if_foreign -work work
-R7
-n@_opt1
-R8
+tCvgOpt 0
+n@_opt
+OL;O;2025.1_2;82
 Eadder
-Z9 w1759792875
-Z10 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 24
-R1
-Z13 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
-Z14 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+Z3 w1760550441
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+R2
+Z7 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+Z8 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
 l0
 L26 1
 VLknc4o4UkAU_gj@cNXj1F2
 !s100 Lmgi1RflXM7m5]3Bj_9<F2
-Z15 OL;C;2025.1_2;82
+Z9 OL;C;2025.1_2;82
 32
-Z16 !s110 1759890734
+Z10 !s110 1761506772
 !i10b 1
-Z17 !s108 1759890734.000000
-Z18 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd|
-Z19 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd|
+Z11 !s108 1761506772.000000
+Z12 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd|
+Z13 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd|
 !i113 0
-Z20 o-work work
-Z21 tExplicit 1 CvgOpt 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
 Astructure
-R10
-R11
-R12
+R4
+R5
+R6
 DEx4 work 5 adder 0 22 Lknc4o4UkAU_gj@cNXj1F2
-!i122 24
+!i122 11
 l61
 L36 54
 V>i6l^OLAL^?]>T<fSKOCJ1
 !s100 `:Ez5O?>[352XOSOPK9^H1
-R15
+R9
 32
-R16
+R10
 !i10b 1
-R17
-R18
-R19
-!i113 0
-R20
-R21
-Eandg2
-Z22 w1759800273
 R11
 R12
-!i122 25
-R1
-Z23 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
-Z24 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+R13
+!i113 0
+R14
+R15
+Eandg2
+R3
+R5
+R6
+!i122 12
+R2
+Z16 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+Z17 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
 l0
-Z25 L23 1
+Z18 L23 1
 VQ@<<<@nlJ=eiIl4BJDFzW2
 !s100 YT?bGzEmcFo:DlnoC^B4_0
-R15
+R9
 32
-R16
+R10
 !i10b 1
-R17
-Z26 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd|
-Z27 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd|
-!i113 0
-R20
-R21
-Adataflow
 R11
-R12
+Z19 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd|
+Z20 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R5
+R6
 DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
-!i122 25
+!i122 12
 l32
-Z28 L31 6
+Z21 L31 6
 VJVOzCk?IH:iJ5bCRU`CK13
 !s100 I`@Z@UBObS]<7m8bPgKUS1
-R15
-32
-R16
-!i10b 1
-R17
-R26
-R27
-!i113 0
-R20
-R21
-Edffg
 R9
-R11
-R12
-!i122 26
-R1
-Z29 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd
-Z30 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd
-l0
-R25
-V<]b9Vm3e`GAN;Cnj:57L>2
-!s100 T4gcXQGMCgKJbn8XhBM;b0
-R15
 32
-R16
-!i10b 1
-R17
-Z31 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd|
-Z32 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd|
-!i113 0
-R20
-R21
-Amixed
-R11
-R12
-DEx4 work 4 dffg 0 22 <]b9Vm3e`GAN;Cnj:57L>2
-!i122 26
-l37
-L33 29
-V`CHXPZKVEek`3gFWL_zFm2
-!s100 iOdlTUid@@]UimFK_53^C1
-R15
-32
-R16
-!i10b 1
-R17
-R31
-R32
-!i113 0
-R20
-R21
-Emux2t1_dataflow
-Z33 w1759341234
 R10
+!i10b 1
 R11
-R12
-!i122 27
-R1
-Z34 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
-Z35 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+R19
+R20
+!i113 0
+R14
+R15
+Emux2t1_dataflow
+R3
+R4
+R5
+R6
+!i122 13
+R2
+Z22 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+Z23 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
 l0
-Z36 L21 1
+Z24 L21 1
 V73Sbekc4EWSlU8=8?d1Re2
 !s100 X>gSf41k^_EVHl]ZL_`]W3
-R15
+R9
 32
-R16
-!i10b 1
-R17
-Z37 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd|
-Z38 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd|
-!i113 0
-R20
-R21
-Adataflow
 R10
+!i10b 1
 R11
-R12
+Z25 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd|
+Z26 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R4
+R5
+R6
 DEx4 work 15 mux2t1_dataflow 0 22 73Sbekc4EWSlU8=8?d1Re2
-!i122 27
+!i122 13
 l32
 L30 9
 VFdKYIbjkTRWY9WVYe97i93
 !s100 PkIUa9ddNL2O=aXHM1fME2
-R15
+R9
 32
-R16
+R10
 !i10b 1
-R17
-R37
-R38
-!i113 0
-R20
-R21
-Emux2t1_n
-R33
 R11
-R12
-!i122 28
-R1
-Z39 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
-Z40 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+R25
+R26
+!i113 0
+R14
+R15
+Emux2t1_n
+R3
+R5
+R6
+!i122 14
+R2
+Z27 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+Z28 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
 l0
-R36
+R24
 VFY=Tc@WO1TP4Z42>dBMei3
 !s100 BKZeKCAB2i6lge3>7TA3d3
-R15
+R9
 32
-R16
+R10
 !i10b 1
-R17
-Z41 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd|
-Z42 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd|
-!i113 0
-R20
-R21
-Astructural
 R11
-R12
+Z29 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd|
+Z30 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
 DEx4 work 8 mux2t1_n 0 22 FY=Tc@WO1TP4Z42>dBMei3
-!i122 28
+!i122 14
 l39
 L30 21
 Vfa@I1n5zQ83oPc4W?BSIG3
 !s100 ;FfMW7ZlfN[z_1MlTbAaD0
-R15
+R9
 32
-R16
-!i10b 1
-R17
-R41
-R42
-!i113 0
-R20
-R21
-Emux4x32t1
-Z43 w1759801935
-Z44 DPx4 work 11 riscv_types 0 22 @EBj`TV9k32W4`Wnab6nL1
 R10
+!i10b 1
 R11
-R12
-!i122 29
-R1
-Z45 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
-Z46 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
+R29
+R30
+!i113 0
+R14
+R15
+Emux4x32t1
+R3
+Z31 DPx4 work 11 riscv_types 0 22 @EBj`TV9k32W4`Wnab6nL1
+R4
+R5
+R6
+!i122 15
+R2
+Z32 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
+Z33 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
 l0
 L7 1
 VngGT@EWj<4KP?<7SgXdoE3
 !s100 kOO6@?0]ATDJGLgAPAFQ00
-R15
+R9
 32
-R16
-!i10b 1
-R17
-Z47 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd|
-Z48 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd|
-!i113 0
-R20
-R21
-Adataflow
-R44
 R10
+!i10b 1
 R11
-R12
+Z34 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd|
+Z35 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R31
+R4
+R5
+R6
 DEx4 work 9 mux4x32t1 0 22 ngGT@EWj<4KP?<7SgXdoE3
-!i122 29
+!i122 15
 l17
 L15 6
 VaUiFj=K842e60KkjclUKP3
 !s100 ^GGUMmc1bP?nH>LFWhNjK0
-R15
+R9
 32
-R16
-!i10b 1
-R17
-R47
-R48
-!i113 0
-R20
-R21
-Enbit_adder
-Z49 w1759799684
 R10
+!i10b 1
 R11
-R12
-!i122 30
-R1
-Z50 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
-Z51 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+R34
+R35
+!i113 0
+R14
+R15
+Enbit_adder
+R3
+R4
+R5
+R6
+!i122 16
+R2
+Z36 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+Z37 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
 l0
 L6 1
 V6za:B3HJoj7PZSbAP7IeL2
 !s100 ON78HL1;QAK>NN4R^ge<Z2
-R15
+R9
 32
-R16
-!i10b 1
-R17
-Z52 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd|
-Z53 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd|
-!i113 0
-R20
-R21
-Astructure
 R10
+!i10b 1
 R11
-R12
+Z38 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd|
+Z39 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd|
+!i113 0
+R14
+R15
+Astructure
+R4
+R5
+R6
 DEx4 work 10 nbit_adder 0 22 6za:B3HJoj7PZSbAP7IeL2
-!i122 30
+!i122 16
 l31
 L18 29
 VIEkzZ48c0SF]N3=DIo3Lk2
 !s100 aW@`22z0cjnI:EnZ?@=KY0
-R15
-32
-R16
-!i10b 1
-R17
-R52
-R53
-!i113 0
-R20
-R21
-Enbit_reg
 R9
-R10
-R11
-R12
-!i122 31
-R1
-Z54 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd
-Z55 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd
-l0
-L6 1
-V1@nM[eQHhSUSo2Y8TgP:11
-!s100 0T;kSC`^6XYl9`M:<>A;W3
-R15
 32
-R16
-!i10b 1
-R17
-Z56 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd|
-Z57 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd|
-!i113 0
-R20
-R21
-Astructure
 R10
-R11
-R12
-DEx4 work 8 nbit_reg 0 22 1@nM[eQHhSUSo2Y8TgP:11
-!i122 31
-l28
-L18 24
-V1SClfbORaf3[Eehi7LeVB3
-!s100 E?UL:bhBgLJbR>knfb;[i1
-R15
-32
-R16
 !i10b 1
-R17
-R56
-R57
+R11
+R38
+R39
 !i113 0
-R20
-R21
+R14
+R15
 Eorg2
-Z58 w1756241934
-R11
-R12
-!i122 32
-R1
-Z59 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
-Z60 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
+R3
+R5
+R6
+!i122 17
+R2
+Z40 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
+Z41 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
 l0
-R25
+R18
 V[C`FCj=kL0CTBYLlbjJzD3
 !s100 bGQ1F9eW^Q17OoL9h4g7z2
-R15
+R9
 32
-R16
+R10
 !i10b 1
-R17
-Z61 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd|
-Z62 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd|
-!i113 0
-R20
-R21
-Adataflow
 R11
-R12
+Z42 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd|
+Z43 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R5
+R6
 DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
-!i122 32
+!i122 17
 l32
-R28
+R21
 VNHGn>Kh:]BEh4o]ImiG<d3
 !s100 h5_AzR3TdRA0a_K=dQ>mI2
-R15
+R9
 32
-R16
-!i10b 1
-R17
-R61
-R62
-!i113 0
-R20
-R21
-Epcfetch
-Z63 w1759891971
-R44
 R10
+!i10b 1
 R11
-R12
-!i122 40
-R1
-Z64 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
-Z65 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
+R42
+R43
+!i113 0
+R14
+R15
+Epc_dffg
+Z44 w1761506048
+R5
+R6
+!i122 18
+R2
+Z45 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd
+Z46 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd
+l0
+L4 1
+VgN5;c4LhlUB^B?MP5EW4f1
+!s100 NgJM4RKF`VN=1;na1;<]C0
+R9
+32
+R10
+!i10b 1
+R11
+Z47 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd|
+Z48 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd|
+!i113 0
+R14
+R15
+Amixed
+R5
+R6
+DEx4 work 7 pc_dffg 0 22 gN5;c4LhlUB^B?MP5EW4f1
+!i122 18
+l19
+L15 29
+VT4<jnS5Zkod`KP0UB;ed=1
+!s100 b[WfILX5ggnFikcQ1lCQc1
+R9
+32
+R10
+!i10b 1
+R11
+R47
+R48
+!i113 0
+R14
+R15
+Epc_reg
+R44
+R4
+R5
+R6
+!i122 19
+R2
+Z49 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd
+Z50 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd
+l0
+L5 1
+V9I=9V8>_Wg;<W6UMBkgZm0
+!s100 W>2f6kV[ig0CG10z>ca7C3
+R9
+32
+R10
+!i10b 1
+R11
+Z51 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd|
+Z52 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd|
+!i113 0
+R14
+R15
+Astructure
+R4
+R5
+R6
+DEx4 work 6 pc_reg 0 22 9I=9V8>_Wg;<W6UMBkgZm0
+!i122 19
+l28
+L14 29
+VdjNfR8@>YGUF1WW8DlM262
+!s100 i44kD6RRkSPzg]h_J2Q``2
+R9
+32
+R10
+!i10b 1
+R11
+R51
+R52
+!i113 0
+R14
+R15
+Epcfetch
+Z53 w1761506718
+R31
+R4
+R5
+R6
+!i122 20
+R2
+Z54 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
+Z55 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
 l0
 L6 1
-V2zF5jlM=92JV3VDMCQKZM2
-!s100 CbH=keKEOmfbjN=kgE`lc2
-R15
+VH9[3z_mLH_d3XYB_ZHn9d1
+!s100 CY?][RS2Z9k^3;@^GJiR`1
+R9
 32
-Z66 !s110 1759892341
+Z56 !s110 1761506773
 !i10b 1
-Z67 !s108 1759892341.000000
-Z68 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd|
-Z69 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd|
-!i113 0
-R20
-R21
-Astructure
-R44
-R10
 R11
-R12
-DEx4 work 7 pcfetch 0 22 2zF5jlM=92JV3VDMCQKZM2
-!i122 40
-l55
-L23 78
-VB?X;m<1d5V4oNZ>H9MAQ^2
-!s100 cWB6kN``0Y`[j17g9akge2
-R15
-32
-R66
-!i10b 1
-R67
-R68
-R69
+Z57 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd|
+Z58 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd|
 !i113 0
-R20
-R21
+R14
+R15
+Amixed
+R31
+R4
+R5
+R6
+DEx4 work 7 pcfetch 0 22 H9[3z_mLH_d3XYB_ZHn9d1
+!i122 20
+l57
+L24 83
+V6Fo`PWen9k]aLP1iR::c00
+!s100 UCCR8e7U8[lQ0<61:TBHN1
+R9
+32
+R56
+!i10b 1
+R11
+R57
+R58
+!i113 0
+R14
+R15
 Priscv_types
-R11
-R12
-!i122 34
-Z70 w1759801227
-R1
-Z71 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
-Z72 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
+R5
+R6
+!i122 21
+R3
+R2
+Z59 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
+Z60 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
 l0
 L15 17
 V@EBj`TV9k32W4`Wnab6nL1
 !s100 [3MOgHOHc;]eZiA6d[DKS0
-R15
+R9
 32
-R16
+R56
 !i10b 1
-R17
-Z73 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd|
-Z74 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd|
+Z61 !s108 1761506773.000000
+Z62 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd|
+Z63 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd|
 !i113 0
-R20
-R21
+R14
+R15
 Bbody
-R44
-R11
-R12
-!i122 34
+R31
+R5
+R6
+!i122 21
 l0
 L33 3
 Vd1lAT84iznT:En5T7G@8?3
 !s100 bfKmhDbjG[5]5MF?^ZcBB3
-R15
+R9
 32
-R16
+R56
 !i10b 1
-R17
-R73
-R74
+R61
+R62
+R63
 !i113 0
-R20
-R21
+R14
+R15
 Etb_pcfetch
-Z75 w1759892861
-R44
-R10
-R11
-R12
-!i122 42
-R1
-Z76 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
-Z77 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+Z64 w1761506867
+R31
+R4
+R5
+R6
+!i122 24
+R2
+Z65 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+Z66 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
 l0
 L6 1
 V6YkCTddR>7>HSRUNH2oBa2
 !s100 lzRb45g1XjSc@Gz94>8BR2
-R15
+R9
 32
-Z78 !s110 1759892865
+Z67 !s110 1761506877
 !i10b 1
-Z79 !s108 1759892865.000000
-Z80 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd|
-Z81 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd|
+Z68 !s108 1761506877.000000
+Z69 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd|
+Z70 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd|
 !i113 0
-R20
-R21
+R14
+R15
 Abehavior
-R44
-R10
-R11
-R12
+R31
+R4
+R5
+R6
 DEx4 work 10 tb_pcfetch 0 22 6YkCTddR>7>HSRUNH2oBa2
-!i122 42
-l33
-L10 98
-VAa;FASUGBX5T355g]lL>C3
-!s100 6CcecPi1nb_m^`zn=8Xg`2
-R15
+!i122 24
+l34
+L10 107
+VJnki6fDOo3I<LEUzIVf^00
+!s100 8W@;nAQFBW48bY[8j]GgT2
+R9
 32
-R78
+R67
 !i10b 1
-R79
-R80
-R81
+R68
+R69
+R70
 !i113 0
-R20
-R21
+R14
+R15
 Exorg2
-R58
-R11
-R12
-!i122 36
-R1
-Z82 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
-Z83 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
+R3
+R5
+R6
+!i122 23
+R2
+Z71 8/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
+Z72 F/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
 l0
-R25
+R18
 V;hb`C0MKik;h36`3`SzM60
 !s100 [hI[mXFH4_j16U;>U1Lfn2
-R15
+R9
 32
-Z84 !s110 1759890735
+R56
 !i10b 1
-R17
-Z85 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd|
-Z86 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd|
+R61
+Z73 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd|
+Z74 !s107 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd|
 !i113 0
-R20
-R21
+R14
+R15
 Adataflow
-R11
-R12
+R5
+R6
 DEx4 work 5 xorg2 0 22 ;hb`C0MKik;h36`3`SzM60
-!i122 36
+!i122 23
 l32
-R28
+R21
 VbmLohbkYjJQ`?EHUY>LoL1
 !s100 Z6[FAPS4fBLB`F?OO<AY72
-R15
+R9
 32
-R84
+R56
 !i10b 1
-R17
-R85
-R86
+R61
+R73
+R74
 !i113 0
-R20
-R21
+R14
+R15

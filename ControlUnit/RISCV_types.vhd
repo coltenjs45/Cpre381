@@ -15,18 +15,17 @@ use IEEE.std_logic_1164.all;
 package RISCV_types is
 
   -- Example Constants. Declare more as needed
-  constant DATA_WIDTH : integer := 32;
-  constant ADDR_WIDTH : integer := 10;
-  
+
   --General types
-  type t_bus_4x32 is array (0 to 3) of std_logic_vector(31 downto 0);
-  type t_bus_32x32 is array (0 to 31) of std_logic_vector(31 downto 0);
 
   -- Example record type. Declare whatever types you need here
   type control_t is record
     reg_wr : std_logic;
     reg_to_mem : std_logic;
   end record control_t;
+
+  type t_bus_4x32 is array (3 downto 0) of std_logic_vector(31 downto 0);
+  type t_bus_32x32 is array (31 downto 0) of std_logic_vector(31 downto 0);
 
 end package RISCV_types;
 

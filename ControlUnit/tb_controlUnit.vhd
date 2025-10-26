@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
-use work.RISCV_types.all;
 
 entity tb_controlUnit is
   generic(gCLK_HPER   : time := 50 ns);
@@ -18,6 +17,7 @@ architecture behavior of tb_controlUnit is
   constant jalr_opcode  : std_logic_vector(6 downto 0) := "1100111";
   constant auipc_opcode : std_logic_vector(6 downto 0) := "0010111";    
   constant lui_opcode   : std_logic_vector(6 downto 0) := "0110111";
+  constant halt_opcode  : std_logic_vector(6 downto 0) := "1110011";
   -- Calculate the clock period as twice the half-period
   constant cCLK_PER  : time := gCLK_HPER * 2;
   
@@ -39,10 +39,11 @@ architecture behavior of tb_controlUnit is
       ALUorImmJump       : out std_logic;
       FlagMux            : out std_logic_vector(1 downto 0);
       FlagOrNFlag        : out std_logic;
-      JumpWReg           : out std_logic);
+      JumpWReg           : out std_logic;
+      haltSignal         : out std_logic);
   end component;
 
-  signal s_CLK, s_ALUsrc, s_MemWrite, s_RegWrite, s_MemToReg, s_Branch, s_Jump, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg : std_logic;
+  signal s_CLK, s_ALUsrc, s_MemWrite, s_RegWrite, s_MemToReg, s_Branch, s_Jump, s_ALUorImmJump, s_FlagOrNFlag, s_JumpWReg, s_halt : std_logic;
   signal s_ImmType, s_AndLink, s_FlagMux : std_logic_vector(1 downto 0);
   signal s_funct3 : std_logic_vector(2 downto 0);
   signal s_ALUctrl : std_logic_vector(3 downto 0);  
@@ -69,7 +70,8 @@ begin
       ALUorImmJump => s_ALUorImmJump,
       FlagMux      => s_FlagMux,
       FlagOrNFlag  => s_FlagOrNFlag,
-      JumpWReg     => s_JumpWReg);
+      JumpWReg     => s_JumpWReg,
+      haltSignal   => s_halt);
 
   -- This process sets the clock value (low for gCLK_HPER, then high
   -- for gCLK_HPER). Absent a "wait" command, processes restart 
@@ -287,6 +289,12 @@ begin
 
     --AUIPC--
     s_opcode <= auipc_opcode;
+    s_funct3 <= "000";
+    s_funct7 <= "0000000";
+    wait for gCLK_HPER * 2;
+
+    --WFI--
+    s_opcode <= halt_opcode;
     s_funct3 <= "000";
     s_funct7 <= "0000000";
     wait for gCLK_HPER * 2;

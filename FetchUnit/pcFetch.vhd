@@ -11,16 +11,17 @@ entity pcFetch is
     clock               : in std_logic;
     reset               : in std_logic;
     conditionBJ         : in std_logic;
-    jump                : in std_logic;
+    ALUorImmJump        : in std_logic;
     jumpWithRegister    : in std_logic;
     immediate           : in std_logic_vector(WIDTH-1 downto 0);
     register_plusImm    : in std_logic_vector(WIDTH-1 downto 0);
-    nextInstruction     : out std_logic_vector(WIDTH-1 downto 0);
+    pcUp4               : out std_logic_vector(WIDTH-1 downto 0);
+    pcUpImm             : out std_logic_vector(WIDTH-1 downto 0);
     programCounter      : out std_logic_vector(WIDTH-1 downto 0));
 
 end pcFetch;
 
-architecture structure of pcFetch is
+architecture mixed of pcFetch is
 
   component mux2t1_N
     port(
@@ -39,7 +40,7 @@ architecture structure of pcFetch is
       out_C	          : out std_logic);
     end component;
 
-  component nBit_Reg
+  component pc_Reg
     port(
       CLK 		        : in std_logic;
       RST 	    	    : in std_logic;
@@ -49,15 +50,17 @@ architecture structure of pcFetch is
     end component;
 
     --SIGNALS--
-    signal nextPC, add4Out, addImmOut, pcOut, jumpAddress, pcJALR : std_logic_vector(WIDTH-1 downto 0);
+    signal nextPC, add4Out, addImmOut, pcOut, jumpAddress, pcJALR, shiftedAddend : std_logic_vector(WIDTH-1 downto 0);
     signal ground : std_logic;
+    signal temp : unsigned(WIDTH-1 downto 0);
 
 begin
     programCounter  <= pcOut;
     
-    nextInstruction <= add4Out;
+    pcUp4 <= add4Out;
+    pcUpImm <= addImmOut;
 
-    PC: nBit_Reg port map(
+    PC: pc_Reg port map(
       CLK     => clock,
       RST     => reset,
       wEnable => '1',
@@ -65,7 +68,7 @@ begin
       outData => pcOut);
 
 	  MUX_JUMP: mux2t1_N port map(
-	    i_S     => jump,
+	    i_S     => ALUorImmJump,
       i_D0    => immediate,
       i_D1    => register_plusImm,
       o_O     => jumpAddress);
@@ -96,5 +99,8 @@ begin
       o_SUM 	=> addImmOut,
       out_C	  => ground);
 
+      
+--      temp <= shift_left(unsigned(jumpAddress), 2);
+--      shiftedAddend <= std_logic_vector(temp);
 
-end structure;
+end mixed;

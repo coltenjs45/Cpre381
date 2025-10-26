@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
-use work.RISCV_types.all;
 
 entity controlUnit is
   generic(WIDTH : integer := 32);
@@ -20,9 +19,11 @@ entity controlUnit is
     Branch             : out std_logic;
     Jump               : out std_logic;
     ALUorImmJump       : out std_logic;
+    Shift              : out std_logic;
     FlagMux            : out std_logic_vector(1 downto 0);
     FlagOrNFlag        : out std_logic;
-    JumpWReg           : out std_logic);
+    JumpWReg           : out std_logic;
+    haltSignal         : out std_logic);
 
 end controlUnit;
 
@@ -43,6 +44,7 @@ architecture dataflow of controlUnit is
     
     constant lui_opcode   : std_logic_vector(6 downto 0) := "0110111";
     
+    constant halt_opcode  : std_logic_vector(6 downto 0) := "1110011";
     begin
     ALUsrc <= '0' when (opcode = R_type_opcode) else -- Register ALU operations
               '0' when (opcode = SB_type_opcode) else -- Branch Operations
@@ -105,8 +107,8 @@ architecture dataflow of controlUnit is
     RegWrite <= '0' when(opcode = S_type_opcode or opcode = SB_type_opcode) else
                 '1';
 
-    MemToReg <= '1' when(opcode = lui_opcode or opcode = I_type_load_opcode or opcode = auipc_opcode) else
-                '0';
+    MemToReg <= '0' when(opcode = I_type_load_opcode) else
+                '1';
 
     Branch   <= '1' when(opcode = SB_type_opcode) else
                 '0';
@@ -114,18 +116,30 @@ architecture dataflow of controlUnit is
     Jump     <= '1' when(opcode = jal_opcode or opcode = jalr_opcode) else
                 '0';
 
-ALUorImmJump <= '1' when(opcode = SB_type_opcode or opcode = jal_opcode or opcode = auipc_opcode) else
+ALUorImmJump <= '1' when(opcode = jalr_opcode) else
                 '0';
                 
-    FlagMux  <= "10" when(opcode = I_type_aImm_opcode and funct3 = "011") else -- SLTUI
+    FlagMux  <= "01" when(opcode = R_type_opcode and funct3 = "010") else -- SLT
+                "10" when(opcode = I_type_aImm_opcode and funct3 = "011") else -- SLTIU
+                "10" when(opcode = SB_type_opcode and (funct3 = "111" or funct3 = "110")) else
                 "11" when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "001")) else -- BEQ BNE
                 "00";
               --"00" when(((opcode = R_type_opcode or opcode = I_type_aImm_opcode) and funct3 = "010") or (opcode = SB_type_opcode and (funct3 /= "000" or funct3 /= "001"))) else -- SLT SLTI (SB except BEQ/BNE)
 
-FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 = "101" or funct3 = "111")) else
+FlagOrNFlag  <= '1' when(opcode = SB_type_opcode and (funct3 = "001" or funct3 = "101" or funct3 = "110")) else
+                '1' when(opcode = I_type_aImm_opcode and funct3 = "011") else
                 '0';
               --'0' when(opcode = SB_type_opcode and (funct3 = "000" or funct3 = "100" or funct3 = "110")) else
 
     JumpWReg <= '1' when(opcode = jalr_opcode) else
                 '0';
+    
+    Shift    <= '1' when(opcode = R_type_opcode and (funct3 = "001" or funct3 = "101")) else -- Register shift           
+                '1' when(opcode = I_type_aImm_opcode and (funct3 = "001" or funct3 = "101")) else --Immediate shift
+                '1' when(opcode = lui_opcode) else
+                '0';
+
+  HaltSignal <= '1' when(opcode = halt_opcode) else
+                '0';
+
 end dataflow;

@@ -12,10 +12,10 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:20 on Oct 12,2025
-# vcom -reportprogress 300 -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd 
+# Start time: 13:44:43 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -23,24 +23,24 @@ vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit
 # -- Loading package RISCV_types
 # -- Compiling entity controlUnit
 # -- Compiling architecture dataflow of controlUnit
-# End time: 15:27:20 on Oct 12,2025, Elapsed time: 0:00:00
+# End time: 13:44:43 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:20 on Oct 12,2025
-# vcom -reportprogress 300 -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd 
+# Start time: 13:44:43 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package RISCV_types
 # -- Compiling package body RISCV_types
 # -- Loading package RISCV_types
-# End time: 15:27:20 on Oct 12,2025, Elapsed time: 0:00:00
+# End time: 13:44:43 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:20 on Oct 12,2025
-# vcom -reportprogress 300 -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
+# Start time: 13:44:43 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -48,39 +48,38 @@ vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit
 # -- Loading package RISCV_types
 # -- Compiling entity tb_controlUnit
 # -- Compiling architecture behavior of tb_controlUnit
-# End time: 15:27:20 on Oct 12,2025, Elapsed time: 0:00:00
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(299): (vcom-1272) Length of expected is 7; length of actual is 8.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(305): VHDL Compiler exiting
+# End time: 13:44:43 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:45:02 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_controlUnit
+# -- Compiling architecture behavior of tb_controlUnit
+# End time: 13:45:02 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -voptargs=+acc work.tb_controlunit
 # vsim -voptargs="+acc" work.tb_controlunit 
-# Start time: 15:27:22 on Oct 12,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.riscv_types(body)
-# Loading work.tb_controlunit(behavior)#1
-# Loading work.controlunit(dataflow)#1
-do testbench.do
-# End time: 15:27:46 on Oct 12,2025, Elapsed time: 0:00:24
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.tb_controlUnit 
-# Start time: 15:27:46 on Oct 12,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.riscv_types(body)
-# Loading work.tb_controlunit(behavior)#1
-# Loading work.controlunit(dataflow)#1
-quit -sim
-# End time: 15:37:13 on Oct 12,2025, Elapsed time: 0:09:27
-# Errors: 0, Warnings: 0
-vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
+# Start time: 13:45:12 on Oct 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(57): (vopt-1127) Entity work.controlunit was not selected for default binding because it is out of date relative to dependency work.riscv_types. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 13:45:13 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:37:16 on Oct 12,2025
-# vcom -reportprogress 300 -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd 
+# Start time: 13:45:56 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -88,24 +87,24 @@ vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit
 # -- Loading package RISCV_types
 # -- Compiling entity controlUnit
 # -- Compiling architecture dataflow of controlUnit
-# End time: 15:37:17 on Oct 12,2025, Elapsed time: 0:00:01
+# End time: 13:45:56 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:37:17 on Oct 12,2025
-# vcom -reportprogress 300 -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd 
+# Start time: 13:45:56 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package RISCV_types
 # -- Compiling package body RISCV_types
 # -- Loading package RISCV_types
-# End time: 15:37:17 on Oct 12,2025, Elapsed time: 0:00:00
+# End time: 13:45:56 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:37:17 on Oct 12,2025
-# vcom -reportprogress 300 -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
+# Start time: 13:45:56 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -113,33 +112,865 @@ vcom -2008 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit
 # -- Loading package RISCV_types
 # -- Compiling entity tb_controlUnit
 # -- Compiling architecture behavior of tb_controlUnit
-# End time: 15:37:17 on Oct 12,2025, Elapsed time: 0:00:00
+# End time: 13:45:57 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_controlunit
+# vsim -voptargs="+acc" work.tb_controlunit 
+# Start time: 13:46:02 on Oct 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(57): (vopt-1127) Entity work.controlunit was not selected for default binding because it is out of date relative to dependency work.riscv_types. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 13:46:02 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.tb_controlunit
+# vsim work.tb_controlunit 
+# Start time: 13:46:09 on Oct 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(57): (vopt-1127) Entity work.controlunit was not selected for default binding because it is out of date relative to dependency work.riscv_types. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:46:10 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:46:45 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_controlUnit
+# -- Compiling architecture behavior of tb_controlUnit
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(75): near "haltSignal": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(80): Statement cannot be labeled.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(306): VHDL Compiler exiting
+# End time: 13:46:45 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:46:57 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_controlUnit
+# -- Compiling architecture behavior of tb_controlUnit
+# End time: 13:46:57 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.tb_controlunit
 # vsim work.tb_controlunit 
-# Start time: 15:37:19 on Oct 12,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.riscv_types(body)
-# Loading work.tb_controlunit(behavior)#1
-do testbench.do
-# End time: 15:37:26 on Oct 12,2025, Elapsed time: 0:00:07
+# Start time: 13:46:59 on Oct 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(57): (vopt-1127) Entity work.controlunit was not selected for default binding because it is out of date relative to dependency work.riscv_types. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:46:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -coverage work.tb_controlunit
+# vsim -coverage work.tb_controlunit 
+# Start time: 13:47:13 on Oct 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd(57): (vopt-1127) Entity work.controlunit was not selected for default binding because it is out of date relative to dependency work.riscv_types. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:47:13 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:48:16 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlUnit
+# -- Compiling architecture dataflow of controlUnit
+# End time: 13:48:16 on Oct 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.tb_controlUnit 
-# Start time: 15:37:26 on Oct 12,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:48:16 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 13:48:16 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:48:16 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/ControlUnit/tb_controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_controlUnit
+# -- Compiling architecture behavior of tb_controlUnit
+# End time: 13:48:16 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_controlunit
+# vsim -voptargs="+acc" work.tb_controlunit 
+# Start time: 13:48:24 on Oct 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.riscv_types(body)
 # Loading work.tb_controlunit(behavior)#1
 # Loading work.controlunit(dataflow)#1
+add wave sim:/tb_controlunit/*
+run 10000
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run 3500
 quit -sim
-# End time: 15:46:17 on Oct 12,2025, Elapsed time: 0:08:51
+# End time: 14:23:49 on Oct 26,2025, Elapsed time: 0:35:25
 # Errors: 0, Warnings: 1
+cd /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# -- Compiling architecture dataflow of mux4x32t1
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pc_dffg
+# -- Compiling architecture mixed of pc_dffg
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc_Reg
+# -- Compiling architecture structure of pc_Reg
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture mixed of pcFetch
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_pcFetch
+# -- Compiling architecture behavior of tb_pcFetch
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd(45): (vcom-1136) Unknown identifier "s_nextInstruction".
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd(116): VHDL Compiler exiting
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:23:59 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:23:59 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+clear
+# [H[2J[3J
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:24:31 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_pcFetch
+# -- Compiling architecture behavior of tb_pcFetch
+# End time: 14:24:31 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_pcfetch
+# vsim work.tb_pcfetch 
+# Start time: 14:24:38 on Oct 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd(36): (vopt-1270) Bad default binding for component instance "DUT: pcFetch".
+#  (Component port "ALUorImmJump" is not on the entity "work.pcFetch".)
+#  (Entity is selected because it is in the same library as the design unit that contains the component.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 14:24:39 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/dffg.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# -- Compiling architecture dataflow of mux4x32t1
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 14:25:29 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:29 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Reg.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pc_dffg
+# -- Compiling architecture mixed of pc_dffg
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc_Reg
+# -- Compiling architecture structure of pc_Reg
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture mixed of pcFetch
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_pcFetch
+# -- Compiling architecture behavior of tb_pcFetch
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:25:30 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:25:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vdel -all -lib work
+vlib work
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd(5): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd(5): Unknown expanded name.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd(7): VHDL Compiler exiting
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pc_dffg
+# -- Compiling architecture mixed of pc_dffg
+# End time: 14:26:00 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:00 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc_Reg
+# -- Compiling architecture structure of pc_Reg
+# End time: 14:26:01 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:01 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd(4): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd(4): Unknown expanded name.
+# ** Note: /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd(6): VHDL Compiler exiting
+# End time: 14:26:01 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:01 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 14:26:01 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:01 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_pcFetch
+# -- Compiling architecture behavior of tb_pcFetch
+# End time: 14:26:01 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:01 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:26:01 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/mux32x4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity mux4x32t1
+# -- Compiling architecture dataflow of mux4x32t1
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/nBit_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nBit_Adder
+# -- Compiling architecture structure of nBit_Adder
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pc_dffg
+# -- Compiling architecture mixed of pc_dffg
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pc_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc_Reg
+# -- Compiling architecture structure of pc_Reg
+# End time: 14:26:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:12 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity pcFetch
+# -- Compiling architecture mixed of pcFetch
+# End time: 14:26:13 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:13 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/RISCV_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package RISCV_types
+# -- Compiling package body RISCV_types
+# -- Loading package RISCV_types
+# End time: 14:26:13 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:13 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_pcFetch
+# -- Compiling architecture behavior of tb_pcFetch
+# End time: 14:26:13 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:26:13 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:26:13 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_pcfetch
+# vsim work.tb_pcfetch 
+# Start time: 14:26:16 on Oct 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_pcfetch(behavior)#1
+# Loading work.pcfetch(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.nbit_adder(structure)#1
+add wave sim:/tb_pcfetch/*
+run 500
+run 500
+run 500
+run 500
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 1200
+quit -sim
+# End time: 14:27:54 on Oct 26,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+vcom -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:27:57 on Oct 26,2025
+# vcom -reportprogress 300 -work work /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/tb_pcFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package RISCV_types
+# -- Compiling entity tb_pcFetch
+# -- Compiling architecture behavior of tb_pcFetch
+# End time: 14:27:57 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_pcfetch
+# vsim work.tb_pcfetch 
+# Start time: 14:27:58 on Oct 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_types(body)
+# Loading work.tb_pcfetch(behavior)#1
+# Loading work.pcfetch(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.nbit_adder(structure)#1
+add wave -position end  sim:/tb_pcfetch/s_CLK
+add wave -position end  sim:/tb_pcfetch/s_RST
+add wave -position end  sim:/tb_pcfetch/s_conditionBJ
+add wave -position end  sim:/tb_pcfetch/s_jump
+add wave -position end  sim:/tb_pcfetch/s_jumpWithRegister
+add wave -position end  sim:/tb_pcfetch/s_immediate
+add wave -position end  sim:/tb_pcfetch/s_nextAddress
+add wave -position end  sim:/tb_pcfetch/s_regPlusImm
+add wave -position end  sim:/tb_pcfetch/s_programCounter
+add wave -position end  sim:/tb_pcfetch/s_jumpAddress
+run 1200
+# End time: 14:35:32 on Oct 26,2025, Elapsed time: 0:07:34
+# Errors: 0, Warnings: 0

@@ -1,58 +1,20 @@
 [N
-9
-8
+4
+3
 8 behavior
 4
-5 WIDTH
-5
-10 nbit_adder
-2
-8 nbit_reg
-3
-9 structure
-6
-7 pcfetch
-9
 9 gCLK_HPER
 1
 61 /home/gmander5/cpre381/Project1/project1-riscv/FetchUnit/work
-7
+2
 10 tb_pcfetch
 ]
 [G
 1
-5
-3
-1
-4
-1
-0
-32
-0
-0 0
-0
-0
-]
-[G
-1
 2
 3
 1
 4
-1
-0
-32
-0
-0 0
-0
-0
-]
-[G
-1
-7
-8
-1
-9
 0
 0
 0
@@ -66,20 +28,6 @@
 0
 0
 0
-0
-0
-]
-[G
-1
-6
-3
-1
-4
-1
-0
-32
-0
-0 0
 0
 0
 ]
