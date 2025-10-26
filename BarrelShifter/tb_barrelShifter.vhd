@@ -11,29 +11,30 @@ architecture behavior of tb_barrelShifter is
   -- Calculate the clock period as twice the half-period
   constant cCLK_PER  : time := gCLK_HPER * 2;
   
-  component BarrelShifter
-    generic(WIDTH : integer := 32);
-    port(
-        input           : in std_logic_vector(WIDTH-1 downto 0);
-        shiftAmnt       : in std_logic_vector(WIDTH-1 downto 0);
-        control         : in std_logic_vector(1 downto 0);
-        output          : out std_logic_vector(WIDTH-1 downto 0));
+  component barrel_shifter
+    port (
+      data_in  : in  std_logic_vector(31 downto 0);
+      shamt    : in  std_logic_vector(4 downto 0);
+      op       : in  std_logic_vector(1 downto 0);
+      data_out : out std_logic_vector(31 downto 0)
+    );
   end component;
 
   signal s_CLK : std_logic;
   signal s_control : std_logic_vector(1 downto 0);
-  signal s_input, s_shiftAmnt, s_output : std_logic_vector(31 downto 0);
+  signal s_shiftAmnt : std_logic_vector(4 downto 0);
+  signal s_input, s_output : std_logic_vector(31 downto 0);
 
 
 
 begin
 
-  DUT: BarrelShifter 
+  DUT: barrel_shifter 
   port map(
-        input      => s_input,
-        shiftAmnt  => s_shiftAmnt,
-        control    => s_control,
-        output     => s_output);
+        data_in    => s_input,
+        shamt      => s_shiftAmnt,
+        op         => s_control,
+        data_out   => s_output);
   
   -- This process sets the clock value (low for gCLK_HPER, then high
   -- for gCLK_HPER). Absent a "wait" command, processes restart 
@@ -51,19 +52,64 @@ begin
   begin
     wait for gCLK_HPER/2;
     
-    s_input     <= x"0000000F";
-    s_shiftAmnt <= x"00000002";
-    s_control   <= "00";
+    -- Test 1: No shift (shamt = 0)
+    s_input <= x"12345678";
+    s_shiftAmnt <= "00000";
+    s_control <= "00";
     wait for gCLK_HPER * 2;
 
-    s_input     <= x"800000F0";
-    s_shiftAmnt <= x"00000004";
-    s_control   <= "10";
+    -- Test 2: Logical left shift by 4
+    s_input <= x"12345678";
+    s_shiftAmnt <= "00100";
+    s_control <= "11";
     wait for gCLK_HPER * 2;
 
-    s_input     <= x"80000000";
-    s_shiftAmnt <= x"00000003";
-    s_control   <= "11";
+    -- Test 3: Logical right shift by 4
+    s_input <= x"12345678";
+    s_shiftAmnt <= "00100";
+    s_control <= "01";
+    wait for gCLK_HPER * 2;
+
+    -- Test 4: Arithmetic right shift by 4 (negative number)
+    s_input <= x"FEDCBA98";
+    s_shiftAmnt <= "00100";
+    s_control <= "10";
+    wait for gCLK_HPER * 2;
+
+    -- Test 5: Logical left shift by 16
+    s_input <= x"0000ABCD";
+    s_shiftAmnt <= "10000";
+    s_control <= "11";
+    wait for gCLK_HPER * 2;
+
+    -- Test 6: Logical right shift by 16
+    s_input <= x"ABCD0000";
+    s_shiftAmnt <= "10000";
+    s_control <= "01";
+    wait for gCLK_HPER * 2;
+
+    -- Test 7: Arithmetic right shift by 16 (negative)
+    s_input <= x"ABCD0000";
+    s_shiftAmnt <= "10000";
+    s_control <= "10";
+    wait for gCLK_HPER * 2;
+
+    -- Test 8: Logical left shift by 31 (maximum)
+    s_input <= x"00000001";
+    s_shiftAmnt <= "11111";
+    s_control <= "11";
+    wait for gCLK_HPER * 2;
+
+    -- Test 9: Arithmetic right shift by 31 (all ones result)
+    s_input <= x"80000000";
+    s_shiftAmnt <= "11111";
+    s_control <= "10";
+    wait for gCLK_HPER * 2;
+
+    -- Test 10: Combined shift amount (7 = 1 + 2 + 4)
+    s_input <= x"FFFFFFFF";
+    s_shiftAmnt <= "00111";
+    s_control <= "01";
     wait for gCLK_HPER * 2;
 
     wait;

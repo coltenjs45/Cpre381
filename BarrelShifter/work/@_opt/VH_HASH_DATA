@@ -1,15 +1,15 @@
 [N
 7
+2
+8 mux2t1_n
+4
+1 N
 6
 8 behavior
-4
-5 WIDTH
-3
-8 dataflow
-2
-13 barrelshifter
 1
 65 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/work
+3
+10 structural
 7
 9 gCLK_HPER
 5

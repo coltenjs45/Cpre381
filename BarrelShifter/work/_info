@@ -1,11 +1,11 @@
 m255
 K4
 z2
-Z0 !s12c _opt1
+Z0 !s12c _opt
 Z1 !s99 nomlopt
-R0
+!s12c _opt1
 R1
-!s12c _opt
+R0
 R1
 !s11e vcom 2025.1_2 2025.04, Apr  7 2025
 13
@@ -16,162 +16,276 @@ R1
 cModel Technology
 Z2 d/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter
 T_opt
-!s110 1760305664
-VBLm];e7DiXNS3z=ZSR<>a2
-Z3 04 16 8 work tb_barrelshifter behavior 1
-=1-000ae431a4f1-68ec2200-1ae-4dd6
+!s110 1761508981
+VVE_DgL`@FaV`UVdP57i:C0
+04 16 8 work tb_barrelshifter behavior 1
+=1-000ae431a4f1-68fe7e75-86d2f-9bca
 R1
-Z4 !s12f OEM100
-Z5 !s12b OEM100
-Z6 !s124 OEM100
-Z7 !s135 nogc
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
 o-quiet -auto_acc_if_foreign -work work
-Z8 tCvgOpt 0
+tCvgOpt 0
 n@_opt
-Z9 OL;O;2025.1_2;82
+OL;O;2025.1_2;82
+Ebarrel_shifter
+Z3 w1761508196
+Z4 DPx4 work 11 riscv_types 0 22 @EBj`TV9k32W4`Wnab6nL1
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
 R2
-T_opt1
-!s110 1760305953
-VlzB?GB3_P=dl9IMElf6f43
-R3
-=1-000ae431a4f1-68ec2321-141d2-503a
-R1
+Z8 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/barrel_shifter.vhd
+Z9 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/barrel_shifter.vhd
+l0
+L6 1
+VfJ]SaiWVU]=eeF@@EA?Qm0
+!s100 lD0n^0=6=9ZLA^P9nWV1_3
+Z10 OL;C;2025.1_2;82
+32
+Z11 !s110 1761508636
+!i10b 1
+Z12 !s108 1761508636.000000
+Z13 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/barrel_shifter.vhd|
+Z14 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/barrel_shifter.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructural
 R4
 R5
 R6
 R7
-o-quiet -auto_acc_if_foreign -work work +acc
-R8
-n@_opt1
-R9
-Ebarrelshifter
-Z10 w1760303970
-Z11 DPx4 work 11 riscv_types 0 22 @EBj`TV9k32W4`Wnab6nL1
-Z12 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 13
-R2
-Z15 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
-Z16 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd
-l0
-L6 1
-VjFGi:C1zQ0EJo]OBD4ADA1
-!s100 5WHJ]Im2=cURFIMo4H^R_2
-Z17 OL;C;2025.1_2;82
+DEx4 work 14 barrel_shifter 0 22 fJ]SaiWVU]=eeF@@EA?Qm0
+!i122 4
+l58
+L15 153
+V8MLBFz;JTY]iJQAD8Jo^72
+!s100 IEdK34JkGBPEnZ6lS_E^?3
+R10
 32
-Z18 !s110 1760305946
-!i10b 1
-Z19 !s108 1760305945.000000
-Z20 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd|
-Z21 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/BarrelShifter.vhd|
-!i113 0
-Z22 o-work work
-Z23 tExplicit 1 CvgOpt 0
-Adataflow
 R11
+!i10b 1
 R12
 R13
 R14
-DEx4 work 13 barrelshifter 0 22 jFGi:C1zQ0EJo]OBD4ADA1
-!i122 13
-l23
-L17 17
-V^iR6TFYQoQ4K0e]NE_UJN1
-!s100 JfCQM<;DHR;bXm:=@F`fb3
-R17
-32
-R18
-!i10b 1
-R19
-R20
-R21
 !i113 0
-R22
-R23
-Priscv_types
-R13
-R14
-!i122 14
-Z24 w1760302536
+R15
+R16
+Emux2t1_dataflow
+Z17 w1761508597
+R5
+R6
+R7
+!i122 5
 R2
-Z25 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
-Z26 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
+Z18 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_dataflow.vhd
+Z19 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_dataflow.vhd
+l0
+Z20 L21 1
+VJTGhDIKo]`P6CCFc><hg@0
+!s100 @[[jOkSDXnF?;Y0@d[eQb1
+R10
+32
+R11
+!i10b 1
+R12
+Z21 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_dataflow.vhd|
+Z22 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_dataflow.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+R7
+DEx4 work 15 mux2t1_dataflow 0 22 JTGhDIKo]`P6CCFc><hg@0
+!i122 5
+l32
+L30 9
+VFdKYIbjkTRWY9WVYe97i93
+!s100 PkIUa9ddNL2O=aXHM1fME2
+R10
+32
+R11
+!i10b 1
+R12
+R21
+R22
+!i113 0
+R15
+R16
+Emux2t1_n
+Z23 w1761508600
+R6
+R7
+!i122 6
+R2
+Z24 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_N.vhd
+Z25 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_N.vhd
+l0
+R20
+VFY=Tc@WO1TP4Z42>dBMei3
+!s100 BKZeKCAB2i6lge3>7TA3d3
+R10
+32
+Z26 !s110 1761508637
+!i10b 1
+R12
+Z27 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_N.vhd|
+Z28 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux2t1_N.vhd|
+!i113 0
+R15
+R16
+Astructural
+R6
+R7
+DEx4 work 8 mux2t1_n 0 22 FY=Tc@WO1TP4Z42>dBMei3
+!i122 6
+l39
+L30 21
+V1@7K:56ZNVdRJk70HN1Z<2
+!s100 ;hY2me[]L^0zR<M:[O2973
+R10
+32
+R26
+!i10b 1
+R12
+R27
+R28
+!i113 0
+R15
+R16
+Emux32x4t1
+R3
+R4
+R5
+R6
+R7
+!i122 7
+R2
+Z29 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux32x4t1.vhd
+Z30 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux32x4t1.vhd
+l0
+L7 1
+V@PdYP18>Z_F7WKRj6ZiDV1
+!s100 W7GdFbTAjC3S[_lJlBzaQ0
+R10
+32
+R26
+!i10b 1
+Z31 !s108 1761508637.000000
+Z32 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux32x4t1.vhd|
+Z33 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/mux32x4t1.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R4
+R5
+R6
+R7
+DEx4 work 9 mux32x4t1 0 22 @PdYP18>Z_F7WKRj6ZiDV1
+!i122 7
+l17
+L15 6
+Volf^NFdB=98db8RRgKGEJ3
+!s100 >KBaEQEo?4`lJA3V7bVUj3
+R10
+32
+R26
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R15
+R16
+Priscv_types
+R6
+R7
+!i122 8
+Z34 w1760550441
+R2
+Z35 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
+Z36 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd
 l0
 L15 17
 V@EBj`TV9k32W4`Wnab6nL1
 !s100 [3MOgHOHc;]eZiA6d[DKS0
-R17
+R10
 32
-R18
+R26
 !i10b 1
-Z27 !s108 1760305946.000000
-Z28 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd|
-Z29 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd|
+R31
+Z37 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd|
+Z38 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/RISCV_types.vhd|
 !i113 0
-R22
-R23
+R15
+R16
 Bbody
-R11
-R13
-R14
-!i122 14
+R4
+R6
+R7
+!i122 8
 l0
 L33 3
 Vd1lAT84iznT:En5T7G@8?3
 !s100 bfKmhDbjG[5]5MF?^ZcBB3
-R17
+R10
 32
-R18
+R26
 !i10b 1
-R27
-R28
-R29
+R31
+R37
+R38
 !i113 0
-R22
-R23
+R15
+R16
 Etb_barrelshifter
-Z30 w1760305935
-R11
-R12
-R13
-R14
-!i122 15
+Z39 w1761508959
+R4
+R5
+R6
+R7
+!i122 12
 R2
-Z31 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
-Z32 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+Z40 8/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
+Z41 F/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd
 l0
 L6 1
 V`YiCEbQIndbc;deOCciL92
 !s100 gG>RGPJ7UY0jobFSH3RNA1
-R17
+R10
 32
-R18
+Z42 !s110 1761508979
 !i10b 1
-R27
-Z33 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd|
-Z34 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd|
+Z43 !s108 1761508979.000000
+Z44 !s90 -reportprogress|300|-work|work|/home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd|
+Z45 !s107 /home/gmander5/cpre381/Project1/project1-riscv/BarrelShifter/tb_barrelShifter.vhd|
 !i113 0
-R22
-R23
+R15
+R16
 Abehavior
-R11
-R12
-R13
-R14
+R4
+R5
+R6
+R7
 DEx4 work 16 tb_barrelshifter 0 22 `YiCEbQIndbc;deOCciL92
-!i122 15
-l29
-L10 63
-VgjQk2CollIhYgVmGhahTj2
-!s100 i60bde4_<`E;6RnH`<36d3
-R17
+!i122 12
+l30
+L10 109
+V1D_mJVIVJH^R1DfM<@Y]d0
+!s100 bCPhYdSzZa>1iYS9_Z;JE3
+R10
 32
-R18
+R42
 !i10b 1
-R27
-R33
-R34
+R43
+R44
+R45
 !i113 0
-R22
-R23
+R15
+R16
