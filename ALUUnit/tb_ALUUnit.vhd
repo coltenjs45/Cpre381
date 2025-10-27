@@ -9,6 +9,19 @@ end entity;
 architecture sim of tb_ALUUnit is
     constant WIDTH : integer := 32;
 
+    component ALUUnit
+    generic (WIDTH : integer := 32);
+    port(
+        Alucontrol : in std_logic_vector(3 downto 0);
+        flag_mux : in std_logic_vector(1 downto 0);
+        input_A : in std_logic_vector (WIDTH-1 downto 0);
+        input_B : in std_logic_vector (WIDTH-1 downto 0);
+        output_result : out std_logic_vector (WIDTH-1 downto 0);
+        overflowFlag: out std_logic;
+        flag : out std_logic
+    );
+    end component;
+
     -- DUT Signals
     signal Alucontrol    : std_logic_vector(3 downto 0);
     signal flag_mux      : std_logic_vector(1 downto 0);
