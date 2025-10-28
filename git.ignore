@@ -1,4 +1,4 @@
-work/
-vsim.wlf
-transcript
-.~lock.*
+*/output/
+*/work/
+*/transcript
+*/.~lock.*
